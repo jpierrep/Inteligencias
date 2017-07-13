@@ -222,5 +222,15 @@
       <FullPath>Salesforce-CasosTecnicos-Sincroniza 1.dtsx</FullPath>
       <References />
     </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Salesforce-CargaCasosNoResueltos.dtsx</Name>
+      <FullPath>Salesforce-CargaCasosNoResueltos.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Salesforce-CargaCasosNSR.dtsx</Name>
+      <FullPath>Salesforce-CargaCasosNSR.dtsx</FullPath>
+      <References />
+    </DtsPackage>
   </DTSPackages>
 </Project>
