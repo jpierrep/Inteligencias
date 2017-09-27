@@ -203,11 +203,6 @@
       <References />
     </DtsPackage>
     <DtsPackage FormatVersion="3">
-      <Name>test_deleted.dtsx</Name>
-      <FullPath>test_deleted.dtsx</FullPath>
-      <References />
-    </DtsPackage>
-    <DtsPackage FormatVersion="3">
       <Name>Salesforce-CasosTecnicos-Sincroniza.dtsx</Name>
       <FullPath>Salesforce-CasosTecnicos-Sincroniza.dtsx</FullPath>
       <References />
@@ -233,13 +228,33 @@
       <References />
     </DtsPackage>
     <DtsPackage FormatVersion="3">
-      <Name>Gps-Carga Posiciones.dtsx</Name>
-      <FullPath>Gps-Carga Posiciones.dtsx</FullPath>
+      <Name>Gps-Carga Posiciones(test).dtsx</Name>
+      <FullPath>Gps-Carga Posiciones(test).dtsx</FullPath>
       <References />
     </DtsPackage>
-    <DtsPackage FormatVersion="0">
-      <Name>Gps-Carga Posiciones 1.dtsx</Name>
-      <FullPath>Gps-Carga Posiciones 1.dtsx</FullPath>
+    <DtsPackage FormatVersion="3">
+      <Name>Gps-Carga Posiciones Usuarios.dtsx</Name>
+      <FullPath>Gps-Carga Posiciones Usuarios.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Gps-Carga Posiciones Usuarios 1.dtsx</Name>
+      <FullPath>Gps-Carga Posiciones Usuarios 1.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Salesforce-Seguidad-Carga Datos Operativos.dtsx</Name>
+      <FullPath>Salesforce-Seguidad-Carga Datos Operativos.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>test-CargaAsistenciasv2 1.dtsx</Name>
+      <FullPath>test-CargaAsistenciasv2 1.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Salesforce-test correos.dtsx</Name>
+      <FullPath>Salesforce-test correos.dtsx</FullPath>
       <References />
     </DtsPackage>
   </DTSPackages>
