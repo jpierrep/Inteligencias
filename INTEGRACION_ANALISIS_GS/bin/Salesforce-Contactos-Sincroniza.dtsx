@@ -1,0 +1,1123 @@
+<?xml version="1.0"?><DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts" DTS:ExecutableType="SSIS.Package.2">
+<DTS:Property DTS:Name="PackageFormatVersion">3</DTS:Property>
+<DTS:Property DTS:Name="VersionComments"></DTS:Property>
+<DTS:Property DTS:Name="CreatorName">GUARDSERVICE\jpierre</DTS:Property>
+<DTS:Property DTS:Name="CreatorComputerName">INFORMATICA</DTS:Property>
+<DTS:Property DTS:Name="CreationDate" DTS:DataType="7">4/24/2017 11:10:09 AM</DTS:Property>
+<DTS:Property DTS:Name="PackageType">5</DTS:Property>
+<DTS:Property DTS:Name="ProtectionLevel">2</DTS:Property>
+<DTS:Property DTS:Name="MaxConcurrentExecutables">-1</DTS:Property>
+<DTS:Property DTS:Name="PackagePriorityClass">0</DTS:Property>
+<DTS:Property DTS:Name="VersionMajor">1</DTS:Property>
+<DTS:Property DTS:Name="VersionMinor">0</DTS:Property>
+<DTS:Property DTS:Name="VersionBuild">205</DTS:Property>
+<DTS:Property DTS:Name="VersionGUID">{14FC346B-FEEC-4AAF-8004-05814D5724E5}</DTS:Property>
+<DTS:Property DTS:Name="EnableConfig">0</DTS:Property>
+<DTS:Property DTS:Name="CheckpointFileName"></DTS:Property>
+<DTS:Property DTS:Name="SaveCheckpoints">0</DTS:Property>
+<DTS:Property DTS:Name="CheckpointUsage">0</DTS:Property>
+<DTS:Property DTS:Name="SuppressConfigurationWarnings">0</DTS:Property>
+<DTS:ConnectionManager>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">192.168.100.14.Inteligencias.targit</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{03755A52-CF6E-427D-9546-D18EA2CB1667}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName">OLEDB</DTS:Property><DTS:ObjectData><DTS:ConnectionManager>
+<DTS:Property DTS:Name="Retain">0</DTS:Property><EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element" Salt="9EzieXdMmQ==" IV="lrHmHI/mXaU=" xmlns="http://www.w3.org/2001/04/xmlenc#"><EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/><CipherData><CipherValue>lrHmHI/mXaWSFovfk7HIuXX0/crW8CQXdAn0VvInm66NLx3KrMyhlg47wj+rdSjSwLKNQS5C03EE3vcej1mQrmCPjb2KKSza+93ltivp4Qe4IgBG2NbNuoaUcsLkkyR+Ho0k1soKYy+T5OmNtLfbt4hPn4zPWyyAJJ7rtvutEXM=</CipherValue></CipherData></EncryptedData>
+<DTS:Property DTS:Name="ConnectionString">Data Source=192.168.100.14;User ID=targit;Initial Catalog=Inteligencias;Provider=SQLNCLI10.1;Application Name=SSIS-Salesforce-Casos Tecnicos-{03755A52-CF6E-427D-9546-D18EA2CB1667}192.168.100.14.Inteligencias.targit;Auto Translate=False;</DTS:Property></DTS:ConnectionManager></DTS:ObjectData></DTS:ConnectionManager>
+<DTS:ConnectionManager>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">Salesforce Connection Manager 1</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{4B45C221-58E4-473E-9F11-742B9E90B87E}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName">SFORCE</DTS:Property><DTS:ObjectData><ConnectionManager ConnectionString="ServerUser=cjohannesen@inversionesodin.cl;ServerTimeout=60;ServerUrl=https://login.salesforce.com/services/Soap/u/37.0;RetainSameConnection=True;OrganizationId=;PortalId=;AllowDuplicatesSave=False;AllowFieldTruncation=False;CommitAllOrNone=False;AssignmentRule=;ProxyHost=;ProxyPort=0;ProxyUser=;"><EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element" Salt="JhqqEMwT/Q==" IV="pCbmsxx/Mrw=" xmlns="http://www.w3.org/2001/04/xmlenc#"><EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/><CipherData><CipherValue>pCbmsxx/Mry4pDUS0abXgdanIQRrub6sZ1nEYA1GFcwrWqZUsm7HNzRvInvwzdGPuIMSK93rB8mprhQ9RX7ShlREK+scWgI7</CipherValue></CipherData></EncryptedData></ConnectionManager></DTS:ObjectData></DTS:ConnectionManager>
+<DTS:Property DTS:Name="LastModifiedProductVersion">10.50.2500.0</DTS:Property>
+<DTS:Property DTS:Name="ForceExecValue">0</DTS:Property>
+<DTS:Property DTS:Name="ExecValue" DTS:DataType="3">0</DTS:Property>
+<DTS:Property DTS:Name="ForceExecutionResult">-1</DTS:Property>
+<DTS:Property DTS:Name="Disabled">0</DTS:Property>
+<DTS:Property DTS:Name="FailPackageOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="FailParentOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="MaxErrorCount">1</DTS:Property>
+<DTS:Property DTS:Name="ISOLevel">1048576</DTS:Property>
+<DTS:Property DTS:Name="LocaleID">3082</DTS:Property>
+<DTS:Property DTS:Name="TransactionOption">1</DTS:Property>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:Variable>
+<DTS:Property DTS:Name="Expression"></DTS:Property>
+<DTS:Property DTS:Name="EvaluateAsExpression">0</DTS:Property>
+<DTS:Property DTS:Name="Namespace">User</DTS:Property>
+<DTS:Property DTS:Name="ReadOnly">0</DTS:Property>
+<DTS:Property DTS:Name="RaiseChangedEvent">0</DTS:Property>
+<DTS:Property DTS:Name="IncludeInDebugDump">2345</DTS:Property><DTS:VariableValue DTS:DataType="8">1900-01-01T00:00:00Z</DTS:VariableValue>
+<DTS:Property DTS:Name="ObjectName">LastModif</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{E67F2462-0FC9-4928-9542-D069193BF67B}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:Variable>
+<DTS:LoggingOptions>
+<DTS:Property DTS:Name="LoggingMode">0</DTS:Property>
+<DTS:Property DTS:Name="FilterKind">1</DTS:Property>
+<DTS:Property DTS:Name="EventFilter" DTS:DataType="8"></DTS:Property></DTS:LoggingOptions>
+<DTS:Executable DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" DTS:ThreadHint="0">
+<DTS:Property DTS:Name="ExecutionLocation">0</DTS:Property>
+<DTS:Property DTS:Name="ExecutionAddress"></DTS:Property>
+<DTS:Property DTS:Name="TaskContact">Execute SQL Task; Microsoft Corporation; Microsoft SQL Server 2008 R2; © 2007 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1</DTS:Property>
+<DTS:Property DTS:Name="ForceExecValue">0</DTS:Property>
+<DTS:Property DTS:Name="ExecValue" DTS:DataType="3">0</DTS:Property>
+<DTS:Property DTS:Name="ForceExecutionResult">-1</DTS:Property>
+<DTS:Property DTS:Name="Disabled">0</DTS:Property>
+<DTS:Property DTS:Name="FailPackageOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="FailParentOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="MaxErrorCount">1</DTS:Property>
+<DTS:Property DTS:Name="ISOLevel">1048576</DTS:Property>
+<DTS:Property DTS:Name="LocaleID">-1</DTS:Property>
+<DTS:Property DTS:Name="TransactionOption">1</DTS:Property>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:LoggingOptions>
+<DTS:Property DTS:Name="LoggingMode">0</DTS:Property>
+<DTS:Property DTS:Name="FilterKind">1</DTS:Property>
+<DTS:Property DTS:Name="EventFilter" DTS:DataType="8"></DTS:Property></DTS:LoggingOptions>
+<DTS:Property DTS:Name="ObjectName">ELIMINA CASOS_IDS</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{FFAE2FA4-4700-4B33-933F-F06A23637812}</DTS:Property>
+<DTS:Property DTS:Name="Description">Execute SQL Task</DTS:Property>
+<DTS:Property DTS:Name="CreationName">Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91</DTS:Property>
+<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><SQLTask:SqlTaskData SQLTask:Connection="{03755A52-CF6E-427D-9546-D18EA2CB1667}" SQLTask:TimeOut="0" SQLTask:IsStoredProc="False" SQLTask:BypassPrepare="True" SQLTask:SqlStmtSourceType="DirectInput" SQLTask:SqlStatementSource="&#xA;&#xA;--Eliminamos la tabla de los ultimos registros que se actualizaron anteriormente&#xA;truncate table inteligencias.dbo.[SF_CONTACTOS_LAST_MOD]&#xA;GO" SQLTask:CodePage="1252" SQLTask:ResultType="ResultSetType_None" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask"/></DTS:ObjectData></DTS:Executable>
+<DTS:Executable DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" DTS:ThreadHint="0">
+<DTS:Property DTS:Name="ExecutionLocation">0</DTS:Property>
+<DTS:Property DTS:Name="ExecutionAddress"></DTS:Property>
+<DTS:Property DTS:Name="TaskContact">Execute SQL Task; Microsoft Corporation; Microsoft SQL Server 2008 R2; © 2007 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1</DTS:Property>
+<DTS:Property DTS:Name="ForceExecValue">0</DTS:Property>
+<DTS:Property DTS:Name="ExecValue" DTS:DataType="3">0</DTS:Property>
+<DTS:Property DTS:Name="ForceExecutionResult">-1</DTS:Property>
+<DTS:Property DTS:Name="Disabled">0</DTS:Property>
+<DTS:Property DTS:Name="FailPackageOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="FailParentOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="MaxErrorCount">1</DTS:Property>
+<DTS:Property DTS:Name="ISOLevel">1048576</DTS:Property>
+<DTS:Property DTS:Name="LocaleID">-1</DTS:Property>
+<DTS:Property DTS:Name="TransactionOption">1</DTS:Property>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:LoggingOptions>
+<DTS:Property DTS:Name="LoggingMode">0</DTS:Property>
+<DTS:Property DTS:Name="FilterKind">1</DTS:Property>
+<DTS:Property DTS:Name="EventFilter" DTS:DataType="8"></DTS:Property></DTS:LoggingOptions>
+<DTS:Property DTS:Name="ObjectName">OBTIENE FECHA ULTIMA MOD</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{9187EC43-B5D8-4DD8-BC8B-384A3F3A7FBC}</DTS:Property>
+<DTS:Property DTS:Name="Description">Execute SQL Task</DTS:Property>
+<DTS:Property DTS:Name="CreationName">Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91</DTS:Property>
+<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><SQLTask:SqlTaskData SQLTask:Connection="{03755A52-CF6E-427D-9546-D18EA2CB1667}" SQLTask:TimeOut="0" SQLTask:IsStoredProc="False" SQLTask:BypassPrepare="True" SQLTask:SqlStmtSourceType="DirectInput" SQLTask:SqlStatementSource="&#xA;&#xA;--adaptamos la query a la conversion horario UTC, que debe hacerse al subir la informacion ya que es el que maneja salesforce para query&#xA;&#xA;select case when convert(varchar,MAX(DATEADD(second, DATEDIFF(second, GETDATE(), GETUTCDATE()),LastModifiedDate)),127)+'Z' is null then '1900-01-01T00:00:00Z' else convert(varchar,MAX(DATEADD(second, DATEDIFF(second, GETDATE(), GETUTCDATE()),LastModifiedDate)),127)+'Z' end as MaxDate from [Inteligencias].[dbo].[SF_CONTACTOS]" SQLTask:CodePage="1252" SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask"><SQLTask:ResultBinding SQLTask:ResultName="MaxDate" SQLTask:DtsVariableName="User::LastModif"/></SQLTask:SqlTaskData></DTS:ObjectData></DTS:Executable>
+<DTS:Executable DTS:ExecutableType="SSIS.Pipeline.2">
+<DTS:Property DTS:Name="ExecutionLocation">0</DTS:Property>
+<DTS:Property DTS:Name="ExecutionAddress"></DTS:Property>
+<DTS:Property DTS:Name="TaskContact">Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server v10; (C) 2007 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1</DTS:Property>
+<DTS:Property DTS:Name="ForceExecValue">0</DTS:Property>
+<DTS:Property DTS:Name="ExecValue" DTS:DataType="3">0</DTS:Property>
+<DTS:Property DTS:Name="ForceExecutionResult">-1</DTS:Property>
+<DTS:Property DTS:Name="Disabled">0</DTS:Property>
+<DTS:Property DTS:Name="FailPackageOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="FailParentOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="MaxErrorCount">1</DTS:Property>
+<DTS:Property DTS:Name="ISOLevel">1048576</DTS:Property>
+<DTS:Property DTS:Name="LocaleID">-1</DTS:Property>
+<DTS:Property DTS:Name="TransactionOption">1</DTS:Property>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:LoggingOptions>
+<DTS:Property DTS:Name="LoggingMode">0</DTS:Property>
+<DTS:Property DTS:Name="FilterKind">1</DTS:Property>
+<DTS:Property DTS:Name="EventFilter" DTS:DataType="8"></DTS:Property></DTS:LoggingOptions><DTS:PropertyExpression DTS:Name="[Salesforce Source].[Statement]">"SELECT  AccountId
+      ,Birthdate
+      ,Contacto_en_linea__c
+      ,CreatedById
+      ,CreatedDate
+      ,Cuenta_Skype__c
+      ,Cuenta_Twitter__c
+      ,CurrencyIsoCode
+      ,Description
+      ,Email
+      ,EmailBouncedDate
+      ,EmailBouncedReason
+      ,Estado_civil__c
+      ,Fax
+      ,FirstName
+      ,FN__Find_Nearby__c
+      ,FN__Mapping_Status__c
+      ,Hijo_s__c
+      ,Id
+      ,Informaci_n_nuevos_productos_v_a_e_mail__c
+      ,IsDeleted
+      ,IsEmailBounced
+      ,JigsawContactId
+      ,LastActivityDate
+      ,LastCURequestDate
+      ,LastCUUpdateDate
+      ,LastModifiedById
+      ,LastModifiedDate
+      ,LastName
+      ,LastReferencedDate
+      ,LastViewedDate
+      ,LeadSource
+      ,MailingCity
+      ,MailingCountry
+      ,MailingGeocodeAccuracy
+      ,MailingLatitude
+      ,MailingLongitude
+      ,MailingPostalCode
+      ,MailingState
+      ,MailingStreet
+      ,MasterRecordId
+      ,MobilePhone
+      ,Name
+      ,Origen_candidato__c
+      ,OtherCity
+      ,OtherCountry
+      ,OtherGeocodeAccuracy
+      ,OtherLatitude
+      ,OtherLongitude
+      ,OtherPostalCode
+      ,OtherState
+      ,OtherStreet
+      ,OwnerId
+      ,Phone
+      ,PhotoUrl
+      ,Plataforma_telef_nica__c
+      ,Rango_de_edad__c
+      ,ReportsToId
+      ,Rut_contacto__c
+      ,Salutation
+      ,Sexo__c
+      ,SystemModstamp
+      ,Tel_fono_trabajo__c
+      ,Tipo_de_contacto__c
+      ,Title
+   from Contact where LastModifiedDate &gt;"+  @[User::LastModif]</DTS:PropertyExpression>
+<DTS:Property DTS:Name="ObjectName">DESCARGA CONTACTOS</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{649DEC1F-AC74-4EDB-837B-F4081B12E41B}</DTS:Property>
+<DTS:Property DTS:Name="Description">Data Flow Task</DTS:Property>
+<DTS:Property DTS:Name="CreationName">SSIS.Pipeline.2</DTS:Property>
+<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><pipeline id="0" name="pipelineXml" description="pipelineXml" defaultBufferMaxRows="10000" engineThreads="10" defaultBufferSize="10485760" BLOBTempStoragePath="" bufferTempStoragePath="" runInOptimizedMode="true">
+<components>
+<component id="1479" name="Salesforce Source" componentClassID="{2E42D45B-F83C-400F-8D77-61DDE6A7DF29}" description="Extracts data from Salesforce services." localeId="-1" usesDispositions="true" validateExternalMetadata="True" version="0" pipelineVersion="0" contactInfo="Extracts data from Salesforce services.; COZYROC LLC; SSIS+; © 2006-2017 COZYROC LLC; All Rights Reserved; http://www.cozyroc.com/;0">
+<properties>
+<property id="1484" name="ComponentObject" dataType="System.Null" state="default" isArray="false" description="" typeConverter="NOTBROWSABLE" UITypeEditor="" containsID="false" expressionType="None"/>
+<property id="1485" name="DtsComponentDesigner" dataType="System.String" state="default" isArray="false" description="" typeConverter="NOTBROWSABLE" UITypeEditor="" containsID="false" expressionType="None">CozyRoc.SqlServer.SSIS.SforceSourceDesigner, CozyRoc.SSISPlus.UI.2008, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=16cf490bb80c34ea</property>
+<property id="1486" name="BatchSize" dataType="System.Int32" state="default" isArray="false" description="Specifies query batch size." typeConverter="" UITypeEditor="" containsID="false" expressionType="Notify">500</property>
+<property id="1487" name="InputType" dataType="System.Int32" state="default" isArray="false" description="Specifies how to access the service." typeConverter="CozyRoc.SqlServer.SSIS.SforceSource+InputTypes, CozyRoc.SSISPlus.2008, Version=1.0.0.0, Culture=neutral, PublicKeyToken=16cf490bb80c34ea" UITypeEditor="" containsID="false" expressionType="None">1</property>
+<property id="1488" name="Object" dataType="System.String" state="default" isArray="false" description="Salesforce object." typeConverter="CozyRoc.SqlServer.SSIS.TableEditor, CozyRoc.SSISPlus.UI.2008, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=16cf490bb80c34ea" UITypeEditor="" containsID="false" expressionType="Notify">Contact</property>
+<property id="1489" name="Statement" dataType="System.String" state="default" isArray="false" description="SOQL statement." typeConverter="" UITypeEditor="CozyRoc.SqlServer.SSIS.TextDialogEditor, CozyRoc.SSISPlus.UI.2008, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=16cf490bb80c34ea" containsID="false" expressionType="Notify">SELECT  AccountId
+      ,Birthdate
+      ,Contacto_en_linea__c
+      ,CreatedById
+      ,CreatedDate
+      ,Cuenta_Skype__c
+      ,Cuenta_Twitter__c
+      ,CurrencyIsoCode
+      ,Description
+      ,Email
+      ,EmailBouncedDate
+      ,EmailBouncedReason
+      ,Estado_civil__c
+      ,Fax
+      ,FirstName
+      ,FN__Find_Nearby__c
+      ,FN__Mapping_Status__c
+      ,Hijo_s__c
+      ,Id
+      ,Informaci_n_nuevos_productos_v_a_e_mail__c
+      ,IsDeleted
+      ,IsEmailBounced
+      ,JigsawContactId
+      ,LastActivityDate
+      ,LastCURequestDate
+      ,LastCUUpdateDate
+      ,LastModifiedById
+      ,LastModifiedDate
+      ,LastName
+      ,LastReferencedDate
+      ,LastViewedDate
+      ,LeadSource
+      ,MailingCity
+      ,MailingCountry
+      ,MailingGeocodeAccuracy
+      ,MailingLatitude
+      ,MailingLongitude
+      ,MailingPostalCode
+      ,MailingState
+      ,MailingStreet
+      ,MasterRecordId
+      ,MobilePhone
+      ,Name
+      ,Origen_candidato__c
+      ,OtherCity
+      ,OtherCountry
+      ,OtherGeocodeAccuracy
+      ,OtherLatitude
+      ,OtherLongitude
+      ,OtherPostalCode
+      ,OtherState
+      ,OtherStreet
+      ,OwnerId
+      ,Phone
+      ,PhotoUrl
+      ,Plataforma_telef_nica__c
+      ,Rango_de_edad__c
+      ,ReportsToId
+      ,Rut_contacto__c
+      ,Salutation
+      ,Sexo__c
+      ,SystemModstamp
+      ,Tel_fono_trabajo__c
+      ,Tipo_de_contacto__c
+      ,Title
+   from Contact where LastModifiedDate &gt;1900-01-01T00:00:00Z</property>
+<property id="1490" name="IncludeDeleted" dataType="System.Boolean" state="default" isArray="false" description="Specifies to include deleted records." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property>
+<property id="1491" name="ObjectFilter" dataType="System.String" state="default" isArray="false" description="Filter statement. Optional." typeConverter="" UITypeEditor="" containsID="false" expressionType="Notify"></property>
+<property id="1492" name="Mode" dataType="System.Int32" state="default" isArray="false" description="Specifies source load type." typeConverter="CozyRoc.SqlServer.SSIS.SforceSource+ModeTypes, CozyRoc.SSISPlus.2008, Version=1.0.0.0, Culture=neutral, PublicKeyToken=16cf490bb80c34ea" UITypeEditor="" containsID="false" expressionType="None">0</property>
+<property id="1494" name="UserComponentTypeName" dataType="System.String" state="default" isArray="false" description="" typeConverter="" UITypeEditor="" containsID="false" expressionType="None">CozyRoc.SqlServer.SSIS.SforceSource, CozyRoc.SSISPlus.2008, Version=1.0.0.0, Culture=neutral, PublicKeyToken=16cf490bb80c34ea</property></properties>
+<connections>
+<connection id="1483" name="SFORCE" description="Salesforce Connection Manager" connectionManagerID="{4B45C221-58E4-473E-9F11-742B9E90B87E}"/></connections>
+<outputs>
+<output id="1493" name="Salesforce Source Output" description="" exclusionGroup="0" synchronousInputId="0" deleteOutputOnPathDetached="false" hasSideEffects="false" dangling="false" isErrorOut="false" isSorted="false" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed"><outputColumns>
+<outputColumn id="1496" name="AccountId" description="" lineageId="1496" precision="0" scale="0" length="18" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1495" mappedColumnId="0"/>
+<outputColumn id="1498" name="Birthdate" description="" lineageId="1498" precision="0" scale="0" length="0" dataType="dbDate" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1497" mappedColumnId="0"/>
+<outputColumn id="1500" name="Contacto_en_linea__c" description="" lineageId="1500" precision="0" scale="0" length="0" dataType="nText" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1499" mappedColumnId="0"/>
+<outputColumn id="1502" name="CreatedById" description="" lineageId="1502" precision="0" scale="0" length="18" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1501" mappedColumnId="0"/>
+<outputColumn id="1504" name="CreatedDate" description="" lineageId="1504" precision="0" scale="0" length="0" dataType="dbTimeStamp" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1503" mappedColumnId="0"/>
+<outputColumn id="1506" name="Cuenta_Skype__c" description="" lineageId="1506" precision="0" scale="0" length="30" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1505" mappedColumnId="0"/>
+<outputColumn id="1508" name="Cuenta_Twitter__c" description="" lineageId="1508" precision="0" scale="0" length="30" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1507" mappedColumnId="0"/>
+<outputColumn id="1510" name="CurrencyIsoCode" description="" lineageId="1510" precision="0" scale="0" length="3" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1509" mappedColumnId="0"/>
+<outputColumn id="1512" name="Description" description="" lineageId="1512" precision="0" scale="0" length="0" dataType="nText" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1511" mappedColumnId="0"/>
+<outputColumn id="1514" name="Email" description="" lineageId="1514" precision="0" scale="0" length="80" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1513" mappedColumnId="0"/>
+<outputColumn id="1516" name="EmailBouncedDate" description="" lineageId="1516" precision="0" scale="0" length="0" dataType="dbTimeStamp" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1515" mappedColumnId="0"/>
+<outputColumn id="1518" name="EmailBouncedReason" description="" lineageId="1518" precision="0" scale="0" length="255" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1517" mappedColumnId="0"/>
+<outputColumn id="1520" name="Estado_civil__c" description="" lineageId="1520" precision="0" scale="0" length="255" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1519" mappedColumnId="0"/>
+<outputColumn id="1522" name="Fax" description="" lineageId="1522" precision="0" scale="0" length="40" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1521" mappedColumnId="0"/>
+<outputColumn id="1524" name="FirstName" description="" lineageId="1524" precision="0" scale="0" length="40" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1523" mappedColumnId="0"/>
+<outputColumn id="1526" name="FN__Find_Nearby__c" description="" lineageId="1526" precision="0" scale="0" length="1300" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1525" mappedColumnId="0"/>
+<outputColumn id="1528" name="FN__Mapping_Status__c" description="" lineageId="1528" precision="0" scale="0" length="255" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1527" mappedColumnId="0"/>
+<outputColumn id="1530" name="Hijo_s__c" description="" lineageId="1530" precision="0" scale="0" length="255" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1529" mappedColumnId="0"/>
+<outputColumn id="1532" name="Id" description="" lineageId="1532" precision="0" scale="0" length="18" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1531" mappedColumnId="0"/>
+<outputColumn id="1534" name="Informaci_n_nuevos_productos_v_a_e_mail__c" description="" lineageId="1534" precision="0" scale="0" length="0" dataType="bool" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1533" mappedColumnId="0"/>
+<outputColumn id="1536" name="IsDeleted" description="" lineageId="1536" precision="0" scale="0" length="0" dataType="bool" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1535" mappedColumnId="0"/>
+<outputColumn id="1538" name="IsEmailBounced" description="" lineageId="1538" precision="0" scale="0" length="0" dataType="bool" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1537" mappedColumnId="0"/>
+<outputColumn id="1540" name="JigsawContactId" description="" lineageId="1540" precision="0" scale="0" length="20" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1539" mappedColumnId="0"/>
+<outputColumn id="1542" name="LastActivityDate" description="" lineageId="1542" precision="0" scale="0" length="0" dataType="dbDate" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1541" mappedColumnId="0"/>
+<outputColumn id="1544" name="LastCURequestDate" description="" lineageId="1544" precision="0" scale="0" length="0" dataType="dbTimeStamp" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1543" mappedColumnId="0"/>
+<outputColumn id="1546" name="LastCUUpdateDate" description="" lineageId="1546" precision="0" scale="0" length="0" dataType="dbTimeStamp" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1545" mappedColumnId="0"/>
+<outputColumn id="1548" name="LastModifiedById" description="" lineageId="1548" precision="0" scale="0" length="18" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1547" mappedColumnId="0"/>
+<outputColumn id="1550" name="LastModifiedDate" description="" lineageId="1550" precision="0" scale="0" length="0" dataType="dbTimeStamp" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1549" mappedColumnId="0"/>
+<outputColumn id="1552" name="LastName" description="" lineageId="1552" precision="0" scale="0" length="80" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1551" mappedColumnId="0"/>
+<outputColumn id="1554" name="LastReferencedDate" description="" lineageId="1554" precision="0" scale="0" length="0" dataType="dbTimeStamp" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1553" mappedColumnId="0"/>
+<outputColumn id="1556" name="LastViewedDate" description="" lineageId="1556" precision="0" scale="0" length="0" dataType="dbTimeStamp" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1555" mappedColumnId="0"/>
+<outputColumn id="1558" name="LeadSource" description="" lineageId="1558" precision="0" scale="0" length="40" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1557" mappedColumnId="0"/>
+<outputColumn id="1560" name="MailingCity" description="" lineageId="1560" precision="0" scale="0" length="40" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1559" mappedColumnId="0"/>
+<outputColumn id="1562" name="MailingCountry" description="" lineageId="1562" precision="0" scale="0" length="80" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1561" mappedColumnId="0"/>
+<outputColumn id="1564" name="MailingGeocodeAccuracy" description="" lineageId="1564" precision="0" scale="0" length="40" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1563" mappedColumnId="0"/>
+<outputColumn id="1566" name="MailingLatitude" description="" lineageId="1566" precision="18" scale="15" length="0" dataType="numeric" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1565" mappedColumnId="0"/>
+<outputColumn id="1568" name="MailingLongitude" description="" lineageId="1568" precision="18" scale="15" length="0" dataType="numeric" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1567" mappedColumnId="0"/>
+<outputColumn id="1570" name="MailingPostalCode" description="" lineageId="1570" precision="0" scale="0" length="20" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1569" mappedColumnId="0"/>
+<outputColumn id="1572" name="MailingState" description="" lineageId="1572" precision="0" scale="0" length="80" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1571" mappedColumnId="0"/>
+<outputColumn id="1574" name="MailingStreet" description="" lineageId="1574" precision="0" scale="0" length="255" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1573" mappedColumnId="0"/>
+<outputColumn id="1576" name="MasterRecordId" description="" lineageId="1576" precision="0" scale="0" length="18" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1575" mappedColumnId="0"/>
+<outputColumn id="1578" name="MobilePhone" description="" lineageId="1578" precision="0" scale="0" length="40" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1577" mappedColumnId="0"/>
+<outputColumn id="1580" name="Name" description="" lineageId="1580" precision="0" scale="0" length="121" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1579" mappedColumnId="0"/>
+<outputColumn id="1582" name="Origen_candidato__c" description="" lineageId="1582" precision="0" scale="0" length="255" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1581" mappedColumnId="0"/>
+<outputColumn id="1584" name="OtherCity" description="" lineageId="1584" precision="0" scale="0" length="40" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1583" mappedColumnId="0"/>
+<outputColumn id="1586" name="OtherCountry" description="" lineageId="1586" precision="0" scale="0" length="80" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1585" mappedColumnId="0"/>
+<outputColumn id="1588" name="OtherGeocodeAccuracy" description="" lineageId="1588" precision="0" scale="0" length="40" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1587" mappedColumnId="0"/>
+<outputColumn id="1590" name="OtherLatitude" description="" lineageId="1590" precision="18" scale="15" length="0" dataType="numeric" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1589" mappedColumnId="0"/>
+<outputColumn id="1592" name="OtherLongitude" description="" lineageId="1592" precision="18" scale="15" length="0" dataType="numeric" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1591" mappedColumnId="0"/>
+<outputColumn id="1594" name="OtherPostalCode" description="" lineageId="1594" precision="0" scale="0" length="20" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1593" mappedColumnId="0"/>
+<outputColumn id="1596" name="OtherState" description="" lineageId="1596" precision="0" scale="0" length="80" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1595" mappedColumnId="0"/>
+<outputColumn id="1598" name="OtherStreet" description="" lineageId="1598" precision="0" scale="0" length="255" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1597" mappedColumnId="0"/>
+<outputColumn id="1600" name="OwnerId" description="" lineageId="1600" precision="0" scale="0" length="18" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1599" mappedColumnId="0"/>
+<outputColumn id="1602" name="Phone" description="" lineageId="1602" precision="0" scale="0" length="40" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1601" mappedColumnId="0"/>
+<outputColumn id="1604" name="PhotoUrl" description="" lineageId="1604" precision="0" scale="0" length="255" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1603" mappedColumnId="0"/>
+<outputColumn id="1606" name="Plataforma_telef_nica__c" description="" lineageId="1606" precision="0" scale="0" length="255" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1605" mappedColumnId="0"/>
+<outputColumn id="1608" name="Rango_de_edad__c" description="" lineageId="1608" precision="0" scale="0" length="255" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1607" mappedColumnId="0"/>
+<outputColumn id="1610" name="ReportsToId" description="" lineageId="1610" precision="0" scale="0" length="18" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1609" mappedColumnId="0"/>
+<outputColumn id="1612" name="Rut_contacto__c" description="" lineageId="1612" precision="0" scale="0" length="10" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1611" mappedColumnId="0"/>
+<outputColumn id="1614" name="Salutation" description="" lineageId="1614" precision="0" scale="0" length="40" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1613" mappedColumnId="0"/>
+<outputColumn id="1616" name="Sexo__c" description="" lineageId="1616" precision="0" scale="0" length="255" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1615" mappedColumnId="0"/>
+<outputColumn id="1618" name="SystemModstamp" description="" lineageId="1618" precision="0" scale="0" length="0" dataType="dbTimeStamp" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1617" mappedColumnId="0"/>
+<outputColumn id="1620" name="Tel_fono_trabajo__c" description="" lineageId="1620" precision="0" scale="0" length="40" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1619" mappedColumnId="0"/>
+<outputColumn id="1622" name="Tipo_de_contacto__c" description="" lineageId="1622" precision="0" scale="0" length="255" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1621" mappedColumnId="0"/>
+<outputColumn id="1624" name="Title" description="" lineageId="1624" precision="0" scale="0" length="128" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="1623" mappedColumnId="0"/></outputColumns><externalMetadataColumns isUsed="True">
+<externalMetadataColumn id="1495" name="AccountId" description="" precision="0" scale="0" length="18" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1497" name="Birthdate" description="" precision="0" scale="0" length="0" dataType="dbDate" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1499" name="Contacto_en_linea__c" description="" precision="0" scale="0" length="0" dataType="nText" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1501" name="CreatedById" description="" precision="0" scale="0" length="18" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1503" name="CreatedDate" description="" precision="0" scale="0" length="0" dataType="dbTimeStamp" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1505" name="Cuenta_Skype__c" description="" precision="0" scale="0" length="30" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1507" name="Cuenta_Twitter__c" description="" precision="0" scale="0" length="30" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1509" name="CurrencyIsoCode" description="" precision="0" scale="0" length="3" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1511" name="Description" description="" precision="0" scale="0" length="0" dataType="nText" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1513" name="Email" description="" precision="0" scale="0" length="80" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1515" name="EmailBouncedDate" description="" precision="0" scale="0" length="0" dataType="dbTimeStamp" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1517" name="EmailBouncedReason" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1519" name="Estado_civil__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1521" name="Fax" description="" precision="0" scale="0" length="40" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1523" name="FirstName" description="" precision="0" scale="0" length="40" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1525" name="FN__Find_Nearby__c" description="" precision="0" scale="0" length="1300" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1527" name="FN__Mapping_Status__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1529" name="Hijo_s__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1531" name="Id" description="" precision="0" scale="0" length="18" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1533" name="Informaci_n_nuevos_productos_v_a_e_mail__c" description="" precision="0" scale="0" length="0" dataType="bool" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1535" name="IsDeleted" description="" precision="0" scale="0" length="0" dataType="bool" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1537" name="IsEmailBounced" description="" precision="0" scale="0" length="0" dataType="bool" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1539" name="JigsawContactId" description="" precision="0" scale="0" length="20" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1541" name="LastActivityDate" description="" precision="0" scale="0" length="0" dataType="dbDate" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1543" name="LastCURequestDate" description="" precision="0" scale="0" length="0" dataType="dbTimeStamp" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1545" name="LastCUUpdateDate" description="" precision="0" scale="0" length="0" dataType="dbTimeStamp" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1547" name="LastModifiedById" description="" precision="0" scale="0" length="18" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1549" name="LastModifiedDate" description="" precision="0" scale="0" length="0" dataType="dbTimeStamp" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1551" name="LastName" description="" precision="0" scale="0" length="80" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1553" name="LastReferencedDate" description="" precision="0" scale="0" length="0" dataType="dbTimeStamp" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1555" name="LastViewedDate" description="" precision="0" scale="0" length="0" dataType="dbTimeStamp" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1557" name="LeadSource" description="" precision="0" scale="0" length="40" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1559" name="MailingCity" description="" precision="0" scale="0" length="40" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1561" name="MailingCountry" description="" precision="0" scale="0" length="80" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1563" name="MailingGeocodeAccuracy" description="" precision="0" scale="0" length="40" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1565" name="MailingLatitude" description="" precision="18" scale="15" length="0" dataType="numeric" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1567" name="MailingLongitude" description="" precision="18" scale="15" length="0" dataType="numeric" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1569" name="MailingPostalCode" description="" precision="0" scale="0" length="20" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1571" name="MailingState" description="" precision="0" scale="0" length="80" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1573" name="MailingStreet" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1575" name="MasterRecordId" description="" precision="0" scale="0" length="18" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1577" name="MobilePhone" description="" precision="0" scale="0" length="40" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1579" name="Name" description="" precision="0" scale="0" length="121" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1581" name="Origen_candidato__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1583" name="OtherCity" description="" precision="0" scale="0" length="40" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1585" name="OtherCountry" description="" precision="0" scale="0" length="80" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1587" name="OtherGeocodeAccuracy" description="" precision="0" scale="0" length="40" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1589" name="OtherLatitude" description="" precision="18" scale="15" length="0" dataType="numeric" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1591" name="OtherLongitude" description="" precision="18" scale="15" length="0" dataType="numeric" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1593" name="OtherPostalCode" description="" precision="0" scale="0" length="20" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1595" name="OtherState" description="" precision="0" scale="0" length="80" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1597" name="OtherStreet" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1599" name="OwnerId" description="" precision="0" scale="0" length="18" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1601" name="Phone" description="" precision="0" scale="0" length="40" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1603" name="PhotoUrl" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1605" name="Plataforma_telef_nica__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1607" name="Rango_de_edad__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1609" name="ReportsToId" description="" precision="0" scale="0" length="18" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1611" name="Rut_contacto__c" description="" precision="0" scale="0" length="10" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1613" name="Salutation" description="" precision="0" scale="0" length="40" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1615" name="Sexo__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1617" name="SystemModstamp" description="" precision="0" scale="0" length="0" dataType="dbTimeStamp" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1619" name="Tel_fono_trabajo__c" description="" precision="0" scale="0" length="40" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1621" name="Tipo_de_contacto__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1623" name="Title" description="" precision="0" scale="0" length="128" dataType="wstr" codePage="0" mappedColumnId="0"/></externalMetadataColumns></output>
+</outputs>
+</component>
+<component id="1625" name="OLE DB Destination" componentClassID="{5A0B62E8-D91D-49F5-94A5-7BE58DE508F0}" description="OLE DB Destination" localeId="-1" usesDispositions="true" validateExternalMetadata="True" version="4" pipelineVersion="0" contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SqlServer v10; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4">
+<properties>
+<property id="1626" name="CommandTimeout" dataType="System.Int32" state="default" isArray="false" description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">0</property>
+<property id="1627" name="OpenRowset" dataType="System.String" state="default" isArray="false" description="Specifies the name of the database object used to open a rowset." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">[dbo].[SF_CONTACTOS_LAST_MOD]</property>
+<property id="1628" name="OpenRowsetVariable" dataType="System.String" state="default" isArray="false" description="Specifies the variable that contains the name of the database object used to open a rowset." typeConverter="" UITypeEditor="" containsID="false" expressionType="None"></property>
+<property id="1629" name="SqlCommand" dataType="System.String" state="default" isArray="false" description="The SQL command to be executed." typeConverter="" UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" containsID="false" expressionType="None"></property>
+<property id="1630" name="DefaultCodePage" dataType="System.Int32" state="default" isArray="false" description="Specifies the column code page to use when code page information is unavailable from the data source." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">1252</property>
+<property id="1631" name="AlwaysUseDefaultCodePage" dataType="System.Boolean" state="default" isArray="false" description="Forces the use of the DefaultCodePage property value when describing character data." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property>
+<property id="1632" name="AccessMode" dataType="System.Int32" state="default" isArray="false" description="Specifies the mode used to access the database." typeConverter="AccessMode" UITypeEditor="" containsID="false" expressionType="None">3</property>
+<property id="1634" name="FastLoadKeepIdentity" dataType="System.Boolean" state="default" isArray="false" description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property>
+<property id="1635" name="FastLoadKeepNulls" dataType="System.Boolean" state="default" isArray="false" description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property>
+<property id="1636" name="FastLoadOptions" dataType="System.String" state="default" isArray="false" description="Specifies options to be used with fast load.  Applies only if fast load is turned on." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">TABLOCK,CHECK_CONSTRAINTS</property>
+<property id="1637" name="FastLoadMaxInsertCommitSize" dataType="System.Int32" state="default" isArray="false" description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">2147483647</property></properties>
+<connections>
+<connection id="1633" name="OleDbConnection" description="The OLE DB runtime connection used to access the database." connectionManagerID="{03755A52-CF6E-427D-9546-D18EA2CB1667}"/></connections>
+<inputs>
+<input id="1638" name="OLE DB Destination Input" description="" hasSideEffects="true" dangling="false" errorOrTruncationOperation="Insert" errorRowDisposition="FailComponent" truncationRowDisposition="NotUsed"><inputColumns>
+<inputColumn id="1711" name="" description="" lineageId="1496" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1643" mappedColumnId="0"/>
+<inputColumn id="1712" name="" description="" lineageId="1498" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1644" mappedColumnId="0"/>
+<inputColumn id="1713" name="" description="" lineageId="1500" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1646" mappedColumnId="0"/>
+<inputColumn id="1714" name="" description="" lineageId="1502" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1647" mappedColumnId="0"/>
+<inputColumn id="1715" name="" description="" lineageId="1504" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1648" mappedColumnId="0"/>
+<inputColumn id="1716" name="" description="" lineageId="1506" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1649" mappedColumnId="0"/>
+<inputColumn id="1717" name="" description="" lineageId="1508" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1650" mappedColumnId="0"/>
+<inputColumn id="1718" name="" description="" lineageId="1510" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1651" mappedColumnId="0"/>
+<inputColumn id="1719" name="" description="" lineageId="1512" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1652" mappedColumnId="0"/>
+<inputColumn id="1720" name="" description="" lineageId="1514" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1653" mappedColumnId="0"/>
+<inputColumn id="1721" name="" description="" lineageId="1516" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1654" mappedColumnId="0"/>
+<inputColumn id="1722" name="" description="" lineageId="1518" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1655" mappedColumnId="0"/>
+<inputColumn id="1723" name="" description="" lineageId="1520" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1656" mappedColumnId="0"/>
+<inputColumn id="1724" name="" description="" lineageId="1522" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1657" mappedColumnId="0"/>
+<inputColumn id="1725" name="" description="" lineageId="1524" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1658" mappedColumnId="0"/>
+<inputColumn id="1726" name="" description="" lineageId="1526" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1659" mappedColumnId="0"/>
+<inputColumn id="1727" name="" description="" lineageId="1528" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1660" mappedColumnId="0"/>
+<inputColumn id="1728" name="" description="" lineageId="1530" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1661" mappedColumnId="0"/>
+<inputColumn id="1729" name="" description="" lineageId="1532" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1662" mappedColumnId="0"/>
+<inputColumn id="1730" name="" description="" lineageId="1534" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1663" mappedColumnId="0"/>
+<inputColumn id="1731" name="" description="" lineageId="1536" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1664" mappedColumnId="0"/>
+<inputColumn id="1732" name="" description="" lineageId="1538" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1665" mappedColumnId="0"/>
+<inputColumn id="1733" name="" description="" lineageId="1540" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1666" mappedColumnId="0"/>
+<inputColumn id="1734" name="" description="" lineageId="1542" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1667" mappedColumnId="0"/>
+<inputColumn id="1735" name="" description="" lineageId="1544" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1668" mappedColumnId="0"/>
+<inputColumn id="1736" name="" description="" lineageId="1546" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1669" mappedColumnId="0"/>
+<inputColumn id="1737" name="" description="" lineageId="1548" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1670" mappedColumnId="0"/>
+<inputColumn id="1738" name="" description="" lineageId="1550" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1671" mappedColumnId="0"/>
+<inputColumn id="1739" name="" description="" lineageId="1552" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1672" mappedColumnId="0"/>
+<inputColumn id="1740" name="" description="" lineageId="1554" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1673" mappedColumnId="0"/>
+<inputColumn id="1741" name="" description="" lineageId="1556" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1674" mappedColumnId="0"/>
+<inputColumn id="1742" name="" description="" lineageId="1558" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1675" mappedColumnId="0"/>
+<inputColumn id="1743" name="" description="" lineageId="1560" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1676" mappedColumnId="0"/>
+<inputColumn id="1744" name="" description="" lineageId="1562" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1677" mappedColumnId="0"/>
+<inputColumn id="1745" name="" description="" lineageId="1564" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1678" mappedColumnId="0"/>
+<inputColumn id="1746" name="" description="" lineageId="1566" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1679" mappedColumnId="0"/>
+<inputColumn id="1747" name="" description="" lineageId="1568" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1680" mappedColumnId="0"/>
+<inputColumn id="1748" name="" description="" lineageId="1570" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1681" mappedColumnId="0"/>
+<inputColumn id="1749" name="" description="" lineageId="1572" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1682" mappedColumnId="0"/>
+<inputColumn id="1750" name="" description="" lineageId="1574" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1683" mappedColumnId="0"/>
+<inputColumn id="1751" name="" description="" lineageId="1576" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1684" mappedColumnId="0"/>
+<inputColumn id="1752" name="" description="" lineageId="1578" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1685" mappedColumnId="0"/>
+<inputColumn id="1753" name="" description="" lineageId="1580" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1686" mappedColumnId="0"/>
+<inputColumn id="1754" name="" description="" lineageId="1582" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1687" mappedColumnId="0"/>
+<inputColumn id="1755" name="" description="" lineageId="1584" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1688" mappedColumnId="0"/>
+<inputColumn id="1756" name="" description="" lineageId="1586" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1689" mappedColumnId="0"/>
+<inputColumn id="1757" name="" description="" lineageId="1588" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1690" mappedColumnId="0"/>
+<inputColumn id="1758" name="" description="" lineageId="1590" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1691" mappedColumnId="0"/>
+<inputColumn id="1759" name="" description="" lineageId="1592" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1692" mappedColumnId="0"/>
+<inputColumn id="1760" name="" description="" lineageId="1594" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1693" mappedColumnId="0"/>
+<inputColumn id="1761" name="" description="" lineageId="1596" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1694" mappedColumnId="0"/>
+<inputColumn id="1762" name="" description="" lineageId="1598" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1695" mappedColumnId="0"/>
+<inputColumn id="1763" name="" description="" lineageId="1600" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1696" mappedColumnId="0"/>
+<inputColumn id="1764" name="" description="" lineageId="1602" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1697" mappedColumnId="0"/>
+<inputColumn id="1765" name="" description="" lineageId="1604" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1698" mappedColumnId="0"/>
+<inputColumn id="1766" name="" description="" lineageId="1606" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1699" mappedColumnId="0"/>
+<inputColumn id="1767" name="" description="" lineageId="1608" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1700" mappedColumnId="0"/>
+<inputColumn id="1768" name="" description="" lineageId="1610" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1701" mappedColumnId="0"/>
+<inputColumn id="1769" name="" description="" lineageId="1612" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1702" mappedColumnId="0"/>
+<inputColumn id="1770" name="" description="" lineageId="1614" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1703" mappedColumnId="0"/>
+<inputColumn id="1771" name="" description="" lineageId="1616" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1704" mappedColumnId="0"/>
+<inputColumn id="1772" name="" description="" lineageId="1618" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1705" mappedColumnId="0"/>
+<inputColumn id="1773" name="" description="" lineageId="1620" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1706" mappedColumnId="0"/>
+<inputColumn id="1774" name="" description="" lineageId="1622" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1707" mappedColumnId="0"/>
+<inputColumn id="1775" name="" description="" lineageId="1624" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="1708" mappedColumnId="0"/>
+</inputColumns><externalMetadataColumns isUsed="True">
+<externalMetadataColumn id="1643" name="AccountId" description="" precision="0" scale="0" length="18" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1644" name="Birthdate" description="" precision="0" scale="0" length="0" dataType="dbDate" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1645" name="cirrusadv__Created_by_Cirrus_Insight__c" description="" precision="0" scale="0" length="0" dataType="bool" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1646" name="Contacto_en_linea__c" description="" precision="0" scale="0" length="0" dataType="nText" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1647" name="CreatedById" description="" precision="0" scale="0" length="18" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1648" name="CreatedDate" description="" precision="0" scale="0" length="0" dataType="dbTimeStamp" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1649" name="Cuenta_Skype__c" description="" precision="0" scale="0" length="30" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1650" name="Cuenta_Twitter__c" description="" precision="0" scale="0" length="30" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1651" name="CurrencyIsoCode" description="" precision="0" scale="0" length="3" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1652" name="Description" description="" precision="0" scale="0" length="0" dataType="nText" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1653" name="Email" description="" precision="0" scale="0" length="80" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1654" name="EmailBouncedDate" description="" precision="0" scale="0" length="0" dataType="dbTimeStamp" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1655" name="EmailBouncedReason" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1656" name="Estado_civil__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1657" name="Fax" description="" precision="0" scale="0" length="40" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1658" name="FirstName" description="" precision="0" scale="0" length="40" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1659" name="FN__Find_Nearby__c" description="" precision="0" scale="0" length="1300" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1660" name="FN__Mapping_Status__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1661" name="Hijo_s__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1662" name="Id" description="" precision="0" scale="0" length="18" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1663" name="Informaci_n_nuevos_productos_v_a_e_mail__c" description="" precision="0" scale="0" length="0" dataType="bool" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1664" name="IsDeleted" description="" precision="0" scale="0" length="0" dataType="bool" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1665" name="IsEmailBounced" description="" precision="0" scale="0" length="0" dataType="bool" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1666" name="JigsawContactId" description="" precision="0" scale="0" length="20" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1667" name="LastActivityDate" description="" precision="0" scale="0" length="0" dataType="dbDate" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1668" name="LastCURequestDate" description="" precision="0" scale="0" length="0" dataType="dbTimeStamp" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1669" name="LastCUUpdateDate" description="" precision="0" scale="0" length="0" dataType="dbTimeStamp" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1670" name="LastModifiedById" description="" precision="0" scale="0" length="18" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1671" name="LastModifiedDate" description="" precision="0" scale="0" length="0" dataType="dbTimeStamp" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1672" name="LastName" description="" precision="0" scale="0" length="80" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1673" name="LastReferencedDate" description="" precision="0" scale="0" length="0" dataType="dbTimeStamp" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1674" name="LastViewedDate" description="" precision="0" scale="0" length="0" dataType="dbTimeStamp" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1675" name="LeadSource" description="" precision="0" scale="0" length="40" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1676" name="MailingCity" description="" precision="0" scale="0" length="40" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1677" name="MailingCountry" description="" precision="0" scale="0" length="80" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1678" name="MailingGeocodeAccuracy" description="" precision="0" scale="0" length="40" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1679" name="MailingLatitude" description="" precision="18" scale="15" length="0" dataType="numeric" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1680" name="MailingLongitude" description="" precision="18" scale="15" length="0" dataType="numeric" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1681" name="MailingPostalCode" description="" precision="0" scale="0" length="20" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1682" name="MailingState" description="" precision="0" scale="0" length="80" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1683" name="MailingStreet" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1684" name="MasterRecordId" description="" precision="0" scale="0" length="18" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1685" name="MobilePhone" description="" precision="0" scale="0" length="40" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1686" name="Name" description="" precision="0" scale="0" length="121" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1687" name="Origen_candidato__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1688" name="OtherCity" description="" precision="0" scale="0" length="40" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1689" name="OtherCountry" description="" precision="0" scale="0" length="80" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1690" name="OtherGeocodeAccuracy" description="" precision="0" scale="0" length="40" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1691" name="OtherLatitude" description="" precision="18" scale="15" length="0" dataType="numeric" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1692" name="OtherLongitude" description="" precision="18" scale="15" length="0" dataType="numeric" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1693" name="OtherPostalCode" description="" precision="0" scale="0" length="20" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1694" name="OtherState" description="" precision="0" scale="0" length="80" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1695" name="OtherStreet" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1696" name="OwnerId" description="" precision="0" scale="0" length="18" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1697" name="Phone" description="" precision="0" scale="0" length="40" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1698" name="PhotoUrl" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1699" name="Plataforma_telef_nica__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1700" name="Rango_de_edad__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1701" name="ReportsToId" description="" precision="0" scale="0" length="18" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1702" name="Rut_contacto__c" description="" precision="0" scale="0" length="10" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1703" name="Salutation" description="" precision="0" scale="0" length="40" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1704" name="Sexo__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1705" name="SystemModstamp" description="" precision="0" scale="0" length="0" dataType="dbTimeStamp" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1706" name="Tel_fono_trabajo__c" description="" precision="0" scale="0" length="40" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1707" name="Tipo_de_contacto__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="1708" name="Title" description="" precision="0" scale="0" length="128" dataType="wstr" codePage="0" mappedColumnId="0"/></externalMetadataColumns></input>
+</inputs>
+<outputs>
+<output id="1639" name="OLE DB Destination Error Output" description="" exclusionGroup="1" synchronousInputId="1638" deleteOutputOnPathDetached="false" hasSideEffects="false" dangling="false" isErrorOut="true" isSorted="false" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed"><outputColumns>
+<outputColumn id="1640" name="ErrorCode" description="" lineageId="1640" precision="0" scale="0" length="0" dataType="i4" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="1" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="0" mappedColumnId="0"/>
+<outputColumn id="1641" name="ErrorColumn" description="" lineageId="1641" precision="0" scale="0" length="0" dataType="i4" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="2" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="0" mappedColumnId="0"/></outputColumns><externalMetadataColumns isUsed="False"/></output>
+</outputs>
+</component>
+</components>
+<paths>
+<path id="1642" name="Salesforce Source Output" description="" startId="1493" endId="1638"/>
+</paths></pipeline></DTS:ObjectData></DTS:Executable>
+<DTS:Executable DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" DTS:ThreadHint="0">
+<DTS:Property DTS:Name="ExecutionLocation">0</DTS:Property>
+<DTS:Property DTS:Name="ExecutionAddress"></DTS:Property>
+<DTS:Property DTS:Name="TaskContact">Execute SQL Task; Microsoft Corporation; Microsoft SQL Server 2008 R2; © 2007 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1</DTS:Property>
+<DTS:Property DTS:Name="ForceExecValue">0</DTS:Property>
+<DTS:Property DTS:Name="ExecValue" DTS:DataType="3">0</DTS:Property>
+<DTS:Property DTS:Name="ForceExecutionResult">-1</DTS:Property>
+<DTS:Property DTS:Name="Disabled">0</DTS:Property>
+<DTS:Property DTS:Name="FailPackageOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="FailParentOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="MaxErrorCount">1</DTS:Property>
+<DTS:Property DTS:Name="ISOLevel">1048576</DTS:Property>
+<DTS:Property DTS:Name="LocaleID">-1</DTS:Property>
+<DTS:Property DTS:Name="TransactionOption">1</DTS:Property>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:LoggingOptions>
+<DTS:Property DTS:Name="LoggingMode">0</DTS:Property>
+<DTS:Property DTS:Name="FilterKind">1</DTS:Property>
+<DTS:Property DTS:Name="EventFilter" DTS:DataType="8"></DTS:Property></DTS:LoggingOptions>
+<DTS:Property DTS:Name="ObjectName">SINCRONIZA INFORMACION</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{7A67035E-AE57-444B-92B0-AFDEB7C3D719}</DTS:Property>
+<DTS:Property DTS:Name="Description">Execute SQL Task</DTS:Property>
+<DTS:Property DTS:Name="CreationName">Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91</DTS:Property>
+<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><SQLTask:SqlTaskData SQLTask:Connection="{03755A52-CF6E-427D-9546-D18EA2CB1667}" SQLTask:TimeOut="0" SQLTask:IsStoredProc="False" SQLTask:BypassPrepare="True" SQLTask:SqlStmtSourceType="DirectInput" SQLTask:SqlStatementSource="&#xA;--inserta los contactos nuevos&#xA;&#xA;insert into Inteligencias.dbo.SF_CONTACTOS&#xA;select *&#xA;&#xA;FROM [Inteligencias].[dbo].[SF_CONTACTOS_LAST_MOD] as cm where not exists&#xA;&#xA;(select id from inteligencias.dbo.SF_CONTACTOS as c where c.id=cm.id)&#xA;GO&#xA;&#xA;&#xA;&#xA;&#xA;--actualiza los contactos que se modificaron posterior a la utlima fecha&#xA;update inteligencias.dbo.SF_CONTACTOS&#xA;&#xA;set &#xA;&#xA;[AccountId]=a.[AccountId]&#xA;      ,[Birthdate]      =a.[Birthdate]&#xA;      ,[cirrusadv__Created_by_Cirrus_Insight__c]      =a.[cirrusadv__Created_by_Cirrus_Insight__c]&#xA;      ,[Contacto_en_linea__c]      =a.[Contacto_en_linea__c]&#xA;      ,[CreatedById]      =a.[CreatedById]&#xA;      ,[CreatedDate]      =a.[CreatedDate]&#xA;      ,[Cuenta_Skype__c]      =a.[Cuenta_Skype__c]&#xA;      ,[Cuenta_Twitter__c]      =a.[Cuenta_Twitter__c]&#xA;      ,[CurrencyIsoCode]      =a.[CurrencyIsoCode]&#xA;      ,[Description]      =a.[Description]&#xA;      ,[Email]      =a.[Email]&#xA;      ,[EmailBouncedDate]      =a.[EmailBouncedDate]&#xA;      ,[EmailBouncedReason]      =a.[EmailBouncedReason]&#xA;      ,[Estado_civil__c]      =a.[Estado_civil__c]&#xA;      ,[Fax]      =a.[Fax]&#xA;      ,[FirstName]      =a.[FirstName]&#xA;      ,[FN__Find_Nearby__c]      =a.[FN__Find_Nearby__c]&#xA;      ,[FN__Mapping_Status__c]      =a.[FN__Mapping_Status__c]&#xA;      ,[Hijo_s__c]      =a.[Hijo_s__c]&#xA;      ,[Informaci_n_nuevos_productos_v_a_e_mail__c]      =a.[Informaci_n_nuevos_productos_v_a_e_mail__c]&#xA;      ,[IsDeleted]      =a.[IsDeleted]&#xA;      ,[IsEmailBounced]      =a.[IsEmailBounced]&#xA;      ,[JigsawContactId]      =a.[JigsawContactId]&#xA;      ,[LastActivityDate]      =a.[LastActivityDate]&#xA;      ,[LastCURequestDate]      =a.[LastCURequestDate]&#xA;      ,[LastCUUpdateDate]      =a.[LastCUUpdateDate]&#xA;      ,[LastModifiedById]      =a.[LastModifiedById]&#xA;      ,[LastModifiedDate]      =a.[LastModifiedDate]&#xA;      ,[LastName]      =a.[LastName]&#xA;      ,[LastReferencedDate]      =a.[LastReferencedDate]&#xA;      ,[LastViewedDate]      =a.[LastViewedDate]&#xA;      ,[LeadSource]      =a.[LeadSource]&#xA;      ,[MailingCity]      =a.[MailingCity]&#xA;      ,[MailingCountry]      =a.[MailingCountry]&#xA;      ,[MailingGeocodeAccuracy]      =a.[MailingGeocodeAccuracy]&#xA;      ,[MailingLatitude]      =a.[MailingLatitude]&#xA;      ,[MailingLongitude]      =a.[MailingLongitude]&#xA;      ,[MailingPostalCode]      =a.[MailingPostalCode]&#xA;      ,[MailingState]      =a.[MailingState]&#xA;      ,[MailingStreet]      =a.[MailingStreet]&#xA;      ,[MasterRecordId]      =a.[MasterRecordId]&#xA;      ,[MobilePhone]      =a.[MobilePhone]&#xA;      ,[Name]      =a.[Name]&#xA;      ,[Origen_candidato__c]      =a.[Origen_candidato__c]&#xA;      ,[OtherCity]      =a.[OtherCity]&#xA;      ,[OtherCountry]      =a.[OtherCountry]&#xA;      ,[OtherGeocodeAccuracy]      =a.[OtherGeocodeAccuracy]&#xA;      ,[OtherLatitude]      =a.[OtherLatitude]&#xA;      ,[OtherLongitude]      =a.[OtherLongitude]&#xA;      ,[OtherPostalCode]      =a.[OtherPostalCode]&#xA;      ,[OtherState]      =a.[OtherState]&#xA;      ,[OtherStreet]      =a.[OtherStreet]&#xA;      ,[OwnerId]      =a.[OwnerId]&#xA;      ,[Phone]      =a.[Phone]&#xA;      ,[PhotoUrl]      =a.[PhotoUrl]&#xA;      ,[Plataforma_telef_nica__c]      =a.[Plataforma_telef_nica__c]&#xA;      ,[Rango_de_edad__c]      =a.[Rango_de_edad__c]&#xA;      ,[ReportsToId]      =a.[ReportsToId]&#xA;      ,[Rut_contacto__c]      =a.[Rut_contacto__c]&#xA;      ,[Salutation]      =a.[Salutation]&#xA;      ,[Sexo__c]      =a.[Sexo__c]&#xA;      ,[SystemModstamp]      =a.[SystemModstamp]&#xA;      ,[Tel_fono_trabajo__c]      =a.[Tel_fono_trabajo__c]&#xA;      ,[Tipo_de_contacto__c]      =a.[Tipo_de_contacto__c]&#xA;      ,[Title]      =a.[Title]&#xA;&#xA;&#xA;from &#xA;&#xA;[Inteligencias].[dbo].[SF_CONTACTOS_LAST_MOD] a where a.Id= SF_CONTACTOS.id&#xA;&#xA;GO&#xA;&#xA;&#xA;&#xA;--cargamos el log de lo que se actualizó&#xA;&#xA;insert into inteligencias.dbo.SF_CONTACTOS_LAST_MOD_LOG&#xA;([AccountId]&#xA;      ,[Birthdate]&#xA;      ,[cirrusadv__Created_by_Cirrus_Insight__c]&#xA;      ,[Contacto_en_linea__c]&#xA;      ,[CreatedById]&#xA;      ,[CreatedDate]&#xA;      ,[Cuenta_Skype__c]&#xA;      ,[Cuenta_Twitter__c]&#xA;      ,[CurrencyIsoCode]&#xA;      ,[Description]&#xA;      ,[Email]&#xA;      ,[EmailBouncedDate]&#xA;      ,[EmailBouncedReason]&#xA;      ,[Estado_civil__c]&#xA;      ,[Fax]&#xA;      ,[FirstName]&#xA;      ,[FN__Find_Nearby__c]&#xA;      ,[FN__Mapping_Status__c]&#xA;      ,[Hijo_s__c]&#xA;      ,[Id]&#xA;      ,[Informaci_n_nuevos_productos_v_a_e_mail__c]&#xA;      ,[IsDeleted]&#xA;      ,[IsEmailBounced]&#xA;      ,[JigsawContactId]&#xA;      ,[LastActivityDate]&#xA;      ,[LastCURequestDate]&#xA;      ,[LastCUUpdateDate]&#xA;      ,[LastModifiedById]&#xA;      ,[LastModifiedDate]&#xA;      ,[LastName]&#xA;      ,[LastReferencedDate]&#xA;      ,[LastViewedDate]&#xA;      ,[LeadSource]&#xA;      ,[MailingCity]&#xA;      ,[MailingCountry]&#xA;      ,[MailingGeocodeAccuracy]&#xA;      ,[MailingLatitude]&#xA;      ,[MailingLongitude]&#xA;      ,[MailingPostalCode]&#xA;      ,[MailingState]&#xA;      ,[MailingStreet]&#xA;      ,[MasterRecordId]&#xA;      ,[MobilePhone]&#xA;      ,[Name]&#xA;      ,[Origen_candidato__c]&#xA;      ,[OtherCity]&#xA;      ,[OtherCountry]&#xA;      ,[OtherGeocodeAccuracy]&#xA;      ,[OtherLatitude]&#xA;      ,[OtherLongitude]&#xA;      ,[OtherPostalCode]&#xA;      ,[OtherState]&#xA;      ,[OtherStreet]&#xA;      ,[OwnerId]&#xA;      ,[Phone]&#xA;      ,[PhotoUrl]&#xA;      ,[Plataforma_telef_nica__c]&#xA;      ,[Rango_de_edad__c]&#xA;      ,[ReportsToId]&#xA;      ,[Rut_contacto__c]&#xA;      ,[Salutation]&#xA;      ,[Sexo__c]&#xA;      ,[SystemModstamp]&#xA;      ,[Tel_fono_trabajo__c]&#xA;      ,[Tipo_de_contacto__c]&#xA;      ,[Title]&#xA;      ,[LAST_MOD]&#xA;      ,[ACCION])&#xA;&#xA;select &#xA;[AccountId]&#xA;      ,[Birthdate]&#xA;      ,[cirrusadv__Created_by_Cirrus_Insight__c]&#xA;      ,[Contacto_en_linea__c]&#xA;      ,[CreatedById]&#xA;      ,[CreatedDate]&#xA;      ,[Cuenta_Skype__c]&#xA;      ,[Cuenta_Twitter__c]&#xA;      ,[CurrencyIsoCode]&#xA;      ,[Description]&#xA;      ,[Email]&#xA;      ,[EmailBouncedDate]&#xA;      ,[EmailBouncedReason]&#xA;      ,[Estado_civil__c]&#xA;      ,[Fax]&#xA;      ,[FirstName]&#xA;      ,[FN__Find_Nearby__c]&#xA;      ,[FN__Mapping_Status__c]&#xA;      ,[Hijo_s__c]&#xA;      ,[Id]&#xA;      ,[Informaci_n_nuevos_productos_v_a_e_mail__c]&#xA;      ,[IsDeleted]&#xA;      ,[IsEmailBounced]&#xA;      ,[JigsawContactId]&#xA;      ,[LastActivityDate]&#xA;      ,[LastCURequestDate]&#xA;      ,[LastCUUpdateDate]&#xA;      ,[LastModifiedById]&#xA;      ,[LastModifiedDate]&#xA;      ,[LastName]&#xA;      ,[LastReferencedDate]&#xA;      ,[LastViewedDate]&#xA;      ,[LeadSource]&#xA;      ,[MailingCity]&#xA;      ,[MailingCountry]&#xA;      ,[MailingGeocodeAccuracy]&#xA;      ,[MailingLatitude]&#xA;      ,[MailingLongitude]&#xA;      ,[MailingPostalCode]&#xA;      ,[MailingState]&#xA;      ,[MailingStreet]&#xA;      ,[MasterRecordId]&#xA;      ,[MobilePhone]&#xA;      ,[Name]&#xA;      ,[Origen_candidato__c]&#xA;      ,[OtherCity]&#xA;      ,[OtherCountry]&#xA;      ,[OtherGeocodeAccuracy]&#xA;      ,[OtherLatitude]&#xA;      ,[OtherLongitude]&#xA;      ,[OtherPostalCode]&#xA;      ,[OtherState]&#xA;      ,[OtherStreet]&#xA;      ,[OwnerId]&#xA;      ,[Phone]&#xA;      ,[PhotoUrl]&#xA;      ,[Plataforma_telef_nica__c]&#xA;      ,[Rango_de_edad__c]&#xA;      ,[ReportsToId]&#xA;      ,[Rut_contacto__c]&#xA;      ,[Salutation]&#xA;      ,[Sexo__c]&#xA;      ,[SystemModstamp]&#xA;      ,[Tel_fono_trabajo__c]&#xA;      ,[Tipo_de_contacto__c]&#xA;      ,[Title]&#xA;,GETDATE() as 'LAST_MOD','INS/UPDT' as ACCION&#xA;from [Inteligencias].[dbo].[SF_CONTACTOS_LAST_MOD]&#xA;&#xA;GO&#xA;&#xA;/*&#xA;&#xA;-- Elimina los contactos que se eliminaron de salesforce&#xA;--No es necesario debido a que se maneja el estado IsDeleted para los eliminados&#xA;&#xA;*/&#xA;&#xA;&#xA;" SQLTask:CodePage="1252" SQLTask:ResultType="ResultSetType_None" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask"/></DTS:ObjectData></DTS:Executable>
+<DTS:Executable DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" DTS:ThreadHint="0">
+<DTS:Property DTS:Name="ExecutionLocation">0</DTS:Property>
+<DTS:Property DTS:Name="ExecutionAddress"></DTS:Property>
+<DTS:Property DTS:Name="TaskContact">Execute SQL Task; Microsoft Corporation; Microsoft SQL Server 2008 R2; © 2007 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1</DTS:Property>
+<DTS:Property DTS:Name="ForceExecValue">0</DTS:Property>
+<DTS:Property DTS:Name="ExecValue" DTS:DataType="3">0</DTS:Property>
+<DTS:Property DTS:Name="ForceExecutionResult">-1</DTS:Property>
+<DTS:Property DTS:Name="Disabled">0</DTS:Property>
+<DTS:Property DTS:Name="FailPackageOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="FailParentOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="MaxErrorCount">1</DTS:Property>
+<DTS:Property DTS:Name="ISOLevel">1048576</DTS:Property>
+<DTS:Property DTS:Name="LocaleID">-1</DTS:Property>
+<DTS:Property DTS:Name="TransactionOption">1</DTS:Property>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:LoggingOptions>
+<DTS:Property DTS:Name="LoggingMode">0</DTS:Property>
+<DTS:Property DTS:Name="FilterKind">1</DTS:Property>
+<DTS:Property DTS:Name="EventFilter" DTS:DataType="8"></DTS:Property></DTS:LoggingOptions>
+<DTS:Property DTS:Name="ObjectName">SINCRONIZA APP COORDINACION Y CARGA PRIORIDADES</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{6DEDD5A8-F598-46FA-92B0-0A2955C06C22}</DTS:Property>
+<DTS:Property DTS:Name="Description">Execute SQL Task</DTS:Property>
+<DTS:Property DTS:Name="CreationName">Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91</DTS:Property>
+<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><SQLTask:SqlTaskData SQLTask:Connection="{03755A52-CF6E-427D-9546-D18EA2CB1667}" SQLTask:TimeOut="0" SQLTask:IsStoredProc="False" SQLTask:BypassPrepare="True" SQLTask:SqlStmtSourceType="DirectInput" SQLTask:SqlStatementSource="&#xA;--inserta los contactos nuevos&#xA;&#xA;insert into SISTEMA_CENTRAL.dbo.bi_salesforce_contactos&#xA;([AccountId]&#xA;      ,[Birthdate]&#xA;      ,[cirrusadv__Created_by_Cirrus_Insight__c]&#xA;      ,[Contacto_en_linea__c]&#xA;      ,[CreatedById]&#xA;      ,[CreatedDate]&#xA;      ,[Cuenta_Skype__c]&#xA;      ,[Cuenta_Twitter__c]&#xA;      ,[CurrencyIsoCode]&#xA;      ,[Description]&#xA;      ,[Email]&#xA;      ,[EmailBouncedDate]&#xA;      ,[EmailBouncedReason]&#xA;      ,[Estado_civil__c]&#xA;      ,[Fax]&#xA;      ,[FirstName]&#xA;      ,[FN__Find_Nearby__c]&#xA;      ,[FN__Mapping_Status__c]&#xA;      ,[Hijo_s__c]&#xA;      ,[Id]&#xA;      ,[Informaci_n_nuevos_productos_v_a_e_mail__c]&#xA;      ,[IsDeleted]&#xA;      ,[IsEmailBounced]&#xA;      ,[JigsawContactId]&#xA;      ,[LastActivityDate]&#xA;      ,[LastCURequestDate]&#xA;      ,[LastCUUpdateDate]&#xA;      ,[LastModifiedById]&#xA;      ,[LastModifiedDate]&#xA;      ,[LastName]&#xA;      ,[LastReferencedDate]&#xA;      ,[LastViewedDate]&#xA;      ,[LeadSource]&#xA;      ,[MailingCity]&#xA;      ,[MailingCountry]&#xA;      ,[MailingGeocodeAccuracy]&#xA;      ,[MailingLatitude]&#xA;      ,[MailingLongitude]&#xA;      ,[MailingPostalCode]&#xA;      ,[MailingState]&#xA;      ,[MailingStreet]&#xA;      ,[MasterRecordId]&#xA;      ,[MobilePhone]&#xA;      ,[Name]&#xA;      ,[Origen_candidato__c]&#xA;      ,[OtherCity]&#xA;      ,[OtherCountry]&#xA;      ,[OtherGeocodeAccuracy]&#xA;      ,[OtherLatitude]&#xA;      ,[OtherLongitude]&#xA;      ,[OtherPostalCode]&#xA;      ,[OtherState]&#xA;      ,[OtherStreet]&#xA;      ,[OwnerId]&#xA;      ,[Phone]&#xA;      ,[PhotoUrl]&#xA;      ,[Plataforma_telef_nica__c]&#xA;      ,[Rango_de_edad__c]&#xA;      ,[ReportsToId]&#xA;      ,[Rut_contacto__c]&#xA;      ,[Salutation]&#xA;      ,[Sexo__c]&#xA;      ,[SystemModstamp]&#xA;      ,[Tel_fono_trabajo__c]&#xA;      ,[Tipo_de_contacto__c]&#xA;      ,[Title])&#xA;&#xA;&#xA; select&#xA;&#xA;[AccountId]&#xA;      ,[Birthdate]&#xA;      ,[cirrusadv__Created_by_Cirrus_Insight__c]&#xA;      ,[Contacto_en_linea__c]&#xA;      ,[CreatedById]&#xA;      ,[CreatedDate]&#xA;      ,[Cuenta_Skype__c]&#xA;      ,[Cuenta_Twitter__c]&#xA;      ,[CurrencyIsoCode]&#xA;      ,[Description]&#xA;      ,[Email]&#xA;      ,[EmailBouncedDate]&#xA;      ,[EmailBouncedReason]&#xA;      ,[Estado_civil__c]&#xA;      ,[Fax]&#xA;      ,[FirstName]&#xA;      ,[FN__Find_Nearby__c]&#xA;      ,[FN__Mapping_Status__c]&#xA;      ,[Hijo_s__c]&#xA;      ,[Id]&#xA;      ,[Informaci_n_nuevos_productos_v_a_e_mail__c]&#xA;      ,[IsDeleted]&#xA;      ,[IsEmailBounced]&#xA;      ,[JigsawContactId]&#xA;      ,[LastActivityDate]&#xA;      ,[LastCURequestDate]&#xA;      ,[LastCUUpdateDate]&#xA;      ,[LastModifiedById]&#xA;      ,[LastModifiedDate]&#xA;      ,[LastName]&#xA;      ,[LastReferencedDate]&#xA;      ,[LastViewedDate]&#xA;      ,[LeadSource]&#xA;      ,[MailingCity]&#xA;      ,[MailingCountry]&#xA;      ,[MailingGeocodeAccuracy]&#xA;      ,[MailingLatitude]&#xA;      ,[MailingLongitude]&#xA;      ,[MailingPostalCode]&#xA;      ,[MailingState]&#xA;      ,[MailingStreet]&#xA;      ,[MasterRecordId]&#xA;      ,[MobilePhone]&#xA;      ,[Name]&#xA;      ,[Origen_candidato__c]&#xA;      ,[OtherCity]&#xA;      ,[OtherCountry]&#xA;      ,[OtherGeocodeAccuracy]&#xA;      ,[OtherLatitude]&#xA;      ,[OtherLongitude]&#xA;      ,[OtherPostalCode]&#xA;      ,[OtherState]&#xA;      ,[OtherStreet]&#xA;      ,[OwnerId]&#xA;      ,[Phone]&#xA;      ,[PhotoUrl]&#xA;      ,[Plataforma_telef_nica__c]&#xA;      ,[Rango_de_edad__c]&#xA;      ,[ReportsToId]&#xA;      ,[Rut_contacto__c]&#xA;      ,[Salutation]&#xA;      ,[Sexo__c]&#xA;      ,[SystemModstamp]&#xA;      ,[Tel_fono_trabajo__c]&#xA;      ,[Tipo_de_contacto__c]&#xA;      ,[Title]&#xA;&#xA;FROM [Inteligencias].[dbo].[SF_CONTACTOS_LAST_MOD] as cm where not exists&#xA;&#xA;(select id from SISTEMA_CENTRAL.dbo.bi_salesforce_contactos  as c where c.id=cm.id)&#xA;GO&#xA;&#xA;--actualiza los cambios&#xA;&#xA;update SISTEMA_CENTRAL.dbo.bi_salesforce_contactos&#xA;set&#xA;&#xA;[AccountId]=a.[AccountId]&#xA;      ,[Birthdate]      =a.[Birthdate]&#xA;      ,[cirrusadv__Created_by_Cirrus_Insight__c]      =a.[cirrusadv__Created_by_Cirrus_Insight__c]&#xA;      ,[Contacto_en_linea__c]      =a.[Contacto_en_linea__c]&#xA;      ,[CreatedById]      =a.[CreatedById]&#xA;      ,[CreatedDate]      =a.[CreatedDate]&#xA;      ,[Cuenta_Skype__c]      =a.[Cuenta_Skype__c]&#xA;      ,[Cuenta_Twitter__c]      =a.[Cuenta_Twitter__c]&#xA;      ,[CurrencyIsoCode]      =a.[CurrencyIsoCode]&#xA;      ,[Description]      =a.[Description]&#xA;      ,[Email]      =a.[Email]&#xA;      ,[EmailBouncedDate]      =a.[EmailBouncedDate]&#xA;      ,[EmailBouncedReason]      =a.[EmailBouncedReason]&#xA;      ,[Estado_civil__c]      =a.[Estado_civil__c]&#xA;      ,[Fax]      =a.[Fax]&#xA;      ,[FirstName]      =a.[FirstName]&#xA;      ,[FN__Find_Nearby__c]      =a.[FN__Find_Nearby__c]&#xA;      ,[FN__Mapping_Status__c]      =a.[FN__Mapping_Status__c]&#xA;      ,[Hijo_s__c]      =a.[Hijo_s__c]&#xA;      ,[Informaci_n_nuevos_productos_v_a_e_mail__c]      =a.[Informaci_n_nuevos_productos_v_a_e_mail__c]&#xA;      ,[IsDeleted]      =a.[IsDeleted]&#xA;      ,[IsEmailBounced]      =a.[IsEmailBounced]&#xA;      ,[JigsawContactId]      =a.[JigsawContactId]&#xA;      ,[LastActivityDate]      =a.[LastActivityDate]&#xA;      ,[LastCURequestDate]      =a.[LastCURequestDate]&#xA;      ,[LastCUUpdateDate]      =a.[LastCUUpdateDate]&#xA;      ,[LastModifiedById]      =a.[LastModifiedById]&#xA;      ,[LastModifiedDate]      =a.[LastModifiedDate]&#xA;      ,[LastName]      =a.[LastName]&#xA;      ,[LastReferencedDate]      =a.[LastReferencedDate]&#xA;      ,[LastViewedDate]      =a.[LastViewedDate]&#xA;      ,[LeadSource]      =a.[LeadSource]&#xA;      ,[MailingCity]      =a.[MailingCity]&#xA;      ,[MailingCountry]      =a.[MailingCountry]&#xA;      ,[MailingGeocodeAccuracy]      =a.[MailingGeocodeAccuracy]&#xA;      ,[MailingLatitude]      =a.[MailingLatitude]&#xA;      ,[MailingLongitude]      =a.[MailingLongitude]&#xA;      ,[MailingPostalCode]      =a.[MailingPostalCode]&#xA;      ,[MailingState]      =a.[MailingState]&#xA;      ,[MailingStreet]      =a.[MailingStreet]&#xA;      ,[MasterRecordId]      =a.[MasterRecordId]&#xA;      ,[MobilePhone]      =a.[MobilePhone]&#xA;      ,[Name]      =a.[Name]&#xA;      ,[Origen_candidato__c]      =a.[Origen_candidato__c]&#xA;      ,[OtherCity]      =a.[OtherCity]&#xA;      ,[OtherCountry]      =a.[OtherCountry]&#xA;      ,[OtherGeocodeAccuracy]      =a.[OtherGeocodeAccuracy]&#xA;      ,[OtherLatitude]      =a.[OtherLatitude]&#xA;      ,[OtherLongitude]      =a.[OtherLongitude]&#xA;      ,[OtherPostalCode]      =a.[OtherPostalCode]&#xA;      ,[OtherState]      =a.[OtherState]&#xA;      ,[OtherStreet]      =a.[OtherStreet]&#xA;      ,[OwnerId]      =a.[OwnerId]&#xA;      ,[Phone]      =a.[Phone]&#xA;      ,[PhotoUrl]      =a.[PhotoUrl]&#xA;      ,[Plataforma_telef_nica__c]      =a.[Plataforma_telef_nica__c]&#xA;      ,[Rango_de_edad__c]      =a.[Rango_de_edad__c]&#xA;      ,[ReportsToId]      =a.[ReportsToId]&#xA;      ,[Rut_contacto__c]      =a.[Rut_contacto__c]&#xA;      ,[Salutation]      =a.[Salutation]&#xA;      ,[Sexo__c]      =a.[Sexo__c]&#xA;      ,[SystemModstamp]      =a.[SystemModstamp]&#xA;      ,[Tel_fono_trabajo__c]      =a.[Tel_fono_trabajo__c]&#xA;      ,[Tipo_de_contacto__c]      =a.[Tipo_de_contacto__c]&#xA;      ,[Title]      =a.[Title]&#xA;&#xA;      &#xA;      from (select * from Inteligencias.dbo.SF_CONTACTOS_LAST_MOD)a&#xA;      &#xA;      where a.Id=bi_salesforce_contactos.Id&#xA;&#xA;&#xA;   --- quitamos aquellos contactos eliminados&#xA;&#xA;  delete from sistema_central.dbo.bi_salesforce_contactos where isdeleted=1&#xA;&#xA;&#xA;&#xA;" SQLTask:CodePage="1252" SQLTask:ResultType="ResultSetType_None" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask"/></DTS:ObjectData></DTS:Executable>
+<DTS:PrecedenceConstraint>
+<DTS:Property DTS:Name="Value">0</DTS:Property>
+<DTS:Property DTS:Name="EvalOp">2</DTS:Property>
+<DTS:Property DTS:Name="LogicalAnd">-1</DTS:Property>
+<DTS:Property DTS:Name="Expression"></DTS:Property><DTS:Executable IDREF="{9187EC43-B5D8-4DD8-BC8B-384A3F3A7FBC}" DTS:IsFrom="-1"/><DTS:Executable IDREF="{649DEC1F-AC74-4EDB-837B-F4081B12E41B}" DTS:IsFrom="0"/>
+<DTS:Property DTS:Name="ObjectName">Constraint</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{896C1432-BC66-452A-A4E5-B7CFC83DD210}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PrecedenceConstraint>
+<DTS:PrecedenceConstraint>
+<DTS:Property DTS:Name="Value">0</DTS:Property>
+<DTS:Property DTS:Name="EvalOp">2</DTS:Property>
+<DTS:Property DTS:Name="LogicalAnd">-1</DTS:Property>
+<DTS:Property DTS:Name="Expression"></DTS:Property><DTS:Executable IDREF="{649DEC1F-AC74-4EDB-837B-F4081B12E41B}" DTS:IsFrom="-1"/><DTS:Executable IDREF="{7A67035E-AE57-444B-92B0-AFDEB7C3D719}" DTS:IsFrom="0"/>
+<DTS:Property DTS:Name="ObjectName">Constraint 3</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{7C70696F-64A0-47C5-A86D-70678BE07D2A}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PrecedenceConstraint>
+<DTS:PrecedenceConstraint>
+<DTS:Property DTS:Name="Value">0</DTS:Property>
+<DTS:Property DTS:Name="EvalOp">2</DTS:Property>
+<DTS:Property DTS:Name="LogicalAnd">-1</DTS:Property>
+<DTS:Property DTS:Name="Expression"></DTS:Property><DTS:Executable IDREF="{7A67035E-AE57-444B-92B0-AFDEB7C3D719}" DTS:IsFrom="-1"/><DTS:Executable IDREF="{6DEDD5A8-F598-46FA-92B0-0A2955C06C22}" DTS:IsFrom="0"/>
+<DTS:Property DTS:Name="ObjectName">Constraint 4</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{AEC80CFD-73E6-446B-83F4-EF7AE6D18E2A}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PrecedenceConstraint>
+<DTS:PrecedenceConstraint>
+<DTS:Property DTS:Name="Value">0</DTS:Property>
+<DTS:Property DTS:Name="EvalOp">2</DTS:Property>
+<DTS:Property DTS:Name="LogicalAnd">-1</DTS:Property>
+<DTS:Property DTS:Name="Expression"></DTS:Property><DTS:Executable IDREF="{FFAE2FA4-4700-4B33-933F-F06A23637812}" DTS:IsFrom="-1"/><DTS:Executable IDREF="{9187EC43-B5D8-4DD8-BC8B-384A3F3A7FBC}" DTS:IsFrom="0"/>
+<DTS:Property DTS:Name="ObjectName">Constraint 1</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{1892FDC2-1D6C-4CA2-814A-90F42354E22C}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PrecedenceConstraint>
+<DTS:Property DTS:Name="ObjectName">Salesforce-Contactos-Sincroniza</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{6867A935-98B9-4328-B042-7E2A79858B38}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName">SSIS.Package.2</DTS:Property>
+<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property>
+<DTS:EventHandler>
+<DTS:Property DTS:Name="EventID">0</DTS:Property>
+<DTS:Property DTS:Name="EventName">OnError</DTS:Property>
+<DTS:Property DTS:Name="ForceExecValue">0</DTS:Property>
+<DTS:Property DTS:Name="ExecValue" DTS:DataType="3">0</DTS:Property>
+<DTS:Property DTS:Name="ForceExecutionResult">-1</DTS:Property>
+<DTS:Property DTS:Name="Disabled">0</DTS:Property>
+<DTS:Property DTS:Name="FailPackageOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="FailParentOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="MaxErrorCount">1</DTS:Property>
+<DTS:Property DTS:Name="ISOLevel">1048576</DTS:Property>
+<DTS:Property DTS:Name="LocaleID">-1</DTS:Property>
+<DTS:Property DTS:Name="TransactionOption">1</DTS:Property>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:Variable>
+<DTS:Property DTS:Name="Expression"></DTS:Property>
+<DTS:Property DTS:Name="EvaluateAsExpression">0</DTS:Property>
+<DTS:Property DTS:Name="Namespace">System</DTS:Property>
+<DTS:Property DTS:Name="ReadOnly">0</DTS:Property>
+<DTS:Property DTS:Name="RaiseChangedEvent">0</DTS:Property>
+<DTS:Property DTS:Name="IncludeInDebugDump">6789</DTS:Property><DTS:VariableValue DTS:DataType="11">-1</DTS:VariableValue>
+<DTS:Property DTS:Name="ObjectName">Propagate</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{F1D476EE-165D-4B2A-B3FF-67ACC1652F69}</DTS:Property>
+<DTS:Property DTS:Name="Description">The propagate property of the event</DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:Variable>
+<DTS:LoggingOptions>
+<DTS:Property DTS:Name="LoggingMode">0</DTS:Property>
+<DTS:Property DTS:Name="FilterKind">1</DTS:Property>
+<DTS:Property DTS:Name="EventFilter" DTS:DataType="8"></DTS:Property></DTS:LoggingOptions>
+<DTS:Property DTS:Name="DTSID">{FE70B8FD-33A3-476C-91C1-2C929651289C}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName">OnError</DTS:Property></DTS:EventHandler>
+<DTS:PackageVariable>
+<DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PrecedenceConstraint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:EvalOp&gt;Constraint&lt;/dwd:EvalOp&gt;&lt;/PrecedenceConstraint&gt;</DTS:Property>
+<DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">{1892FDC2-1D6C-4CA2-814A-90F42354E22C}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{F47CB336-A851-49BC-B299-06D54EC02DF0}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
+<DTS:PackageVariable>
+<DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;TaskHost xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:DtsDataFlowDiagram&gt;&lt;dwd:BoundingTop&gt;-3074&lt;/dwd:BoundingTop&gt;&lt;dwd:Layout&gt;&lt;dds&gt;
+  &lt;diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="Microsoft.DataWarehouse.Layout.GraphLayout100" defaultlineroute="Microsoft.DataWarehouse.Layout.GraphLayout100" version="7" nextobject="11" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="0" scrolltop="-4074" gridx="150" gridy="150" marginx="1000" marginy="1000" zoom="100" x="20876" y="9287" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="1" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="0" backpictureclsid="{00000000-0000-0000-0000-000000000000}"&gt;
+    &lt;font&gt;
+      &lt;ddsxmlobjectstreamwrapper binary="01010000900180380100065461686f6d61" /&gt;
+    &lt;/font&gt;
+    &lt;mouseicon&gt;
+      &lt;ddsxmlobjectstreamwrapper binary="6c74000000000000" /&gt;
+    &lt;/mouseicon&gt;
+  &lt;/diagram&gt;
+  &lt;layoutmanager&gt;
+    &lt;ddsxmlobj /&gt;
+  &lt;/layoutmanager&gt;
+  &lt;ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Extracts data from Salesforce services." left="1000" top="-3074" logicalid="4" controlid="1" masterid="0" hint1="0" hint2="0" width="3598" height="1164" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
+    &lt;control&gt;
+      &lt;ddsxmlobjectstreaminitwrapper binary="000800000e0e00008c040000" /&gt;
+    &lt;/control&gt;
+    &lt;layoutobject&gt;
+      &lt;ddsxmlobj&gt;
+        &lt;property name="LogicalObject" value="{649DEC1F-AC74-4EDB-837B-F4081B12E41B}/components/1479" vartype="8" /&gt;
+        &lt;property name="ShowConnectorSource" value="0" vartype="2" /&gt;
+      &lt;/ddsxmlobj&gt;
+    &lt;/layoutobject&gt;
+    &lt;shape groupshapeid="0" groupnode="0" /&gt;
+  &lt;/ddscontrol&gt;
+  &lt;ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="OLE DB Destination" left="1000" top="1608" logicalid="5" controlid="2" masterid="0" hint1="0" hint2="0" width="3598" height="1164" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
+    &lt;control&gt;
+      &lt;ddsxmlobjectstreaminitwrapper binary="000800000e0e00008c040000" /&gt;
+    &lt;/control&gt;
+    &lt;layoutobject&gt;
+      &lt;ddsxmlobj&gt;
+        &lt;property name="LogicalObject" value="{649DEC1F-AC74-4EDB-837B-F4081B12E41B}/components/1625" vartype="8" /&gt;
+        &lt;property name="ShowConnectorSource" value="0" vartype="2" /&gt;
+      &lt;/ddsxmlobj&gt;
+    &lt;/layoutobject&gt;
+    &lt;shape groupshapeid="0" groupnode="0" /&gt;
+  &lt;/ddscontrol&gt;
+  &lt;ddscontrol controlprogid="MSDDS.Polyline" left="2400" top="-2309" logicalid="6" controlid="3" masterid="0" hint1="0" hint2="0" width="799" height="4417" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
+    &lt;control&gt;
+      &lt;ddsxmlobj&gt;
+        &lt;polyline endtypedst="3" endtypesrc="1" usercolor="32768" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" /&gt;
+      &lt;/ddsxmlobj&gt;
+    &lt;/control&gt;
+    &lt;layoutobject&gt;
+      &lt;ddsxmlobj&gt;
+        &lt;property name="LogicalObject" value="{649DEC1F-AC74-4EDB-837B-F4081B12E41B}/paths/1642" vartype="8" /&gt;
+        &lt;property name="Virtual" value="0" vartype="11" /&gt;
+        &lt;property name="VisibleAP" value="0" vartype="3" /&gt;
+      &lt;/ddsxmlobj&gt;
+    &lt;/layoutobject&gt;
+    &lt;connector lineroutestyle="Microsoft.DataWarehouse.Layout.GraphLayout100" sourceid="1" destid="2" sourceattachpoint="7" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="2" relatedid="0" virtual="0"&gt;
+      &lt;point x="2799" y="-1910" /&gt;
+      &lt;point x="2799" y="1608" /&gt;
+    &lt;/connector&gt;
+  &lt;/ddscontrol&gt;
+&lt;/dds&gt;&lt;/dwd:Layout&gt;&lt;dwd:PersistedViewPortTop&gt;-4074&lt;/dwd:PersistedViewPortTop&gt;&lt;/dwd:DtsDataFlowDiagram&gt;&lt;dwd:DtsComponentDesignerPropertiesList&gt;&lt;dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:key xsi:type="xsd:string"&gt;1625	TableInfoObjectType&lt;/dwd:key&gt;&lt;dwd:value xsi:type="xsd:string"&gt;Table&lt;/dwd:value&gt;&lt;/dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:key xsi:type="xsd:string"&gt;1625	DataSourceViewID&lt;/dwd:key&gt;&lt;/dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:key xsi:type="xsd:string"&gt;17	TableInfoObjectType&lt;/dwd:key&gt;&lt;dwd:value xsi:type="xsd:string"&gt;Table&lt;/dwd:value&gt;&lt;/dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:key xsi:type="xsd:string"&gt;17	DataSourceViewID&lt;/dwd:key&gt;&lt;/dwd:DtsComponentDesignTimeProperty&gt;&lt;/dwd:DtsComponentDesignerPropertiesList&gt;&lt;/TaskHost&gt;</DTS:Property>
+<DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">{649DEC1F-AC74-4EDB-837B-F4081B12E41B}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{F08F61C6-D732-4F91-9D9A-88BBEE33CF0F}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
+<DTS:PackageVariable>
+<DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PipelinePath xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:SourceName&gt;Salesforce Source Output&lt;/dwd:SourceName&gt;&lt;dwd:DestinationName&gt;OLE DB Destination Input&lt;/dwd:DestinationName&gt;&lt;/PipelinePath&gt;</DTS:Property>
+<DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">{649DEC1F-AC74-4EDB-837B-F4081B12E41B}-1642</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{76D388BD-DA7B-4BCB-B21C-10F991C7B4B6}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
+<DTS:PackageVariable>
+<DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;Package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:DtsControlFlowDiagram&gt;&lt;dwd:BoundingLeft&gt;-10321&lt;/dwd:BoundingLeft&gt;&lt;dwd:BoundingTop&gt;-1275&lt;/dwd:BoundingTop&gt;&lt;dwd:Layout&gt;&lt;dds&gt;
+  &lt;diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="Microsoft.DataWarehouse.Layout.GraphLayout100" defaultlineroute="Microsoft.DataWarehouse.Layout.GraphLayout100" version="7" nextobject="22" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-11321" scrolltop="-1860" gridx="150" gridy="150" marginx="1000" marginy="1000" zoom="100" x="20876" y="10213" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="1" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}"&gt;
+    &lt;font&gt;
+      &lt;ddsxmlobjectstreamwrapper binary="01010000900180380100065461686f6d61" /&gt;
+    &lt;/font&gt;
+    &lt;mouseicon&gt;
+      &lt;ddsxmlobjectstreamwrapper binary="6c74000000000000" /&gt;
+    &lt;/mouseicon&gt;
+  &lt;/diagram&gt;
+  &lt;layoutmanager&gt;
+    &lt;ddsxmlobj /&gt;
+  &lt;/layoutmanager&gt;
+  &lt;ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Data Flow Task" left="-10055" top="4653" logicalid="10" controlid="1" masterid="0" hint1="0" hint2="0" width="6085" height="1667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
+    &lt;control&gt;
+      &lt;ddsxmlobjectstreaminitwrapper binary="00080000c517000083060000" /&gt;
+    &lt;/control&gt;
+    &lt;layoutobject&gt;
+      &lt;ddsxmlobj&gt;
+        &lt;property name="LogicalObject" value="{649DEC1F-AC74-4EDB-837B-F4081B12E41B}" vartype="8" /&gt;
+        &lt;property name="ShowConnectorSource" value="0" vartype="2" /&gt;
+      &lt;/ddsxmlobj&gt;
+    &lt;/layoutobject&gt;
+    &lt;shape groupshapeid="0" groupnode="0" /&gt;
+  &lt;/ddscontrol&gt;
+  &lt;ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Execute SQL Task" left="-10321" top="2539" logicalid="11" controlid="2" masterid="0" hint1="0" hint2="0" width="6536" height="1164" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
+    &lt;control&gt;
+      &lt;ddsxmlobjectstreaminitwrapper binary="00080000881900008c040000" /&gt;
+    &lt;/control&gt;
+    &lt;layoutobject&gt;
+      &lt;ddsxmlobj&gt;
+        &lt;property name="LogicalObject" value="{9187EC43-B5D8-4DD8-BC8B-384A3F3A7FBC}" vartype="8" /&gt;
+        &lt;property name="ShowConnectorSource" value="0" vartype="2" /&gt;
+      &lt;/ddsxmlobj&gt;
+    &lt;/layoutobject&gt;
+    &lt;shape groupshapeid="0" groupnode="0" /&gt;
+  &lt;/ddscontrol&gt;
+  &lt;ddscontrol controlprogid="MSDDS.Polyline" left="-7452" top="3304" logicalid="12" controlid="3" masterid="0" hint1="0" hint2="0" width="839" height="1849" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
+    &lt;control&gt;
+      &lt;ddsxmlobj&gt;
+        &lt;polyline endtypedst="3" endtypesrc="1" usercolor="32768" linestyle="0" linerender="2" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" /&gt;
+      &lt;/ddsxmlobj&gt;
+    &lt;/control&gt;
+    &lt;layoutobject&gt;
+      &lt;ddsxmlobj&gt;
+        &lt;property name="LogicalObject" value="{896C1432-BC66-452A-A4E5-B7CFC83DD210}" vartype="8" /&gt;
+        &lt;property name="Virtual" value="0" vartype="11" /&gt;
+        &lt;property name="VisibleAP" value="0" vartype="3" /&gt;
+      &lt;/ddsxmlobj&gt;
+    &lt;/layoutobject&gt;
+    &lt;connector lineroutestyle="Microsoft.DataWarehouse.Layout.GraphLayout100" sourceid="2" destid="1" sourceattachpoint="11" destattachpoint="10" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="2" relatedid="0" virtual="0"&gt;
+      &lt;point x="-7053" y="3703" /&gt;
+      &lt;point x="-7053" y="4178" /&gt;
+      &lt;point x="-7013" y="4178" /&gt;
+      &lt;point x="-7013" y="4653" /&gt;
+    &lt;/connector&gt;
+  &lt;/ddscontrol&gt;
+  &lt;ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Execute SQL Task" left="-9605" top="-5" logicalid="13" controlid="4" masterid="0" hint1="0" hint2="0" width="5000" height="1164" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
+    &lt;control&gt;
+      &lt;ddsxmlobjectstreaminitwrapper binary="00080000881300008c040000" /&gt;
+    &lt;/control&gt;
+    &lt;layoutobject&gt;
+      &lt;ddsxmlobj&gt;
+        &lt;property name="LogicalObject" value="{FFAE2FA4-4700-4B33-933F-F06A23637812}" vartype="8" /&gt;
+        &lt;property name="ShowConnectorSource" value="0" vartype="2" /&gt;
+      &lt;/ddsxmlobj&gt;
+    &lt;/layoutobject&gt;
+    &lt;shape groupshapeid="0" groupnode="0" /&gt;
+  &lt;/ddscontrol&gt;
+  &lt;ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Execute SQL Task" left="-9845" top="7823" logicalid="14" controlid="5" masterid="0" hint1="0" hint2="0" width="5688" height="1587" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
+    &lt;control&gt;
+      &lt;ddsxmlobjectstreaminitwrapper binary="000800003816000033060000" /&gt;
+    &lt;/control&gt;
+    &lt;layoutobject&gt;
+      &lt;ddsxmlobj&gt;
+        &lt;property name="LogicalObject" value="{7A67035E-AE57-444B-92B0-AFDEB7C3D719}" vartype="8" /&gt;
+        &lt;property name="ShowConnectorSource" value="0" vartype="2" /&gt;
+      &lt;/ddsxmlobj&gt;
+    &lt;/layoutobject&gt;
+    &lt;shape groupshapeid="0" groupnode="0" /&gt;
+  &lt;/ddscontrol&gt;
+  &lt;ddscontrol controlprogid="MSDDS.Polyline" left="-7412" top="5921" logicalid="15" controlid="6" masterid="0" hint1="0" hint2="0" width="811" height="2402" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
+    &lt;control&gt;
+      &lt;ddsxmlobj&gt;
+        &lt;polyline endtypedst="3" endtypesrc="1" usercolor="32768" linestyle="0" linerender="2" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" /&gt;
+      &lt;/ddsxmlobj&gt;
+    &lt;/control&gt;
+    &lt;layoutobject&gt;
+      &lt;ddsxmlobj&gt;
+        &lt;property name="LogicalObject" value="{7C70696F-64A0-47C5-A86D-70678BE07D2A}" vartype="8" /&gt;
+        &lt;property name="Virtual" value="0" vartype="11" /&gt;
+        &lt;property name="VisibleAP" value="0" vartype="3" /&gt;
+      &lt;/ddsxmlobj&gt;
+    &lt;/layoutobject&gt;
+    &lt;connector lineroutestyle="Microsoft.DataWarehouse.Layout.GraphLayout100" sourceid="1" destid="5" sourceattachpoint="11" destattachpoint="8" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="2" relatedid="0" virtual="0"&gt;
+      &lt;point x="-7013" y="6320" /&gt;
+      &lt;point x="-7013" y="7071" /&gt;
+      &lt;point x="-7001" y="7071" /&gt;
+      &lt;point x="-7001" y="7823" /&gt;
+    &lt;/connector&gt;
+  &lt;/ddscontrol&gt;
+  &lt;ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Execute SQL Task" left="-9934" top="10977" logicalid="16" controlid="7" masterid="0" hint1="0" hint2="0" width="5926" height="1164" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
+    &lt;control&gt;
+      &lt;ddsxmlobjectstreaminitwrapper binary="00080000261700008c040000" /&gt;
+    &lt;/control&gt;
+    &lt;layoutobject&gt;
+      &lt;ddsxmlobj&gt;
+        &lt;property name="LogicalObject" value="{6DEDD5A8-F598-46FA-92B0-0A2955C06C22}" vartype="8" /&gt;
+        &lt;property name="ShowConnectorSource" value="0" vartype="2" /&gt;
+      &lt;/ddsxmlobj&gt;
+    &lt;/layoutobject&gt;
+    &lt;shape groupshapeid="0" groupnode="0" /&gt;
+  &lt;/ddscontrol&gt;
+  &lt;ddscontrol controlprogid="MSDDS.Polyline" left="-7400" top="9011" logicalid="17" controlid="8" masterid="0" hint1="0" hint2="0" width="829" height="2466" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
+    &lt;control&gt;
+      &lt;ddsxmlobj&gt;
+        &lt;polyline endtypedst="3" endtypesrc="1" usercolor="32768" linestyle="0" linerender="2" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" /&gt;
+      &lt;/ddsxmlobj&gt;
+    &lt;/control&gt;
+    &lt;layoutobject&gt;
+      &lt;ddsxmlobj&gt;
+        &lt;property name="LogicalObject" value="{AEC80CFD-73E6-446B-83F4-EF7AE6D18E2A}" vartype="8" /&gt;
+        &lt;property name="Virtual" value="0" vartype="11" /&gt;
+        &lt;property name="VisibleAP" value="0" vartype="3" /&gt;
+      &lt;/ddsxmlobj&gt;
+    &lt;/layoutobject&gt;
+    &lt;connector lineroutestyle="Microsoft.DataWarehouse.Layout.GraphLayout100" sourceid="5" destid="7" sourceattachpoint="9" destattachpoint="10" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="2" relatedid="0" virtual="0"&gt;
+      &lt;point x="-7001" y="9410" /&gt;
+      &lt;point x="-7001" y="10193" /&gt;
+      &lt;point x="-6971" y="10193" /&gt;
+      &lt;point x="-6971" y="10977" /&gt;
+    &lt;/connector&gt;
+  &lt;/ddscontrol&gt;
+  &lt;ddscontrol controlprogid="MSDDS.Polyline" left="-7504" top="760" logicalid="18" controlid="9" masterid="0" hint1="0" hint2="0" width="851" height="2279" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
+    &lt;control&gt;
+      &lt;ddsxmlobj&gt;
+        &lt;polyline endtypedst="3" endtypesrc="1" usercolor="32768" linestyle="0" linerender="2" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" /&gt;
+      &lt;/ddsxmlobj&gt;
+    &lt;/control&gt;
+    &lt;layoutobject&gt;
+      &lt;ddsxmlobj&gt;
+        &lt;property name="LogicalObject" value="{1892FDC2-1D6C-4CA2-814A-90F42354E22C}" vartype="8" /&gt;
+        &lt;property name="Virtual" value="0" vartype="11" /&gt;
+        &lt;property name="VisibleAP" value="0" vartype="3" /&gt;
+      &lt;/ddsxmlobj&gt;
+    &lt;/layoutobject&gt;
+    &lt;connector lineroutestyle="Microsoft.DataWarehouse.Layout.GraphLayout100" sourceid="4" destid="2" sourceattachpoint="9" destattachpoint="10" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="2" relatedid="0" virtual="0"&gt;
+      &lt;point x="-7105" y="1159" /&gt;
+      &lt;point x="-7105" y="1849" /&gt;
+      &lt;point x="-7053" y="1849" /&gt;
+      &lt;point x="-7053" y="2539" /&gt;
+    &lt;/connector&gt;
+  &lt;/ddscontrol&gt;
+&lt;/dds&gt;&lt;/dwd:Layout&gt;&lt;dwd:PersistedViewPortLeft&gt;-11321&lt;/dwd:PersistedViewPortLeft&gt;&lt;dwd:PersistedViewPortTop&gt;-1860&lt;/dwd:PersistedViewPortTop&gt;&lt;/dwd:DtsControlFlowDiagram&gt;&lt;/Package&gt;</DTS:Property>
+<DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">{6867A935-98B9-4328-B042-7E2A79858B38}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{307914EE-C3A4-4C75-9244-EBEFFDD90EFF}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
+<DTS:PackageVariable>
+<DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PrecedenceConstraint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:EvalOp&gt;Constraint&lt;/dwd:EvalOp&gt;&lt;/PrecedenceConstraint&gt;</DTS:Property>
+<DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">{7C70696F-64A0-47C5-A86D-70678BE07D2A}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{0482465F-C331-4F40-BCF6-8A49708F33A8}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
+<DTS:PackageVariable>
+<DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PrecedenceConstraint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:EvalOp&gt;Constraint&lt;/dwd:EvalOp&gt;&lt;/PrecedenceConstraint&gt;</DTS:Property>
+<DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">{896C1432-BC66-452A-A4E5-B7CFC83DD210}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{FB46B824-3059-4D74-A878-4F3E1F406BA5}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
+<DTS:PackageVariable>
+<DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PrecedenceConstraint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:EvalOp&gt;Constraint&lt;/dwd:EvalOp&gt;&lt;/PrecedenceConstraint&gt;</DTS:Property>
+<DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">{AEC80CFD-73E6-446B-83F4-EF7AE6D18E2A}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{4B846995-2F84-43F7-A993-5D5AB5C46CCC}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
+<DTS:PackageVariable>
+<DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;DtsEventHandler xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:DtsEventHandlerDiagram&gt;&lt;dwd:Layout&gt;&lt;dds&gt;
+  &lt;diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="Microsoft.DataWarehouse.Layout.GraphLayout100" defaultlineroute="Microsoft.DataWarehouse.Layout.GraphLayout100" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="0" scrolltop="0" gridx="150" gridy="150" marginx="1000" marginy="1000" zoom="100" x="23204" y="8864" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="1" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}"&gt;
+    &lt;font&gt;
+      &lt;ddsxmlobjectstreamwrapper binary="01010000900180380100065461686f6d61" /&gt;
+    &lt;/font&gt;
+    &lt;mouseicon&gt;&lt;ddsxmlobjectstreamwrapper binary="6c74000000000000" /&gt;
+    &lt;/mouseicon&gt;
+  &lt;/diagram&gt;
+  &lt;layoutmanager&gt;&lt;ddsxmlobj /&gt;
+  &lt;/layoutmanager&gt;
+&lt;/dds&gt;&lt;/dwd:Layout&gt;&lt;/dwd:DtsEventHandlerDiagram&gt;&lt;/DtsEventHandler&gt;</DTS:Property>
+<DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">{FE70B8FD-33A3-476C-91C1-2C929651289C}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{171CE3B5-44A4-419A-B71C-8820441BB6DB}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
+<DTS:PackageVariable>
+<DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;Package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:DtsControlFlowDiagram&gt;&lt;dwd:BoundingLeft&gt;-10321&lt;/dwd:BoundingLeft&gt;&lt;dwd:BoundingTop&gt;-1275&lt;/dwd:BoundingTop&gt;&lt;dwd:Layout&gt;&lt;dds&gt;
+  &lt;diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="Microsoft.DataWarehouse.Layout.GraphLayout100" defaultlineroute="Microsoft.DataWarehouse.Layout.GraphLayout100" version="7" nextobject="22" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-11321" scrolltop="-1860" gridx="150" gridy="150" marginx="1000" marginy="1000" zoom="100" x="20876" y="10213" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="1" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}"&gt;
+    &lt;font&gt;
+      &lt;ddsxmlobjectstreamwrapper binary="01010000900180380100065461686f6d61" /&gt;
+    &lt;/font&gt;
+    &lt;mouseicon&gt;
+      &lt;ddsxmlobjectstreamwrapper binary="6c74000000000000" /&gt;
+    &lt;/mouseicon&gt;
+  &lt;/diagram&gt;
+  &lt;layoutmanager&gt;
+    &lt;ddsxmlobj /&gt;
+  &lt;/layoutmanager&gt;
+  &lt;ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Data Flow Task" left="-10055" top="4653" logicalid="10" controlid="1" masterid="0" hint1="0" hint2="0" width="6085" height="1667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
+    &lt;control&gt;
+      &lt;ddsxmlobjectstreaminitwrapper binary="00080000c517000083060000" /&gt;
+    &lt;/control&gt;
+    &lt;layoutobject&gt;
+      &lt;ddsxmlobj&gt;
+        &lt;property name="LogicalObject" value="{649DEC1F-AC74-4EDB-837B-F4081B12E41B}" vartype="8" /&gt;
+        &lt;property name="ShowConnectorSource" value="0" vartype="2" /&gt;
+      &lt;/ddsxmlobj&gt;
+    &lt;/layoutobject&gt;
+    &lt;shape groupshapeid="0" groupnode="0" /&gt;
+  &lt;/ddscontrol&gt;
+  &lt;ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Execute SQL Task" left="-10321" top="2539" logicalid="11" controlid="2" masterid="0" hint1="0" hint2="0" width="6536" height="1164" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
+    &lt;control&gt;
+      &lt;ddsxmlobjectstreaminitwrapper binary="00080000881900008c040000" /&gt;
+    &lt;/control&gt;
+    &lt;layoutobject&gt;
+      &lt;ddsxmlobj&gt;
+        &lt;property name="LogicalObject" value="{9187EC43-B5D8-4DD8-BC8B-384A3F3A7FBC}" vartype="8" /&gt;
+        &lt;property name="ShowConnectorSource" value="0" vartype="2" /&gt;
+      &lt;/ddsxmlobj&gt;
+    &lt;/layoutobject&gt;
+    &lt;shape groupshapeid="0" groupnode="0" /&gt;
+  &lt;/ddscontrol&gt;
+  &lt;ddscontrol controlprogid="MSDDS.Polyline" left="-7452" top="3304" logicalid="12" controlid="3" masterid="0" hint1="0" hint2="0" width="839" height="1849" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
+    &lt;control&gt;
+      &lt;ddsxmlobj&gt;
+        &lt;polyline endtypedst="3" endtypesrc="1" usercolor="32768" linestyle="0" linerender="2" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" /&gt;
+      &lt;/ddsxmlobj&gt;
+    &lt;/control&gt;
+    &lt;layoutobject&gt;
+      &lt;ddsxmlobj&gt;
+        &lt;property name="LogicalObject" value="{896C1432-BC66-452A-A4E5-B7CFC83DD210}" vartype="8" /&gt;
+        &lt;property name="Virtual" value="0" vartype="11" /&gt;
+        &lt;property name="VisibleAP" value="0" vartype="3" /&gt;
+      &lt;/ddsxmlobj&gt;
+    &lt;/layoutobject&gt;
+    &lt;connector lineroutestyle="Microsoft.DataWarehouse.Layout.GraphLayout100" sourceid="2" destid="1" sourceattachpoint="11" destattachpoint="10" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="2" relatedid="0" virtual="0"&gt;
+      &lt;point x="-7053" y="3703" /&gt;
+      &lt;point x="-7053" y="4178" /&gt;
+      &lt;point x="-7013" y="4178" /&gt;
+      &lt;point x="-7013" y="4653" /&gt;
+    &lt;/connector&gt;
+  &lt;/ddscontrol&gt;
+  &lt;ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Execute SQL Task" left="-9605" top="-5" logicalid="13" controlid="4" masterid="0" hint1="0" hint2="0" width="5000" height="1164" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
+    &lt;control&gt;
+      &lt;ddsxmlobjectstreaminitwrapper binary="00080000881300008c040000" /&gt;
+    &lt;/control&gt;
+    &lt;layoutobject&gt;
+      &lt;ddsxmlobj&gt;
+        &lt;property name="LogicalObject" value="{FFAE2FA4-4700-4B33-933F-F06A23637812}" vartype="8" /&gt;
+        &lt;property name="ShowConnectorSource" value="0" vartype="2" /&gt;
+      &lt;/ddsxmlobj&gt;
+    &lt;/layoutobject&gt;
+    &lt;shape groupshapeid="0" groupnode="0" /&gt;
+  &lt;/ddscontrol&gt;
+  &lt;ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Execute SQL Task" left="-9845" top="7823" logicalid="14" controlid="5" masterid="0" hint1="0" hint2="0" width="5688" height="1587" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
+    &lt;control&gt;
+      &lt;ddsxmlobjectstreaminitwrapper binary="000800003816000033060000" /&gt;
+    &lt;/control&gt;
+    &lt;layoutobject&gt;
+      &lt;ddsxmlobj&gt;
+        &lt;property name="LogicalObject" value="{7A67035E-AE57-444B-92B0-AFDEB7C3D719}" vartype="8" /&gt;
+        &lt;property name="ShowConnectorSource" value="0" vartype="2" /&gt;
+      &lt;/ddsxmlobj&gt;
+    &lt;/layoutobject&gt;
+    &lt;shape groupshapeid="0" groupnode="0" /&gt;
+  &lt;/ddscontrol&gt;
+  &lt;ddscontrol controlprogid="MSDDS.Polyline" left="-7412" top="5921" logicalid="15" controlid="6" masterid="0" hint1="0" hint2="0" width="811" height="2402" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
+    &lt;control&gt;
+      &lt;ddsxmlobj&gt;
+        &lt;polyline endtypedst="3" endtypesrc="1" usercolor="32768" linestyle="0" linerender="2" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" /&gt;
+      &lt;/ddsxmlobj&gt;
+    &lt;/control&gt;
+    &lt;layoutobject&gt;
+      &lt;ddsxmlobj&gt;
+        &lt;property name="LogicalObject" value="{7C70696F-64A0-47C5-A86D-70678BE07D2A}" vartype="8" /&gt;
+        &lt;property name="Virtual" value="0" vartype="11" /&gt;
+        &lt;property name="VisibleAP" value="0" vartype="3" /&gt;
+      &lt;/ddsxmlobj&gt;
+    &lt;/layoutobject&gt;
+    &lt;connector lineroutestyle="Microsoft.DataWarehouse.Layout.GraphLayout100" sourceid="1" destid="5" sourceattachpoint="11" destattachpoint="8" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="2" relatedid="0" virtual="0"&gt;
+      &lt;point x="-7013" y="6320" /&gt;
+      &lt;point x="-7013" y="7071" /&gt;
+      &lt;point x="-7001" y="7071" /&gt;
+      &lt;point x="-7001" y="7823" /&gt;
+    &lt;/connector&gt;
+  &lt;/ddscontrol&gt;
+  &lt;ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Execute SQL Task" left="-9934" top="10977" logicalid="16" controlid="7" masterid="0" hint1="0" hint2="0" width="5926" height="1164" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
+    &lt;control&gt;
+      &lt;ddsxmlobjectstreaminitwrapper binary="00080000261700008c040000" /&gt;
+    &lt;/control&gt;
+    &lt;layoutobject&gt;
+      &lt;ddsxmlobj&gt;
+        &lt;property name="LogicalObject" value="{6DEDD5A8-F598-46FA-92B0-0A2955C06C22}" vartype="8" /&gt;
+        &lt;property name="ShowConnectorSource" value="0" vartype="2" /&gt;
+      &lt;/ddsxmlobj&gt;
+    &lt;/layoutobject&gt;
+    &lt;shape groupshapeid="0" groupnode="0" /&gt;
+  &lt;/ddscontrol&gt;
+  &lt;ddscontrol controlprogid="MSDDS.Polyline" left="-7400" top="9011" logicalid="17" controlid="8" masterid="0" hint1="0" hint2="0" width="829" height="2466" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
+    &lt;control&gt;
+      &lt;ddsxmlobj&gt;
+        &lt;polyline endtypedst="3" endtypesrc="1" usercolor="32768" linestyle="0" linerender="2" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" /&gt;
+      &lt;/ddsxmlobj&gt;
+    &lt;/control&gt;
+    &lt;layoutobject&gt;
+      &lt;ddsxmlobj&gt;
+        &lt;property name="LogicalObject" value="{AEC80CFD-73E6-446B-83F4-EF7AE6D18E2A}" vartype="8" /&gt;
+        &lt;property name="Virtual" value="0" vartype="11" /&gt;
+        &lt;property name="VisibleAP" value="0" vartype="3" /&gt;
+      &lt;/ddsxmlobj&gt;
+    &lt;/layoutobject&gt;
+    &lt;connector lineroutestyle="Microsoft.DataWarehouse.Layout.GraphLayout100" sourceid="5" destid="7" sourceattachpoint="9" destattachpoint="10" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="2" relatedid="0" virtual="0"&gt;
+      &lt;point x="-7001" y="9410" /&gt;
+      &lt;point x="-7001" y="10193" /&gt;
+      &lt;point x="-6971" y="10193" /&gt;
+      &lt;point x="-6971" y="10977" /&gt;
+    &lt;/connector&gt;
+  &lt;/ddscontrol&gt;
+  &lt;ddscontrol controlprogid="MSDDS.Polyline" left="-7504" top="760" logicalid="18" controlid="9" masterid="0" hint1="0" hint2="0" width="851" height="2279" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
+    &lt;control&gt;
+      &lt;ddsxmlobj&gt;
+        &lt;polyline endtypedst="3" endtypesrc="1" usercolor="32768" linestyle="0" linerender="2" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" /&gt;
+      &lt;/ddsxmlobj&gt;
+    &lt;/control&gt;
+    &lt;layoutobject&gt;
+      &lt;ddsxmlobj&gt;
+        &lt;property name="LogicalObject" value="{1892FDC2-1D6C-4CA2-814A-90F42354E22C}" vartype="8" /&gt;
+        &lt;property name="Virtual" value="0" vartype="11" /&gt;
+        &lt;property name="VisibleAP" value="0" vartype="3" /&gt;
+      &lt;/ddsxmlobj&gt;
+    &lt;/layoutobject&gt;
+    &lt;connector lineroutestyle="Microsoft.DataWarehouse.Layout.GraphLayout100" sourceid="4" destid="2" sourceattachpoint="9" destattachpoint="10" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="2" relatedid="0" virtual="0"&gt;
+      &lt;point x="-7105" y="1159" /&gt;
+      &lt;point x="-7105" y="1849" /&gt;
+      &lt;point x="-7053" y="1849" /&gt;
+      &lt;point x="-7053" y="2539" /&gt;
+    &lt;/connector&gt;
+  &lt;/ddscontrol&gt;
+&lt;/dds&gt;&lt;/dwd:Layout&gt;&lt;dwd:PersistedViewPortLeft&gt;-11321&lt;/dwd:PersistedViewPortLeft&gt;&lt;dwd:PersistedViewPortTop&gt;-1860&lt;/dwd:PersistedViewPortTop&gt;&lt;/dwd:DtsControlFlowDiagram&gt;&lt;/Package&gt;</DTS:Property>
+<DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">package-diagram</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{1B9351A0-0D68-4D19-9EE0-D6D44F29A414}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable></DTS:Executable>

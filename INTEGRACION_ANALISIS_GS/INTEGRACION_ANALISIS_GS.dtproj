@@ -257,5 +257,20 @@
       <FullPath>Salesforce-test correos.dtsx</FullPath>
       <References />
     </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Salesforce-test correos 1.dtsx</Name>
+      <FullPath>Salesforce-test correos 1.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Salesforce-Contactos-Sincroniza.dtsx</Name>
+      <FullPath>Salesforce-Contactos-Sincroniza.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Salesforce-CargaLlamadosYCorreosCoord.dtsx</Name>
+      <FullPath>Salesforce-CargaLlamadosYCorreosCoord.dtsx</FullPath>
+      <References />
+    </DtsPackage>
   </DTSPackages>
 </Project>
