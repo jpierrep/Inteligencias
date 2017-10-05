@@ -272,5 +272,10 @@
       <FullPath>Salesforce-CargaLlamadosYCorreosCoord.dtsx</FullPath>
       <References />
     </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Salesforce-CentralizaContactos.dtsx</Name>
+      <FullPath>Salesforce-CentralizaContactos.dtsx</FullPath>
+      <References />
+    </DtsPackage>
   </DTSPackages>
 </Project>
