@@ -277,5 +277,10 @@
       <FullPath>Salesforce-CentralizaContactos.dtsx</FullPath>
       <References />
     </DtsPackage>
+    <DtsPackage FormatVersion="0">
+      <Name>Salesforce-CasosTecnicos-Sincroniza test.dtsx</Name>
+      <FullPath>Salesforce-CasosTecnicos-Sincroniza test.dtsx</FullPath>
+      <References />
+    </DtsPackage>
   </DTSPackages>
 </Project>
