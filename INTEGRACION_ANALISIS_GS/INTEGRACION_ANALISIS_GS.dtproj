@@ -287,7 +287,7 @@
       <FullPath>Salesforce-CasosTecnicos-Sincroniza 3.dtsx</FullPath>
       <References />
     </DtsPackage>
-    <DtsPackage FormatVersion="0">
+    <DtsPackage FormatVersion="3">
       <Name>Salesforce-CargaCasosNSR 1.dtsx</Name>
       <FullPath>Salesforce-CargaCasosNSR 1.dtsx</FullPath>
       <References />
