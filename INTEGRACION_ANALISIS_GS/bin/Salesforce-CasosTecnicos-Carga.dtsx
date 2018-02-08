@@ -10,8 +10,8 @@
 <DTS:Property DTS:Name="PackagePriorityClass">0</DTS:Property>
 <DTS:Property DTS:Name="VersionMajor">1</DTS:Property>
 <DTS:Property DTS:Name="VersionMinor">0</DTS:Property>
-<DTS:Property DTS:Name="VersionBuild">202</DTS:Property>
-<DTS:Property DTS:Name="VersionGUID">{8B16E894-AC56-4CAA-B53D-847A1F0B4DBB}</DTS:Property>
+<DTS:Property DTS:Name="VersionBuild">214</DTS:Property>
+<DTS:Property DTS:Name="VersionGUID">{6F673A61-31AD-4638-9DD2-0F7FB9AC3168}</DTS:Property>
 <DTS:Property DTS:Name="EnableConfig">0</DTS:Property>
 <DTS:Property DTS:Name="CheckpointFileName"></DTS:Property>
 <DTS:Property DTS:Name="SaveCheckpoints">0</DTS:Property>
@@ -23,14 +23,14 @@
 <DTS:Property DTS:Name="DTSID">{03755A52-CF6E-427D-9546-D18EA2CB1667}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName">OLEDB</DTS:Property><DTS:ObjectData><DTS:ConnectionManager>
-<DTS:Property DTS:Name="Retain">0</DTS:Property><EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element" Salt="P5m46LmSlg==" IV="8XWMeyC3anU=" xmlns="http://www.w3.org/2001/04/xmlenc#"><EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/><CipherData><CipherValue>8XWMeyC3anXlt6EWGrIPyMO24fyMjgeWbHKXb4WoRhsL8l8g3QsYW+3XE0kcRGDwQEsRUVKXuFe43jLbJMvi0wsfcsusbTCdGkF9WNJIukI1ecHlRM68L8/bjTtuaf6QEnQQ+Hv/FDYIS/POOO1tiY5FuwJP75Co5uPG0n6aaNw=</CipherValue></CipherData></EncryptedData>
+<DTS:Property DTS:Name="Retain">0</DTS:Property><EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element" Salt="yfhyDonBNg==" IV="Dc5NtO6ut2o=" xmlns="http://www.w3.org/2001/04/xmlenc#"><EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/><CipherData><CipherValue>Dc5NtO6ut2o4DNfWNo+yqleW6f1wOZBrQb9tpousOgeF0egMExoglhPBy6V69bZFk4PPTlcADS7qmYnnYTH8ezcKa24AlwuPJUQYYl7xJq6rvf44mUvM23ciMfkb2h85l5l/+4jKHXmEMA0ZPcRef4+/M3WSBOPqTHiVwUY3Yd4=</CipherValue></CipherData></EncryptedData>
 <DTS:Property DTS:Name="ConnectionString">Data Source=192.168.100.14;User ID=targit;Initial Catalog=Inteligencias;Provider=SQLNCLI10.1;Application Name=SSIS-Salesforce-Casos Tecnicos-{03755A52-CF6E-427D-9546-D18EA2CB1667}192.168.100.14.Inteligencias.targit;Auto Translate=False;</DTS:Property></DTS:ConnectionManager></DTS:ObjectData></DTS:ConnectionManager>
 <DTS:ConnectionManager>
 <DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">Salesforce Connection Manager 1</DTS:Property>
 <DTS:Property DTS:Name="DTSID">{4B45C221-58E4-473E-9F11-742B9E90B87E}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
-<DTS:Property DTS:Name="CreationName">SFORCE</DTS:Property><DTS:ObjectData><ConnectionManager ConnectionString="ServerUser=cjohannesen@inversionesodin.cl;ServerTimeout=60;ServerUrl=https://login.salesforce.com/services/Soap/u/37.0;RetainSameConnection=True;OrganizationId=;PortalId=;AllowDuplicatesSave=False;AllowFieldTruncation=False;CommitAllOrNone=False;AssignmentRule=;ProxyHost=;ProxyPort=0;ProxyUser=;"><EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element" Salt="f+d4KCJphw==" IV="MiPz3f9AYkw=" xmlns="http://www.w3.org/2001/04/xmlenc#"><EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/><CipherData><CipherValue>MiPz3f9AYkyeWJ2hDqWTdinHRqSlE9IeHjjd075ndv3hQ0+2d9oLyZKvoKks68Gksw5SvaUPuA/69teTKQKH9v4fPsHi8Le7</CipherValue></CipherData></EncryptedData></ConnectionManager></DTS:ObjectData></DTS:ConnectionManager>
+<DTS:Property DTS:Name="CreationName">SFORCE</DTS:Property><DTS:ObjectData><ConnectionManager ConnectionString="ServerUser=cjohannesen@inversionesodin.cl;ServerTimeout=60;ServerUrl=https://login.salesforce.com/services/Soap/u/37.0;RetainSameConnection=True;OrganizationId=;PortalId=;AllowDuplicatesSave=False;AllowFieldTruncation=False;CommitAllOrNone=False;AssignmentRule=;ProxyHost=;ProxyPort=0;ProxyUser=;"><EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element" Salt="oAg9tIwBfg==" IV="JTnz6VxIcQo=" xmlns="http://www.w3.org/2001/04/xmlenc#"><EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/><CipherData><CipherValue>JTnz6VxIcQoaoSl5zV1bUhDz6xiv40utAWvdTpqGOPhXqD7gNUTseN3GeZelsG1ikCvsV1GoXnrp+G3SVaob+on1kLw6vP9R</CipherValue></CipherData></EncryptedData></ConnectionManager></DTS:ObjectData></DTS:ConnectionManager>
 <DTS:ConnectionManager>
 <DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">Salesforce-CargaCasosNoResueltos.dtsx</DTS:Property>
@@ -105,7 +105,7 @@
 <DTS:Property DTS:Name="DTSID">{A74FFC85-15FC-40B6-85A9-A37C00101C33}</DTS:Property>
 <DTS:Property DTS:Name="Description">Execute Package Task</DTS:Property>
 <DTS:Property DTS:Name="CreationName">SSIS.ExecutePackageTask.2</DTS:Property>
-<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><ExecutePackageTask><ExecuteOutOfProcess>False</ExecuteOutOfProcess><PackageName></PackageName><EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element" Salt="eq9czmtceQ==" IV="p3WdwpY1L5A=" xmlns="http://www.w3.org/2001/04/xmlenc#"><EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/><CipherData><CipherValue>p3WdwpY1L5AZ/uy/nQYVVOCEKS0XOIBbqRGQTGEZ27DVU1c4gPvvLg+4Z2YhtiMhBys2dw+srUBYmwKdiZkFTw==</CipherValue></CipherData></EncryptedData><PackageID></PackageID><VersionID></VersionID><Connection>{3F4C5645-17EC-4BFF-9CD6-506650DFB9B0}</Connection></ExecutePackageTask></DTS:ObjectData></DTS:Executable>
+<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><ExecutePackageTask><ExecuteOutOfProcess>False</ExecuteOutOfProcess><PackageName></PackageName><EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element" Salt="WCkFSDWJIg==" IV="DEVeKQvjXYA=" xmlns="http://www.w3.org/2001/04/xmlenc#"><EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/><CipherData><CipherValue>DEVeKQvjXYC1XdAVIsKjyteAfGtwEkdPXP5c7HtkHCThF5BPKXvzNUDVvJxZpdMwr6zgTOqfoPG8badkw9KRQA==</CipherValue></CipherData></EncryptedData><PackageID></PackageID><VersionID></VersionID><Connection>{3F4C5645-17EC-4BFF-9CD6-506650DFB9B0}</Connection></ExecutePackageTask></DTS:ObjectData></DTS:Executable>
 <DTS:Executable DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" DTS:ThreadHint="0">
 <DTS:Property DTS:Name="ExecutionLocation">0</DTS:Property>
 <DTS:Property DTS:Name="ExecutionAddress"></DTS:Property>
@@ -379,7 +379,7 @@
 <DTS:Property DTS:Name="DTSID">{3899d7ec-0662-4d75-a81f-7a2938cccf9a}</DTS:Property>
 <DTS:Property DTS:Name="Description">Execute Package Task</DTS:Property>
 <DTS:Property DTS:Name="CreationName">SSIS.ExecutePackageTask.2</DTS:Property>
-<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><ExecutePackageTask><ExecuteOutOfProcess>False</ExecuteOutOfProcess><PackageName></PackageName><EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element" Salt="Qk8UhaeojA==" IV="XG8DiUxWRTY=" xmlns="http://www.w3.org/2001/04/xmlenc#"><EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/><CipherData><CipherValue>XG8DiUxWRTbi1f62V95Vw2rmt5PTm3F4JAHc/guG78Ap5S7P8HfcYxcyugTlGBXaJye9wppGNZJERvQsctJaTA==</CipherValue></CipherData></EncryptedData><PackageID></PackageID><VersionID></VersionID><Connection>{3F4C5645-17EC-4BFF-9CD6-506650DFB9B0}</Connection></ExecutePackageTask></DTS:ObjectData></DTS:Executable>
+<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><ExecutePackageTask><ExecuteOutOfProcess>False</ExecuteOutOfProcess><PackageName></PackageName><EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element" Salt="eHyfTiOg1w==" IV="XY4buamnzKY=" xmlns="http://www.w3.org/2001/04/xmlenc#"><EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/><CipherData><CipherValue>XY4buamnzKbZDwnrZowQ9Pa8ae2kaY/9/jO/pxvigpBRpUdZ+SFrkQ58PQfeW/RqHUS6fm8pETXZ1g8LTWmSsg==</CipherValue></CipherData></EncryptedData><PackageID></PackageID><VersionID></VersionID><Connection>{3F4C5645-17EC-4BFF-9CD6-506650DFB9B0}</Connection></ExecutePackageTask></DTS:ObjectData></DTS:Executable>
 <DTS:Executable DTS:ExecutableType="SSIS.ExecutePackageTask.2">
 <DTS:Property DTS:Name="ExecutionLocation">0</DTS:Property>
 <DTS:Property DTS:Name="ExecutionAddress"></DTS:Property>
@@ -403,7 +403,7 @@
 <DTS:Property DTS:Name="DTSID">{C565D89F-4567-4A13-9096-C2CF56495511}</DTS:Property>
 <DTS:Property DTS:Name="Description">Execute Package Task</DTS:Property>
 <DTS:Property DTS:Name="CreationName">SSIS.ExecutePackageTask.2</DTS:Property>
-<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><ExecutePackageTask><ExecuteOutOfProcess>False</ExecuteOutOfProcess><PackageName></PackageName><EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element" Salt="7mhotwCOsQ==" IV="6akyc8GUBMI=" xmlns="http://www.w3.org/2001/04/xmlenc#"><EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/><CipherData><CipherValue>6akyc8GUBMID7iqHpKePKF4sY9wgvVUBggzQhCpyhfX8d/XxztofK60v3SvstzyI3c4WPbD1qaTOu8UBzvv4kQ==</CipherValue></CipherData></EncryptedData><PackageID></PackageID><VersionID></VersionID><Connection>{530BF4BD-4640-4A13-BEF8-887D3079C06C}</Connection></ExecutePackageTask></DTS:ObjectData></DTS:Executable>
+<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><ExecutePackageTask><ExecuteOutOfProcess>False</ExecuteOutOfProcess><PackageName></PackageName><EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element" Salt="h2EFMWd4Fg==" IV="Qr+jPlLtmt4=" xmlns="http://www.w3.org/2001/04/xmlenc#"><EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/><CipherData><CipherValue>Qr+jPlLtmt5p6UxPC0wIPecxJtwut8wXCfoPz6wzMA5vjEa/bDDIaq8TLK7nzlgtMTnCJ2KUVvofn6V4vwjCMQ==</CipherValue></CipherData></EncryptedData><PackageID></PackageID><VersionID></VersionID><Connection>{530BF4BD-4640-4A13-BEF8-887D3079C06C}</Connection></ExecutePackageTask></DTS:ObjectData></DTS:Executable>
 <DTS:Executable DTS:ExecutableType="SSIS.ExecutePackageTask.2">
 <DTS:Property DTS:Name="ExecutionLocation">0</DTS:Property>
 <DTS:Property DTS:Name="ExecutionAddress"></DTS:Property>
@@ -427,7 +427,7 @@
 <DTS:Property DTS:Name="DTSID">{2028cc46-91a3-4756-8224-f5f7828f2a31}</DTS:Property>
 <DTS:Property DTS:Name="Description">Execute Package Task</DTS:Property>
 <DTS:Property DTS:Name="CreationName">SSIS.ExecutePackageTask.2</DTS:Property>
-<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><ExecutePackageTask><ExecuteOutOfProcess>False</ExecuteOutOfProcess><PackageName></PackageName><EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element" Salt="tqzGW0/Uqw==" IV="sJNqvkDDsQg=" xmlns="http://www.w3.org/2001/04/xmlenc#"><EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/><CipherData><CipherValue>sJNqvkDDsQgnFou5/HhGJtMgvH8H+V+PLiq0YhPW+JPYYLeHRz+FBSpyDOLvz8CzjBrNq3VoZbhY7nJddyrSLg==</CipherValue></CipherData></EncryptedData><PackageID></PackageID><VersionID></VersionID><Connection>{3F4C5645-17EC-4BFF-9CD6-506650DFB9B0}</Connection></ExecutePackageTask></DTS:ObjectData></DTS:Executable>
+<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><ExecutePackageTask><ExecuteOutOfProcess>False</ExecuteOutOfProcess><PackageName></PackageName><EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element" Salt="Qv+NIGuZcA==" IV="XX0d+dB3+no=" xmlns="http://www.w3.org/2001/04/xmlenc#"><EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/><CipherData><CipherValue>XX0d+dB3+npTl5HDwyrd5QKFD/ng4jqSjj/CkhHkEZ6wK1qG1R8o+prQH9xNjyaFHPI5vYeMQkmh4Wv6bR2xXg==</CipherValue></CipherData></EncryptedData><PackageID></PackageID><VersionID></VersionID><Connection>{3F4C5645-17EC-4BFF-9CD6-506650DFB9B0}</Connection></ExecutePackageTask></DTS:ObjectData></DTS:Executable>
 <DTS:Executable DTS:ExecutableType="SSIS.Pipeline.2">
 <DTS:Property DTS:Name="ExecutionLocation">0</DTS:Property>
 <DTS:Property DTS:Name="ExecutionAddress"></DTS:Property>
@@ -1078,7 +1078,7 @@ select  Id
 <DTS:Property DTS:Name="DTSID">{1AF9FC49-03D5-47FB-8858-BD4122BEE585}</DTS:Property>
 <DTS:Property DTS:Name="Description">Execute Package Task</DTS:Property>
 <DTS:Property DTS:Name="CreationName">SSIS.ExecutePackageTask.2</DTS:Property>
-<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><ExecutePackageTask><ExecuteOutOfProcess>False</ExecuteOutOfProcess><PackageName></PackageName><EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element" Salt="z+eRrT/5gw==" IV="1Mgg5cY/s/A=" xmlns="http://www.w3.org/2001/04/xmlenc#"><EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/><CipherData><CipherValue>1Mgg5cY/s/AtdLdimmn9y+ynmtWEc11ZXhQivmYGZtPmoVSaIFJfdEl6S/sPdiwvJxoQmlEcQQ4HroujYkr/XA==</CipherValue></CipherData></EncryptedData><PackageID></PackageID><VersionID></VersionID><Connection>{A4599ED5-1147-4887-9694-28E5F72CE8D3}</Connection></ExecutePackageTask></DTS:ObjectData></DTS:Executable>
+<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><ExecutePackageTask><ExecuteOutOfProcess>False</ExecuteOutOfProcess><PackageName></PackageName><EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element" Salt="5Mw4QWjNzg==" IV="QjKC1MVK3ao=" xmlns="http://www.w3.org/2001/04/xmlenc#"><EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/><CipherData><CipherValue>QjKC1MVK3aqxydj3w4IHOq1VaJ1Dw36UARJdk6inikgvIR1q2ZYE6FfajAOWazgfqJJU8h/PVPcW6CafyBtwyw==</CipherValue></CipherData></EncryptedData><PackageID></PackageID><VersionID></VersionID><Connection>{A4599ED5-1147-4887-9694-28E5F72CE8D3}</Connection></ExecutePackageTask></DTS:ObjectData></DTS:Executable>
 <DTS:Executable DTS:ExecutableType="SSIS.ExecutePackageTask.2">
 <DTS:Property DTS:Name="ExecutionLocation">0</DTS:Property>
 <DTS:Property DTS:Name="ExecutionAddress"></DTS:Property>
@@ -1102,7 +1102,7 @@ select  Id
 <DTS:Property DTS:Name="DTSID">{6271b602-86d6-480b-abc0-018ebde41796}</DTS:Property>
 <DTS:Property DTS:Name="Description">Execute Package Task</DTS:Property>
 <DTS:Property DTS:Name="CreationName">SSIS.ExecutePackageTask.2</DTS:Property>
-<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><ExecutePackageTask><ExecuteOutOfProcess>False</ExecuteOutOfProcess><PackageName></PackageName><EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element" Salt="yv0TDDU9ew==" IV="PyxP0amIS4c=" xmlns="http://www.w3.org/2001/04/xmlenc#"><EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/><CipherData><CipherValue>PyxP0amIS4cEzglwZcnAnk8P+KD3zpX7yIgyNp7Jj5BFLT9a1ljTjTWrVxJMxaZgHl224x3wWfqrPOB7DYhH6w==</CipherValue></CipherData></EncryptedData><PackageID></PackageID><VersionID></VersionID><Connection>{3F4C5645-17EC-4BFF-9CD6-506650DFB9B0}</Connection></ExecutePackageTask></DTS:ObjectData></DTS:Executable>
+<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><ExecutePackageTask><ExecuteOutOfProcess>False</ExecuteOutOfProcess><PackageName></PackageName><EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element" Salt="b9EudvW5Hg==" IV="xedPjIH7TUU=" xmlns="http://www.w3.org/2001/04/xmlenc#"><EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/><CipherData><CipherValue>xedPjIH7TUWEF0XQGLB1YCjqySIAztyX2Qzngu4m1HWqIc0HZzvPDAyevXOpSbnT1LgKBFE6SPeTh7y4fvRJQA==</CipherValue></CipherData></EncryptedData><PackageID></PackageID><VersionID></VersionID><Connection>{3F4C5645-17EC-4BFF-9CD6-506650DFB9B0}</Connection></ExecutePackageTask></DTS:ObjectData></DTS:Executable>
 <DTS:Executable DTS:ExecutableType="SSIS.Pipeline.2">
 <DTS:Property DTS:Name="ExecutionLocation">0</DTS:Property>
 <DTS:Property DTS:Name="ExecutionAddress"></DTS:Property>
@@ -1753,7 +1753,203 @@ select  Id
 <DTS:Property DTS:Name="DTSID">{80ba2e75-3c12-4eba-b461-a9c434a99a4d}</DTS:Property>
 <DTS:Property DTS:Name="Description">Execute SQL Task</DTS:Property>
 <DTS:Property DTS:Name="CreationName">Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91</DTS:Property>
-<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><SQLTask:SqlTaskData SQLTask:Connection="{03755A52-CF6E-427D-9546-D18EA2CB1667}" SQLTask:TimeOut="0" SQLTask:IsStoredProc="False" SQLTask:BypassPrepare="True" SQLTask:SqlStmtSourceType="DirectInput" SQLTask:SqlStatementSource="truncate table SISTEMA_CENTRAL.dbo.bi_salesforce_casos&#xA;insert into SISTEMA_CENTRAL.dbo.bi_salesforce_casos&#xA;([AccountId]&#xA;      ,[Antiguedad_en_dias__c]&#xA;      ,[Antiguedad_ltima_actividad__c]&#xA;      ,[Ayudante_asignado__c]&#xA;      ,[Ayudante_que_realizo_trabajos__c]&#xA;      ,[Cantidad_de_tecnicos_asignados__c]&#xA;      ,[cantidad_de_tecnicos_que_trabajaron__c]&#xA;      ,[CaseNumber]&#xA;      ,[Caso_Auditado__c]&#xA;      ,[Caso_T_cnico_Resuelto__c]&#xA;      ,[Central_del_Cliente__c]&#xA;      ,[Certificacion_de_Horarios__c]&#xA;      ,[cirrusadv__Created_by_Cirrus_Insight__c]&#xA;      ,[ClosedDate]&#xA;      ,[Cobro__c]&#xA;      ,[Comentarios_de_Cierre_de_Oportunidad__c]&#xA;      ,[COMPLEJIDAD_TECNICA__c]&#xA;      ,[ContactId]&#xA;      ,[Contador_de_Casos__c]&#xA;      ,[Contrato_Guard_Service_Seguridad__c]&#xA;      ,[CreatedById]&#xA;      ,[CreatedDate]&#xA;      ,[CurrencyIsoCode]&#xA;      ,[Delta_vs_programacion__c]&#xA;      ,[Descripcion_de_Trabajos__c]&#xA;      ,[Description]&#xA;      ,[Diagnostico_del_Jefe_Tecnico__c]&#xA;      ,[Equipo_Refabricado__c]&#xA;      ,[Equipos_de_Inventario_Tecnico__c]&#xA;      ,[Equipos_Refabricados_a_Entregar__c]&#xA;      ,[Estado_de_Cotizaci_n__c]&#xA;      ,[Estado_de_Facturacion__c]&#xA;      ,[Estado_de_Gu_a_T_cnica__c]&#xA;      ,[Evaluaci_n_Jefe_T_cnico_Efectuada__c]&#xA;      ,[Evaluaci_n_Jefe_T_cnico_Requerida__c]&#xA;      ,[Fecha_de_inicio__c]&#xA;      ,[Fecha_de_termino__c]&#xA;      ,[Fecha_programada_de_inicio__c]&#xA;      ,[Fecha_programada_de_termino__c]&#xA;      ,[Gu_a_tecnica__c]&#xA;      ,[HasCommentsUnreadByOwner]&#xA;      ,[HasSelfServiceComments]&#xA;      ,[Id]&#xA;      ,[IsClosed]&#xA;      ,[IsDeleted]&#xA;      ,[IsEscalated]&#xA;      ,[LastModifiedById]&#xA;      ,[LastModifiedDate]&#xA;      ,[LastReferencedDate]&#xA;      ,[LastViewedDate]&#xA;      ,[Materiale_Equipos__c]&#xA;      ,[Materiales_equipos_requeridos__c]&#xA;      ,[Motivo_de_reprogramacion__c]&#xA;      ,[Motivo_de_Requerimiento_de_Equipos__c]&#xA;      ,[Motivo_del_caso__c]&#xA;      ,[Motivo_Programacion_Pendiente__c]&#xA;      ,[N_mero_caso_softguard__c]&#xA;      ,[Origin]&#xA;      ,[OwnerId]&#xA;      ,[ParentId]&#xA;      ,[Priority]&#xA;      ,[Priority_Flag__c]&#xA;      ,[Puntualidad__c]&#xA;      ,[Razon_de_Caso_Inconcluso__c]&#xA;      ,[rea__c]&#xA;      ,[Reason]&#xA;      ,[RecordTypeId]&#xA;      ,[Reprogramar__c]&#xA;      ,[Requerir_equipos_y_materiales__c]&#xA;      ,[Requiere_Evaluacion_del_Jefe_T_cnico__c]&#xA;      ,[Resoluci_n_de_Caso__c]&#xA;      ,[Retiro_de_equipos_aprobado__c]&#xA;      ,[Se_requiere_abrir_otro_caso__c]&#xA;      ,[Status]&#xA;      ,[Subject]&#xA;      ,[SuppliedCompany]&#xA;      ,[SuppliedEmail]&#xA;      ,[SuppliedName]&#xA;      ,[SuppliedPhone]&#xA;      ,[SystemModstamp]&#xA;      ,[Tecnico_asignado__c]&#xA;      ,[Tecnico_que_realiz__c]&#xA;      ,[Tecnico_que_realizo_trabajos__c]&#xA;      ,[Tiempo_de_ejecucion__c]&#xA;      ,[Tiempo_Esperado_de_Trabajo__c]&#xA;      ,[Tiempo_programado__c]&#xA;      ,[Tipo_de_caso__c]&#xA;      ,[Type]&#xA;      ,[Valor__c])&#xA;&#xA;&#xA; select&#xA;&#xA;[AccountId]&#xA;      ,[Antiguedad_en_dias__c]&#xA;      ,[Antiguedad_ltima_actividad__c]&#xA;      ,[Ayudante_asignado__c]&#xA;      ,[Ayudante_que_realizo_trabajos__c]&#xA;      ,[Cantidad_de_tecnicos_asignados__c]&#xA;      ,[cantidad_de_tecnicos_que_trabajaron__c]&#xA;      ,[CaseNumber]&#xA;      ,[Caso_Auditado__c]&#xA;      ,[Caso_T_cnico_Resuelto__c]&#xA;      ,[Central_del_Cliente__c]&#xA;      ,[Certificacion_de_Horarios__c]&#xA;      ,[cirrusadv__Created_by_Cirrus_Insight__c]&#xA;      ,[ClosedDate]&#xA;      ,[Cobro__c]&#xA;      ,[Comentarios_de_Cierre_de_Oportunidad__c]&#xA;      ,[COMPLEJIDAD_TECNICA__c]&#xA;      ,[ContactId]&#xA;      ,[Contador_de_Casos__c]&#xA;      ,[Contrato_Guard_Service_Seguridad__c]&#xA;      ,[CreatedById]&#xA;      ,[CreatedDate]&#xA;      ,[CurrencyIsoCode]&#xA;      ,[Delta_vs_programacion__c]&#xA;      ,[Descripcion_de_Trabajos__c]&#xA;      ,[Description]&#xA;      ,[Diagnostico_del_Jefe_Tecnico__c]&#xA;      ,[Equipo_Refabricado__c]&#xA;      ,[Equipos_de_Inventario_Tecnico__c]&#xA;      ,[Equipos_Refabricados_a_Entregar__c]&#xA;      ,[Estado_de_Cotizaci_n__c]&#xA;      ,[Estado_de_Facturacion__c]&#xA;      ,[Estado_de_Gu_a_T_cnica__c]&#xA;      ,[Evaluaci_n_Jefe_T_cnico_Efectuada__c]&#xA;      ,[Evaluaci_n_Jefe_T_cnico_Requerida__c]&#xA;      ,[Fecha_de_inicio__c]&#xA;      ,[Fecha_de_termino__c]&#xA;      ,[Fecha_programada_de_inicio__c]&#xA;      ,[Fecha_programada_de_termino__c]&#xA;      ,[Gu_a_tecnica__c]&#xA;      ,[HasCommentsUnreadByOwner]&#xA;      ,[HasSelfServiceComments]&#xA;      ,[Id]&#xA;      ,[IsClosed]&#xA;      ,[IsDeleted]&#xA;      ,[IsEscalated]&#xA;      ,[LastModifiedById]&#xA;      ,[LastModifiedDate]&#xA;      ,[LastReferencedDate]&#xA;      ,[LastViewedDate]&#xA;      ,[Materiale_Equipos__c]&#xA;      ,[Materiales_equipos_requeridos__c]&#xA;      ,[Motivo_de_reprogramacion__c]&#xA;      ,[Motivo_de_Requerimiento_de_Equipos__c]&#xA;      ,[Motivo_del_caso__c]&#xA;      ,[Motivo_Programacion_Pendiente__c]&#xA;      ,[N_mero_caso_softguard__c]&#xA;      ,[Origin]&#xA;      ,[OwnerId]&#xA;      ,[ParentId]&#xA;      ,[Priority]&#xA;      ,[Priority_Flag__c]&#xA;      ,[Puntualidad__c]&#xA;      ,[Razon_de_Caso_Inconcluso__c]&#xA;      ,[rea__c]&#xA;      ,[Reason]&#xA;      ,[RecordTypeId]&#xA;      ,[Reprogramar__c]&#xA;      ,[Requerir_equipos_y_materiales__c]&#xA;      ,[Requiere_Evaluacion_del_Jefe_T_cnico__c]&#xA;      ,[Resoluci_n_de_Caso__c]&#xA;      ,[Retiro_de_equipos_aprobado__c]&#xA;      ,[Se_requiere_abrir_otro_caso__c]&#xA;      ,[Status]&#xA;      ,[Subject]&#xA;      ,[SuppliedCompany]&#xA;      ,[SuppliedEmail]&#xA;      ,[SuppliedName]&#xA;      ,[SuppliedPhone]&#xA;      ,[SystemModstamp]&#xA;      ,[Tecnico_asignado__c]&#xA;      ,[Tecnico_que_realiz__c]&#xA;      ,[Tecnico_que_realizo_trabajos__c]&#xA;      ,[Tiempo_de_ejecucion__c]&#xA;      ,[Tiempo_Esperado_de_Trabajo__c]&#xA;      ,[Tiempo_programado__c]&#xA;      ,[Tipo_de_caso__c]&#xA;      ,[Type]&#xA;      ,[Valor__c]&#xA;&#xA; from&#xA;inteligencias.dbo.sf_casos where isdeleted=0&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;-------------------------------------CARGA PRIORIDADES------------------------------------&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;-------PRIORIDADES------------------&#xA;--  -Cientes con más de 3 días de NSR: 12&#xA;-- -Clientes con caso resuelto=NO :9&#xA;-- -Clientes con Certificación de calidad no aprobada:8&#xA;--  -Clientes con más de 3 casos no resueltos:5     en los ultimos 3 meses&#xA;&#xA;-- - Deuda &gt;120 mil: -1&#xA;--MOD 26/07 Caso pendiente aprobar cotizacion: -2&#xA;&#xA;--MOD 16/08 Se añadio logica algoritmica al calculo de deuda, tomando en cuenta cada cuantos meses se factura, si en la ventana de una facturacion mas 4 meses tiene deuda superior a 3 uf &#xA;--o fecha posterior a esa ventana su deuda es mayora a 120 mil , entonces se bloquea por deuda.&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA; update Sistema_Central.dbo.bi_salesforce_casos&#xA;  set Prog_Prioridad_num=&#xA;&#xA;    Case when &#xA;   -- DEUDA DESDE EL LA CANTIDAD DE MESES DE FACTURACION (1,3,6,12) HASTA 4 MESES ATRAS no debe superar 3 uf&#xA; ( -- INICIO OR&#xA;  (select SUM(deuda)&#xA;  FROM [Inteligencias].[dbo].[GS_DOCUMENTOS] where  [CLI_SUC_CODI_INT ]=a.AccountNumber &#xA;  and [DOC_FECH     ] &#xA;  between  DATEADD(mm,-4-1*(select top 1 CLI_MESES from [Inteligencias].[dbo].[GS_DOCUMENTOS] where [CLI_SUC_CODI_INT ]=a.AccountNumber),getdate()) &#xA;  --and DATEADD(mm,-2,getdate() ))&gt;79735&#xA;   and  DATEADD(mm,-1*(select top 1 CLI_MESES from [Inteligencias].[dbo].[GS_DOCUMENTOS] where [CLI_SUC_CODI_INT ]=a.AccountNumber),getdate())&#xA;   )&gt;79735 --valor 3 uf al 16/08/2017  &#xA;   --or deuda mayor a 5 meses &#xA;   OR&#xA;   &#xA;   --DEUDA MAYOR A 4 MESES CONTANDO LA ULTIMA FACTURACION (SEGUN LA CUENTA 1,3,6,12 MESES) NO DEBE SUPERAR LOS 120000&#xA;   (select SUM(deuda)&#xA;  FROM [Inteligencias].[dbo].[GS_DOCUMENTOS] where  [CLI_SUC_CODI_INT ]=a.AccountNumber &#xA;  and [DOC_FECH     ] &#xA;  --MENOR LA FECHA&#xA;  &lt;  DATEADD(mm,-4-1*(select top 1 CLI_MESES from [Inteligencias].[dbo].[GS_DOCUMENTOS] where [CLI_SUC_CODI_INT ]=a.AccountNumber),getdate()) &#xA;   )&gt;120000&#xA;) --FIN OR  &#xA;--Cuentas nómina pac autorizados para desface por gerencia no deben considerarse&#xA;   AND &#xA;  a.AccountNumber not in ('781','6015','2173','5975'       ,'5753','3263','4865','3985','4511','235','5773','4286','5408','5432','5671','5672','5815','3823','2061','1534'&#xA;  ,'4769','1424','4624','4536','5023','5394','4212','5439','5090','1258','3690','5175','3653','5539','4302','4537','4111','4950','4669','5793'&#xA;  ,'4542','5479','5538','5576','5579','615','3268','4326','5711','4705','1088','5534','4059','5455','5362','5761','4868','5643','3618','4924'&#xA;  ,'4602','4822','1452','1812','3139','3140','5173','5861','4826','5375','4930','5292','2423','4872','4828','4173','2544','5477','3339','5185'&#xA;  ,'2316','3452','2835','4290','5201','1899','3595','4166','4916','747','5422','4572','5478','745','5473','5378','3290','4827','4792','4724'&#xA;  ,'2883','4450','4353','4623','5141','5317','5318','5427','3854','4847','415','5481','5710','3520','4817','4426','4666','3782','4157','3786'&#xA;  ,'4703','1913','5294','5799','5800','5155','4632','3755','4726','1217','3246','3535')&#xA;&#xA; then -1&#xA;&#xA;      when status='Por aprobar cotización'  then -2&#xA;     when accountId is null  then -3&#xA;&#xA;else&#xA;       case when&#xA;            case when isnumeric (SUBSTRING(Estado_recepciones_monitoreo__c,1,2))=1 then convert(int,SUBSTRING(Estado_recepciones_monitoreo__c,1,2)) else 0 end &#xA;             &gt;3 then 12 &#xA;        else&#xA;			case  when Casos_tecn_abiertos__c&gt;=3 then 5 &#xA;			else &#xA;                case when a.Description like '%CERTIFICACION NO APROBADA%' then 8 &#xA;                else&#xA;                    case  when a.Description like '%CASO NO RESUELTO%' then 9 &#xA;                    else 1 &#xA;                end    &#xA;            end        &#xA;         end &#xA;        end&#xA;      &#xA;      &#xA;       end  &#xA;      &#xA;&#xA;      &#xA;  FROM &#xA;  (&#xA;  select  cas.Id,cue.AccountNumber, cue.Estado_recepciones_monitoreo__c,cue.Deuda__c,cas.Description,cue.Casos_tecn_abiertos__c&#xA;  &#xA;  from&#xA;  [Inteligencias].[dbo].[SF_CASOS]  as cas&#xA;  inner join Inteligencias.dbo.SF_CUENTAS as cue&#xA; on cas.AccountId=cue.Id&#xA;  where cas.isDeleted=0 and [status] in ('En espera de programacion','En espera de reprogramacion','Por aprobar cotización') &#xA; &#xA; )a&#xA;  &#xA;   where a.id=bi_salesforce_casos.id&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;" SQLTask:CodePage="1252" SQLTask:ResultType="ResultSetType_None" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask"/></DTS:ObjectData></DTS:Executable>
+<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><SQLTask:SqlTaskData SQLTask:Connection="{03755A52-CF6E-427D-9546-D18EA2CB1667}" SQLTask:TimeOut="0" SQLTask:IsStoredProc="False" SQLTask:BypassPrepare="True" SQLTask:SqlStmtSourceType="DirectInput" SQLTask:SqlStatementSource="truncate table SISTEMA_CENTRAL.dbo.bi_salesforce_casos&#xA;insert into SISTEMA_CENTRAL.dbo.bi_salesforce_casos&#xA;([AccountId]&#xA;      ,[Antiguedad_en_dias__c]&#xA;      ,[Antiguedad_ltima_actividad__c]&#xA;      ,[Ayudante_asignado__c]&#xA;      ,[Ayudante_que_realizo_trabajos__c]&#xA;      ,[Cantidad_de_tecnicos_asignados__c]&#xA;      ,[cantidad_de_tecnicos_que_trabajaron__c]&#xA;      ,[CaseNumber]&#xA;      ,[Caso_Auditado__c]&#xA;      ,[Caso_T_cnico_Resuelto__c]&#xA;      ,[Central_del_Cliente__c]&#xA;      ,[Certificacion_de_Horarios__c]&#xA;      ,[cirrusadv__Created_by_Cirrus_Insight__c]&#xA;      ,[ClosedDate]&#xA;      ,[Cobro__c]&#xA;      ,[Comentarios_de_Cierre_de_Oportunidad__c]&#xA;      ,[COMPLEJIDAD_TECNICA__c]&#xA;      ,[ContactId]&#xA;      ,[Contador_de_Casos__c]&#xA;      ,[Contrato_Guard_Service_Seguridad__c]&#xA;      ,[CreatedById]&#xA;      ,[CreatedDate]&#xA;      ,[CurrencyIsoCode]&#xA;      ,[Delta_vs_programacion__c]&#xA;      ,[Descripcion_de_Trabajos__c]&#xA;      ,[Description]&#xA;      ,[Diagnostico_del_Jefe_Tecnico__c]&#xA;      ,[Equipo_Refabricado__c]&#xA;      ,[Equipos_de_Inventario_Tecnico__c]&#xA;      ,[Equipos_Refabricados_a_Entregar__c]&#xA;      ,[Estado_de_Cotizaci_n__c]&#xA;      ,[Estado_de_Facturacion__c]&#xA;      ,[Estado_de_Gu_a_T_cnica__c]&#xA;      ,[Evaluaci_n_Jefe_T_cnico_Efectuada__c]&#xA;      ,[Evaluaci_n_Jefe_T_cnico_Requerida__c]&#xA;      ,[Fecha_de_inicio__c]&#xA;      ,[Fecha_de_termino__c]&#xA;      ,[Fecha_programada_de_inicio__c]&#xA;      ,[Fecha_programada_de_termino__c]&#xA;      ,[Gu_a_tecnica__c]&#xA;      ,[HasCommentsUnreadByOwner]&#xA;      ,[HasSelfServiceComments]&#xA;      ,[Id]&#xA;      ,[IsClosed]&#xA;      ,[IsDeleted]&#xA;      ,[IsEscalated]&#xA;      ,[LastModifiedById]&#xA;      ,[LastModifiedDate]&#xA;      ,[LastReferencedDate]&#xA;      ,[LastViewedDate]&#xA;      ,[Materiale_Equipos__c]&#xA;      ,[Materiales_equipos_requeridos__c]&#xA;      ,[Motivo_de_reprogramacion__c]&#xA;      ,[Motivo_de_Requerimiento_de_Equipos__c]&#xA;      ,[Motivo_del_caso__c]&#xA;      ,[Motivo_Programacion_Pendiente__c]&#xA;      ,[N_mero_caso_softguard__c]&#xA;      ,[Origin]&#xA;      ,[OwnerId]&#xA;      ,[ParentId]&#xA;      ,[Priority]&#xA;      ,[Priority_Flag__c]&#xA;      ,[Puntualidad__c]&#xA;      ,[Razon_de_Caso_Inconcluso__c]&#xA;      ,[rea__c]&#xA;      ,[Reason]&#xA;      ,[RecordTypeId]&#xA;      ,[Reprogramar__c]&#xA;      ,[Requerir_equipos_y_materiales__c]&#xA;      ,[Requiere_Evaluacion_del_Jefe_T_cnico__c]&#xA;      ,[Resoluci_n_de_Caso__c]&#xA;      ,[Retiro_de_equipos_aprobado__c]&#xA;      ,[Se_requiere_abrir_otro_caso__c]&#xA;      ,[Status]&#xA;      ,[Subject]&#xA;      ,[SuppliedCompany]&#xA;      ,[SuppliedEmail]&#xA;      ,[SuppliedName]&#xA;      ,[SuppliedPhone]&#xA;      ,[SystemModstamp]&#xA;      ,[Tecnico_asignado__c]&#xA;      ,[Tecnico_que_realiz__c]&#xA;      ,[Tecnico_que_realizo_trabajos__c]&#xA;      ,[Tiempo_de_ejecucion__c]&#xA;      ,[Tiempo_Esperado_de_Trabajo__c]&#xA;      ,[Tiempo_programado__c]&#xA;      ,[Tipo_de_caso__c]&#xA;      ,[Type]&#xA;      ,[Valor__c])&#xA;&#xA;&#xA; select&#xA;&#xA;[AccountId]&#xA;      ,[Antiguedad_en_dias__c]&#xA;      ,[Antiguedad_ltima_actividad__c]&#xA;      ,[Ayudante_asignado__c]&#xA;      ,[Ayudante_que_realizo_trabajos__c]&#xA;      ,[Cantidad_de_tecnicos_asignados__c]&#xA;      ,[cantidad_de_tecnicos_que_trabajaron__c]&#xA;      ,[CaseNumber]&#xA;      ,[Caso_Auditado__c]&#xA;      ,[Caso_T_cnico_Resuelto__c]&#xA;      ,[Central_del_Cliente__c]&#xA;      ,[Certificacion_de_Horarios__c]&#xA;      ,[cirrusadv__Created_by_Cirrus_Insight__c]&#xA;      ,[ClosedDate]&#xA;      ,[Cobro__c]&#xA;      ,[Comentarios_de_Cierre_de_Oportunidad__c]&#xA;      ,[COMPLEJIDAD_TECNICA__c]&#xA;      ,[ContactId]&#xA;      ,[Contador_de_Casos__c]&#xA;      ,[Contrato_Guard_Service_Seguridad__c]&#xA;      ,[CreatedById]&#xA;      ,[CreatedDate]&#xA;      ,[CurrencyIsoCode]&#xA;      ,[Delta_vs_programacion__c]&#xA;      ,[Descripcion_de_Trabajos__c]&#xA;      ,[Description]&#xA;      ,[Diagnostico_del_Jefe_Tecnico__c]&#xA;      ,[Equipo_Refabricado__c]&#xA;      ,[Equipos_de_Inventario_Tecnico__c]&#xA;      ,[Equipos_Refabricados_a_Entregar__c]&#xA;      ,[Estado_de_Cotizaci_n__c]&#xA;      ,[Estado_de_Facturacion__c]&#xA;      ,[Estado_de_Gu_a_T_cnica__c]&#xA;      ,[Evaluaci_n_Jefe_T_cnico_Efectuada__c]&#xA;      ,[Evaluaci_n_Jefe_T_cnico_Requerida__c]&#xA;      ,[Fecha_de_inicio__c]&#xA;      ,[Fecha_de_termino__c]&#xA;      ,[Fecha_programada_de_inicio__c]&#xA;      ,[Fecha_programada_de_termino__c]&#xA;      ,[Gu_a_tecnica__c]&#xA;      ,[HasCommentsUnreadByOwner]&#xA;      ,[HasSelfServiceComments]&#xA;      ,[Id]&#xA;      ,[IsClosed]&#xA;      ,[IsDeleted]&#xA;      ,[IsEscalated]&#xA;      ,[LastModifiedById]&#xA;      ,[LastModifiedDate]&#xA;      ,[LastReferencedDate]&#xA;      ,[LastViewedDate]&#xA;      ,[Materiale_Equipos__c]&#xA;      ,[Materiales_equipos_requeridos__c]&#xA;      ,[Motivo_de_reprogramacion__c]&#xA;      ,[Motivo_de_Requerimiento_de_Equipos__c]&#xA;      ,[Motivo_del_caso__c]&#xA;      ,[Motivo_Programacion_Pendiente__c]&#xA;      ,[N_mero_caso_softguard__c]&#xA;      ,[Origin]&#xA;      ,[OwnerId]&#xA;      ,[ParentId]&#xA;      ,[Priority]&#xA;      ,[Priority_Flag__c]&#xA;      ,[Puntualidad__c]&#xA;      ,[Razon_de_Caso_Inconcluso__c]&#xA;      ,[rea__c]&#xA;      ,[Reason]&#xA;      ,[RecordTypeId]&#xA;      ,[Reprogramar__c]&#xA;      ,[Requerir_equipos_y_materiales__c]&#xA;      ,[Requiere_Evaluacion_del_Jefe_T_cnico__c]&#xA;      ,[Resoluci_n_de_Caso__c]&#xA;      ,[Retiro_de_equipos_aprobado__c]&#xA;      ,[Se_requiere_abrir_otro_caso__c]&#xA;      ,[Status]&#xA;      ,[Subject]&#xA;      ,[SuppliedCompany]&#xA;      ,[SuppliedEmail]&#xA;      ,[SuppliedName]&#xA;      ,[SuppliedPhone]&#xA;      ,[SystemModstamp]&#xA;      ,[Tecnico_asignado__c]&#xA;      ,[Tecnico_que_realiz__c]&#xA;      ,[Tecnico_que_realizo_trabajos__c]&#xA;      ,[Tiempo_de_ejecucion__c]&#xA;      ,[Tiempo_Esperado_de_Trabajo__c]&#xA;      ,[Tiempo_programado__c]&#xA;      ,[Tipo_de_caso__c]&#xA;      ,[Type]&#xA;      ,[Valor__c]&#xA;&#xA; from&#xA;inteligencias.dbo.sf_casos where isdeleted=0&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;-------------------------------------CARGA PRIORIDADES------------------------------------&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;-------PRIORIDADES------------------&#xA;--  -Cientes con más de 3 días de NSR: 12&#xA;-- -Clientes con caso resuelto=NO :9&#xA;-- -Clientes con Certificación de calidad no aprobada:8&#xA;--  -Clientes con más de 3 casos no resueltos:5     en los ultimos 3 meses&#xA;&#xA;-- - Deuda &gt;120 mil: -1&#xA;--MOD 26/07 Caso pendiente aprobar cotizacion: -2&#xA;&#xA;--MOD 16/08 Se añadio logica algoritmica al calculo de deuda, tomando en cuenta cada cuantos meses se factura, si en la ventana de una facturacion mas 4 meses tiene deuda superior a 3 uf &#xA;--o fecha posterior a esa ventana su deuda es mayora a 120 mil , entonces se bloquea por deuda.&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA; update Sistema_Central.dbo.bi_salesforce_casos&#xA;  set Prog_Prioridad_num=&#xA;&#xA;    Case when &#xA;   -- DEUDA DESDE EL LA CANTIDAD DE MESES DE FACTURACION (1,3,6,12) HASTA 4 MESES ATRAS no debe superar 3 uf&#xA; ( -- INICIO OR&#xA;  (select SUM(deuda)&#xA;  FROM [Inteligencias].[dbo].[GS_DOCUMENTOS] where  [CLI_SUC_CODI_INT ]=a.AccountNumber &#xA;  and [DOC_FECH     ] &#xA;  between  DATEADD(mm,-4-1*(select top 1 CLI_MESES from [Inteligencias].[dbo].[GS_DOCUMENTOS] where [CLI_SUC_CODI_INT ]=a.AccountNumber),getdate()) &#xA;  --and DATEADD(mm,-2,getdate() ))&gt;79735&#xA;   and  DATEADD(mm,-1*(select top 1 CLI_MESES from [Inteligencias].[dbo].[GS_DOCUMENTOS] where [CLI_SUC_CODI_INT ]=a.AccountNumber),getdate())&#xA;   )&gt;79735 --valor 3 uf al 16/08/2017  &#xA;   --or deuda mayor a 5 meses &#xA;   OR&#xA;   &#xA;   --DEUDA MAYOR A 4 MESES CONTANDO LA ULTIMA FACTURACION (SEGUN LA CUENTA 1,3,6,12 MESES) NO DEBE SUPERAR LOS 120000&#xA;   (select SUM(deuda)&#xA;  FROM [Inteligencias].[dbo].[GS_DOCUMENTOS] where  [CLI_SUC_CODI_INT ]=a.AccountNumber &#xA;  and [DOC_FECH     ] &#xA;  --MENOR LA FECHA&#xA;  &lt;  DATEADD(mm,-4-1*(select top 1 CLI_MESES from [Inteligencias].[dbo].[GS_DOCUMENTOS] where [CLI_SUC_CODI_INT ]=a.AccountNumber),getdate()) &#xA;   )&gt;120000&#xA;) --FIN OR  &#xA;--Cuentas nómina pac autorizados para desface por gerencia no deben considerarse&#xA;   AND &#xA;--Excepto los clientes que estan desbloqueados&#xA;  a.AccountNumber not in (select CUENTA_CODI from Inteligencias.dbo.SF_COORD_CLIENTES_DESBL where HASTA&gt;=GETDATE())&#xA;&#xA; then -1&#xA;&#xA;      when status='Por aprobar cotización'  then -2&#xA;     when accountId is null  then -3&#xA;&#xA;else&#xA;       case when&#xA;            case when isnumeric (SUBSTRING(Estado_recepciones_monitoreo__c,1,2))=1 then convert(int,SUBSTRING(Estado_recepciones_monitoreo__c,1,2)) else 0 end &#xA;             &gt;3 then 12 &#xA;        else&#xA;			case  when Casos_tecn_abiertos__c&gt;=3 then 5 &#xA;			else &#xA;                case when a.Description like '%CERTIFICACION NO APROBADA%' then 8 &#xA;                else&#xA;                    case  when a.Description like '%CASO NO RESUELTO%' then 9 &#xA;                    else 1 &#xA;                end    &#xA;            end        &#xA;         end &#xA;        end&#xA;      &#xA;      &#xA;       end  &#xA;      &#xA;&#xA;      &#xA;  FROM &#xA;  (&#xA;  select  cas.Id,cue.AccountNumber, cue.Estado_recepciones_monitoreo__c,cue.Deuda__c,cas.Description,cue.Casos_tecn_abiertos__c&#xA;  &#xA;  from&#xA;  [Inteligencias].[dbo].[SF_CASOS]  as cas&#xA;  inner join Inteligencias.dbo.SF_CUENTAS as cue&#xA; on cas.AccountId=cue.Id&#xA;  where cas.isDeleted=0 and [status] in ('En espera de programacion','En espera de reprogramacion','Por aprobar cotización') &#xA; &#xA; )a&#xA;  &#xA;   where a.id=bi_salesforce_casos.id&#xA;&#xA;&#xA;&#xA;-- PARA DESBLOQUEO DE CUENTAS EN CASOS TECNICOS, SE AÑADE A LOS 2 PROCESOS QUE SETEAN PRIORIDAD&#xA;-- 1 PROCESO QUE SICRONIZA CASOS SALESFORCE CADA 1 MINUTO&#xA;-- 2 PROCESO QUE CARGA CASOS TECNICOS SALESFORCE 1 VEZ AL DIA&#xA;--  AÑADIR LA CUENTA LA LISTA EN LA QUERY DE PRIORIDADES  EN: AND  a.AccountNumber not  in ('1088')  &#xA;--SETEA PRIORIDAD 1 A TODOS los casos de la cuenta&#xA;&#xA;&#xA;&#xA;&#xA;update SISTEMA_CENTRAL.dbo.bi_salesforce_casos&#xA;set Prog_Prioridad_num=1&#xA;&#xA;from&#xA;(  select cas.Id as casId,cue.AccountNumber,cue.Id as cueId&#xA;  from&#xA;  [Inteligencias].[dbo].[SF_CASOS]  as cas&#xA;  inner join Inteligencias.dbo.SF_CUENTAS as cue&#xA; on cas.AccountId=cue.Id&#xA;  where cas.isDeleted=0 and [status] in ('En espera de programacion','En espera de reprogramacion') )a&#xA;&#xA;where&#xA;a.AccountNumber in (select CUENTA_CODI from Inteligencias.dbo.SF_COORD_CLIENTES_DESBL where HASTA&gt;=GETDATE()) and bi_salesforce_casos.Id=casId&#xA;&#xA;GO&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;" SQLTask:CodePage="1252" SQLTask:ResultType="ResultSetType_None" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask"/></DTS:ObjectData></DTS:Executable>
+<DTS:Executable DTS:ExecutableType="SSIS.Pipeline.2">
+<DTS:Property DTS:Name="ExecutionLocation">0</DTS:Property>
+<DTS:Property DTS:Name="ExecutionAddress"></DTS:Property>
+<DTS:Property DTS:Name="TaskContact">Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server v10; (C) 2007 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1</DTS:Property>
+<DTS:Property DTS:Name="ForceExecValue">0</DTS:Property>
+<DTS:Property DTS:Name="ExecValue" DTS:DataType="3">0</DTS:Property>
+<DTS:Property DTS:Name="ForceExecutionResult">-1</DTS:Property>
+<DTS:Property DTS:Name="Disabled">-1</DTS:Property>
+<DTS:Property DTS:Name="FailPackageOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="FailParentOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="MaxErrorCount">1</DTS:Property>
+<DTS:Property DTS:Name="ISOLevel">1048576</DTS:Property>
+<DTS:Property DTS:Name="LocaleID">-1</DTS:Property>
+<DTS:Property DTS:Name="TransactionOption">1</DTS:Property>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:LoggingOptions>
+<DTS:Property DTS:Name="LoggingMode">0</DTS:Property>
+<DTS:Property DTS:Name="FilterKind">1</DTS:Property>
+<DTS:Property DTS:Name="EventFilter" DTS:DataType="8"></DTS:Property></DTS:LoggingOptions>
+<DTS:Property DTS:Name="ObjectName">Carga Id Softguard a casos antiguamente creados</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{2abb9541-1616-4168-bba9-cd44ad288cb8}</DTS:Property>
+<DTS:Property DTS:Name="Description">Data Flow Task</DTS:Property>
+<DTS:Property DTS:Name="CreationName">SSIS.Pipeline.2</DTS:Property>
+<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><pipeline id="0" name="pipelineXml" description="pipelineXml" defaultBufferMaxRows="10000" engineThreads="10" defaultBufferSize="10485760" BLOBTempStoragePath="" bufferTempStoragePath="" runInOptimizedMode="true">
+<components>
+<component id="755" name="OLE DB Source" componentClassID="{BCEFE59B-6819-47F7-A125-63753B33ABB7}" description="OLE DB Source" localeId="-1" usesDispositions="true" validateExternalMetadata="True" version="7" pipelineVersion="0" contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SqlServer v10; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7">
+<properties>
+<property id="756" name="CommandTimeout" dataType="System.Int32" state="default" isArray="false" description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">0</property>
+<property id="757" name="OpenRowset" dataType="System.String" state="default" isArray="false" description="Specifies the name of the database object used to open a rowset." typeConverter="" UITypeEditor="" containsID="false" expressionType="None"></property>
+<property id="758" name="OpenRowsetVariable" dataType="System.String" state="default" isArray="false" description="Specifies the variable that contains the name of the database object used to open a rowset." typeConverter="" UITypeEditor="" containsID="false" expressionType="None"></property>
+<property id="759" name="SqlCommand" dataType="System.String" state="default" isArray="false" description="The SQL command to be executed." typeConverter="" UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" containsID="false" expressionType="None">select c.id,d.stc_iid, c.CaseNumber,b.*
+  
+  
+  from(
+  
+  select a.stc_yValor,(select COUNT( distinct stc_iid) from [Inteligencias].dbo.SG_SERV_TECNICO as serv where serv.stc_yValor=a.stc_yValor) as cant
+  
+  from
+  (
+  select distinct stc_yValor,tip_cdescripcion
+  from [Inteligencias].dbo.SG_SERV_TECNICO 
+  
+  where stc_yValor&gt;0)a
+  
+  where (select COUNT( distinct stc_iid) from [Inteligencias].dbo.SG_SERV_TECNICO as serv where serv.stc_yValor=a.stc_yValor)=1)b
+  
+  inner join Inteligencias.dbo.SF_CASOS as c on b.stc_yValor=CONVERT(int,c.CaseNumber)
+  
+  inner join (select distinct stc_iid,stc_yvalor from Inteligencias.dbo.SG_SERV_TECNICO)d on d.stc_yValor=b.stc_yValor</property>
+<property id="760" name="SqlCommandVariable" dataType="System.String" state="default" isArray="false" description="The variable that contains the SQL command to be executed." typeConverter="" UITypeEditor="" containsID="false" expressionType="None"></property>
+<property id="761" name="DefaultCodePage" dataType="System.Int32" state="default" isArray="false" description="Specifies the column code page to use when code page information is unavailable from the data source." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">1252</property>
+<property id="762" name="AlwaysUseDefaultCodePage" dataType="System.Boolean" state="default" isArray="false" description="Forces the use of the DefaultCodePage property value when describing character data." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property>
+<property id="763" name="AccessMode" dataType="System.Int32" state="default" isArray="false" description="Specifies the mode used to access the database." typeConverter="AccessMode" UITypeEditor="" containsID="false" expressionType="None">2</property>
+<property id="769" name="ParameterMapping" dataType="System.String" state="default" isArray="false" description="The mappings between the parameters in the SQL command and variables." typeConverter="" UITypeEditor="" containsID="false" expressionType="None"></property></properties>
+<connections>
+<connection id="764" name="OleDbConnection" description="The OLE DB runtime connection used to access the database." connectionManagerID="{03755A52-CF6E-427D-9546-D18EA2CB1667}"/></connections>
+<outputs>
+<output id="765" name="OLE DB Source Output" description="" exclusionGroup="0" synchronousInputId="0" deleteOutputOnPathDetached="false" hasSideEffects="false" dangling="false" isErrorOut="false" isSorted="false" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed"><outputColumns>
+<outputColumn id="906" name="id" description="" lineageId="906" precision="0" scale="0" length="18" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="905" mappedColumnId="0"/>
+<outputColumn id="909" name="stc_iid" description="" lineageId="909" precision="0" scale="0" length="0" dataType="i4" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="908" mappedColumnId="0"/>
+<outputColumn id="912" name="CaseNumber" description="" lineageId="912" precision="0" scale="0" length="30" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="911" mappedColumnId="0"/>
+<outputColumn id="915" name="stc_yValor" description="" lineageId="915" precision="0" scale="0" length="0" dataType="cy" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="914" mappedColumnId="0"/>
+<outputColumn id="918" name="cant" description="" lineageId="918" precision="0" scale="0" length="0" dataType="i4" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="917" mappedColumnId="0"/></outputColumns><externalMetadataColumns isUsed="True">
+<externalMetadataColumn id="905" name="id" description="" precision="0" scale="0" length="18" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="908" name="stc_iid" description="" precision="0" scale="0" length="0" dataType="i4" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="911" name="CaseNumber" description="" precision="0" scale="0" length="30" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="914" name="stc_yValor" description="" precision="0" scale="0" length="0" dataType="cy" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="917" name="cant" description="" precision="0" scale="0" length="0" dataType="i4" codePage="0" mappedColumnId="0"/></externalMetadataColumns></output>
+<output id="766" name="OLE DB Source Error Output" description="" exclusionGroup="0" synchronousInputId="0" deleteOutputOnPathDetached="false" hasSideEffects="false" dangling="false" isErrorOut="true" isSorted="false" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed"><outputColumns>
+<outputColumn id="907" name="id" description="" lineageId="907" precision="0" scale="0" length="18" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="0" mappedColumnId="0"/>
+<outputColumn id="910" name="stc_iid" description="" lineageId="910" precision="0" scale="0" length="0" dataType="i4" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="0" mappedColumnId="0"/>
+<outputColumn id="913" name="CaseNumber" description="" lineageId="913" precision="0" scale="0" length="30" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="0" mappedColumnId="0"/>
+<outputColumn id="916" name="stc_yValor" description="" lineageId="916" precision="0" scale="0" length="0" dataType="cy" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="0" mappedColumnId="0"/>
+<outputColumn id="919" name="cant" description="" lineageId="919" precision="0" scale="0" length="0" dataType="i4" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="0" mappedColumnId="0"/>
+<outputColumn id="767" name="ErrorCode" description="" lineageId="767" precision="0" scale="0" length="0" dataType="i4" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="1" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="0" mappedColumnId="0"/>
+<outputColumn id="768" name="ErrorColumn" description="" lineageId="768" precision="0" scale="0" length="0" dataType="i4" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="2" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="0" mappedColumnId="0"/></outputColumns><externalMetadataColumns isUsed="False"/></output>
+</outputs>
+</component>
+<component id="791" name="Salesforce Destination" componentClassID="{2E42D45B-F83C-400F-8D77-61DDE6A7DF29}" description="Populates Salesforce destination object." localeId="-1" usesDispositions="true" validateExternalMetadata="True" version="0" pipelineVersion="0" contactInfo="Populates Salesforce destination object.; COZYROC LLC; SSIS+; © 2006-2017 COZYROC LLC; All Rights Reserved; http://www.cozyroc.com/;0">
+<properties>
+<property id="796" name="ComponentObject" dataType="System.Null" state="default" isArray="false" description="Populates Salesforce destination object." typeConverter="NOTBROWSABLE" UITypeEditor="" containsID="false" expressionType="None"/>
+<property id="797" name="DtsComponentDesigner" dataType="System.String" state="default" isArray="false" description="" typeConverter="NOTBROWSABLE" UITypeEditor="" containsID="false" expressionType="None">CozyRoc.SqlServer.SSIS.SforceDestinationDesigner, CozyRoc.SSISPlus.UI.2008, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=16cf490bb80c34ea</property>
+<property id="798" name="DestinationObject" dataType="System.String" state="default" isArray="false" description="Destination object to load." typeConverter="CozyRoc.SqlServer.SSIS.TableEditor, CozyRoc.SSISPlus.UI.2008, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=16cf490bb80c34ea" UITypeEditor="" containsID="false" expressionType="Notify">Case</property>
+<property id="799" name="BatchSize" dataType="System.Int32" state="default" isArray="false" description="Specifies the number of rows to be sent as a batch to the service." typeConverter="" UITypeEditor="" containsID="false" expressionType="Notify">200</property>
+<property id="800" name="Action" dataType="System.Int32" state="default" isArray="false" description="Specifies destination action type." typeConverter="CozyRoc.SqlServer.SSIS.SforceDestination+ActionTypes, CozyRoc.SSISPlus.2008, Version=1.0.0.0, Culture=neutral, PublicKeyToken=16cf490bb80c34ea" UITypeEditor="" containsID="false" expressionType="None">1</property>
+<property id="801" name="ExternalId" dataType="System.String" state="default" isArray="false" description="Specifies external identifier field." typeConverter="CozyRoc.SqlServer.SSIS.ExternalIdEditor, CozyRoc.SSISPlus.UI.2008, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=16cf490bb80c34ea" UITypeEditor="" containsID="false" expressionType="Notify"></property>
+<property id="802" name="Mode" dataType="System.Int32" state="default" isArray="false" description="Specifies destination load type." typeConverter="CozyRoc.SqlServer.SSIS.SforceDestination+ModeTypes, CozyRoc.SSISPlus.2008, Version=1.0.0.0, Culture=neutral, PublicKeyToken=16cf490bb80c34ea" UITypeEditor="" containsID="false" expressionType="None">0</property>
+<property id="803" name="JobIdVariable" dataType="System.String" state="default" isArray="false" description="Select variable to store bulk job identifier." typeConverter="CozyRoc.SqlServer.SSIS.VariableEditor, CozyRoc.SSISPlus.UI.2008, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=16cf490bb80c34ea" UITypeEditor="" containsID="false" expressionType="None"></property>
+<property id="804" name="Concurrency" dataType="System.Int32" state="default" isArray="false" description="Specifies bulk load concurrency type." typeConverter="CozyRoc.SqlServer.SSIS.SforceDestination+ConcurrencyTypes, CozyRoc.SSISPlus.2008, Version=1.0.0.0, Culture=neutral, PublicKeyToken=16cf490bb80c34ea" UITypeEditor="" containsID="false" expressionType="None">0</property>
+<property id="805" name="IgnoreNullValue" dataType="System.Boolean" state="default" isArray="false" description="Specifies to ignore columns containing NULL value." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property>
+<property id="812" name="UserComponentTypeName" dataType="System.String" state="default" isArray="false" description="" typeConverter="" UITypeEditor="" containsID="false" expressionType="None">CozyRoc.SqlServer.SSIS.SforceDestination, CozyRoc.SSISPlus.2008, Version=1.0.0.0, Culture=neutral, PublicKeyToken=16cf490bb80c34ea</property></properties>
+<connections>
+<connection id="795" name="SFORCE" description="Salesforce Connection" connectionManagerID="{4B45C221-58E4-473E-9F11-742B9E90B87E}"/></connections>
+<inputs>
+<input id="806" name="Salesforce Destination Input" description="" hasSideEffects="true" dangling="false" errorOrTruncationOperation="Insert" errorRowDisposition="FailComponent" truncationRowDisposition="NotUsed"><inputColumns>
+<inputColumn id="920" name="" description="" lineageId="906" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="853" mappedColumnId="0"/>
+<inputColumn id="921" name="" description="" lineageId="909" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="861" mappedColumnId="0"/>
+</inputColumns><externalMetadataColumns isUsed="True">
+<externalMetadataColumn id="814" name="AccountId" description="" precision="0" scale="0" length="18" dataType="wstr" codePage="0" mappedColumnId="0"><properties>
+<property id="815" name="RelationshipName" dataType="System.String" state="default" isArray="false" description="Specifies relationship name." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">Account</property>
+<property id="816" name="ReferenceType" dataType="System.String" state="default" isArray="false" description="Specifies referenced object type." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">Account</property>
+<property id="817" name="ExternalId" dataType="System.String" state="default" isArray="false" description="Specifies external id field for update. Optional." typeConverter="" UITypeEditor="" containsID="false" expressionType="None"></property></properties></externalMetadataColumn>
+<externalMetadataColumn id="818" name="Ayudante_asignado__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="819" name="Ayudante_que_realizo_trabajos__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="820" name="Cantidad_de_tecnicos_asignados__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="821" name="cantidad_de_tecnicos_que_trabajaron__c" description="" precision="1" scale="0" length="0" dataType="numeric" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="822" name="Caso_Auditado__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="823" name="Caso_T_cnico_Resuelto__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="824" name="Central_del_Cliente__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="825" name="Certificacion_de_Horarios__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="826" name="cirrusadv__Created_by_Cirrus_Insight__c" description="" precision="0" scale="0" length="0" dataType="bool" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="827" name="Cobro__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="828" name="Comentarios_de_Cierre_de_Oportunidad__c" description="" precision="0" scale="0" length="0" dataType="nText" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="829" name="COMPLEJIDAD_TECNICA__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="830" name="ContactId" description="" precision="0" scale="0" length="18" dataType="wstr" codePage="0" mappedColumnId="0"><properties>
+<property id="831" name="RelationshipName" dataType="System.String" state="default" isArray="false" description="Specifies relationship name." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">Contact</property>
+<property id="832" name="ReferenceType" dataType="System.String" state="default" isArray="false" description="Specifies referenced object type." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">Contact</property>
+<property id="833" name="ExternalId" dataType="System.String" state="default" isArray="false" description="Specifies external id field for update. Optional." typeConverter="" UITypeEditor="" containsID="false" expressionType="None"></property></properties></externalMetadataColumn>
+<externalMetadataColumn id="834" name="Contrato_Guard_Service_Seguridad__c" description="" precision="0" scale="0" length="0" dataType="bool" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="835" name="CurrencyIsoCode" description="" precision="0" scale="0" length="3" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="836" name="Descripcion_de_Trabajos__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="837" name="Description" description="" precision="0" scale="0" length="0" dataType="nText" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="838" name="Diagnostico_del_Jefe_Tecnico__c" description="" precision="0" scale="0" length="0" dataType="nText" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="839" name="Equipo_Refabricado__c" description="" precision="0" scale="0" length="0" dataType="bool" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="840" name="Equipos_de_Inventario_Tecnico__c" description="" precision="0" scale="0" length="0" dataType="bool" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="841" name="Equipos_Refabricados_a_Entregar__c" description="" precision="0" scale="0" length="0" dataType="nText" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="842" name="Estado_de_Cotizaci_n__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="843" name="Estado_de_Facturacion__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="844" name="Estado_de_Gu_a_T_cnica__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="845" name="Evaluaci_n_Jefe_T_cnico_Efectuada__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="846" name="Evaluaci_n_Jefe_T_cnico_Requerida__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="847" name="Fecha_Apertura_Softguard__c" description="" precision="0" scale="0" length="0" dataType="dbTimeStamp" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="848" name="Fecha_de_inicio__c" description="" precision="0" scale="0" length="0" dataType="dbTimeStamp" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="849" name="Fecha_de_termino__c" description="" precision="0" scale="0" length="0" dataType="dbTimeStamp" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="850" name="Fecha_programada_de_inicio__c" description="" precision="0" scale="0" length="0" dataType="dbTimeStamp" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="851" name="Fecha_programada_de_termino__c" description="" precision="0" scale="0" length="0" dataType="dbTimeStamp" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="852" name="Gu_a_tecnica__c" description="" precision="18" scale="0" length="0" dataType="numeric" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="853" name="Id" description="" precision="0" scale="0" length="18" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="854" name="IsEscalated" description="" precision="0" scale="0" length="0" dataType="bool" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="855" name="Materiale_Equipos__c" description="" precision="0" scale="0" length="0" dataType="bool" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="856" name="Materiales_equipos_requeridos__c" description="" precision="0" scale="0" length="0" dataType="nText" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="857" name="Motivo_de_reprogramacion__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="858" name="Motivo_de_Requerimiento_de_Equipos__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="859" name="Motivo_del_caso__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="860" name="Motivo_Programacion_Pendiente__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="861" name="N_mero_caso_softguard__c" description="" precision="18" scale="0" length="0" dataType="numeric" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="862" name="Origin" description="" precision="0" scale="0" length="40" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="863" name="OwnerId" description="" precision="0" scale="0" length="18" dataType="wstr" codePage="0" mappedColumnId="0"><properties>
+<property id="864" name="RelationshipName" dataType="System.String" state="default" isArray="false" description="Specifies relationship name." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">Owner</property>
+<property id="865" name="ReferenceType" dataType="System.String" state="default" isArray="false" description="Specifies referenced object type." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">Group</property>
+<property id="866" name="ExternalId" dataType="System.String" state="default" isArray="false" description="Specifies external id field for update. Optional." typeConverter="" UITypeEditor="" containsID="false" expressionType="None"></property></properties></externalMetadataColumn>
+<externalMetadataColumn id="867" name="ParentId" description="" precision="0" scale="0" length="18" dataType="wstr" codePage="0" mappedColumnId="0"><properties>
+<property id="868" name="RelationshipName" dataType="System.String" state="default" isArray="false" description="Specifies relationship name." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">Parent</property>
+<property id="869" name="ReferenceType" dataType="System.String" state="default" isArray="false" description="Specifies referenced object type." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">Case</property>
+<property id="870" name="ExternalId" dataType="System.String" state="default" isArray="false" description="Specifies external id field for update. Optional." typeConverter="" UITypeEditor="" containsID="false" expressionType="None"></property></properties></externalMetadataColumn>
+<externalMetadataColumn id="871" name="Priority" description="" precision="0" scale="0" length="40" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="872" name="Puntualidad__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="873" name="Razon_de_Caso_Inconcluso__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="874" name="rea__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="875" name="Reason" description="" precision="0" scale="0" length="40" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="876" name="RecordTypeId" description="" precision="0" scale="0" length="18" dataType="wstr" codePage="0" mappedColumnId="0"><properties>
+<property id="877" name="RelationshipName" dataType="System.String" state="default" isArray="false" description="Specifies relationship name." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">RecordType</property>
+<property id="878" name="ReferenceType" dataType="System.String" state="default" isArray="false" description="Specifies referenced object type." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">RecordType</property>
+<property id="879" name="ExternalId" dataType="System.String" state="default" isArray="false" description="Specifies external id field for update. Optional." typeConverter="" UITypeEditor="" containsID="false" expressionType="None"></property></properties></externalMetadataColumn>
+<externalMetadataColumn id="880" name="Reprogramar__c" description="" precision="0" scale="0" length="0" dataType="bool" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="881" name="Requerir_equipos_y_materiales__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="882" name="Requiere_Evaluacion_del_Jefe_T_cnico__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="883" name="Resoluci_n_de_Caso__c" description="" precision="0" scale="0" length="0" dataType="nText" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="884" name="Retiro_de_equipos_aprobado__c" description="" precision="0" scale="0" length="0" dataType="bool" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="885" name="Se_requiere_abrir_otro_caso__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="886" name="Status" description="" precision="0" scale="0" length="40" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="887" name="Subject" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="888" name="SuppliedCompany" description="" precision="0" scale="0" length="80" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="889" name="SuppliedEmail" description="" precision="0" scale="0" length="80" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="890" name="SuppliedName" description="" precision="0" scale="0" length="80" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="891" name="SuppliedPhone" description="" precision="0" scale="0" length="40" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="892" name="Tecnico_asignado__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="893" name="Tecnico_que_realiz__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="894" name="Tecnico_que_realizo_trabajos__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="895" name="Tiempo_Esperado_de_Trabajo__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="896" name="Tipo_de_caso__c" description="" precision="0" scale="0" length="0" dataType="nText" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="897" name="Type" description="" precision="0" scale="0" length="40" dataType="wstr" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="898" name="Valor__c" description="" precision="18" scale="0" length="0" dataType="numeric" codePage="0" mappedColumnId="0"/></externalMetadataColumns></input>
+</inputs>
+<outputs>
+<output id="807" name="Salesforce Destination Error Output" description="" exclusionGroup="1" synchronousInputId="806" deleteOutputOnPathDetached="false" hasSideEffects="false" dangling="false" isErrorOut="true" isSorted="false" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed"><outputColumns>
+<outputColumn id="808" name="ErrorCode" description="" lineageId="808" precision="0" scale="0" length="0" dataType="i4" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="1" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="0" mappedColumnId="0"/>
+<outputColumn id="809" name="ErrorColumn" description="" lineageId="809" precision="0" scale="0" length="0" dataType="i4" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="2" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="0" mappedColumnId="0"/>
+<outputColumn id="810" name="Id" description="" lineageId="810" precision="0" scale="0" length="18" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="0" mappedColumnId="0"/>
+<outputColumn id="811" name="ErrorDescription" description="" lineageId="811" precision="0" scale="0" length="1024" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="0" mappedColumnId="0"/></outputColumns><externalMetadataColumns isUsed="False"/></output>
+</outputs>
+</component>
+</components>
+<paths>
+<path id="813" name="OLE DB Source Output" description="" startId="765" endId="806"/>
+</paths></pipeline></DTS:ObjectData></DTS:Executable>
 <DTS:Executable DTS:ExecutableType="SSIS.Pipeline.2">
 <DTS:Property DTS:Name="ExecutionLocation">0</DTS:Property>
 <DTS:Property DTS:Name="ExecutionAddress"></DTS:Property>
@@ -1990,202 +2186,6 @@ select  Id
 <paths>
 <path id="398" name="Salesforce Source Output" description="" startId="390" endId="393"/>
 </paths></pipeline></DTS:ObjectData></DTS:Executable>
-<DTS:Executable DTS:ExecutableType="SSIS.Pipeline.2">
-<DTS:Property DTS:Name="ExecutionLocation">0</DTS:Property>
-<DTS:Property DTS:Name="ExecutionAddress"></DTS:Property>
-<DTS:Property DTS:Name="TaskContact">Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server v10; (C) 2007 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1</DTS:Property>
-<DTS:Property DTS:Name="ForceExecValue">0</DTS:Property>
-<DTS:Property DTS:Name="ExecValue" DTS:DataType="3">0</DTS:Property>
-<DTS:Property DTS:Name="ForceExecutionResult">-1</DTS:Property>
-<DTS:Property DTS:Name="Disabled">-1</DTS:Property>
-<DTS:Property DTS:Name="FailPackageOnFailure">0</DTS:Property>
-<DTS:Property DTS:Name="FailParentOnFailure">0</DTS:Property>
-<DTS:Property DTS:Name="MaxErrorCount">1</DTS:Property>
-<DTS:Property DTS:Name="ISOLevel">1048576</DTS:Property>
-<DTS:Property DTS:Name="LocaleID">-1</DTS:Property>
-<DTS:Property DTS:Name="TransactionOption">1</DTS:Property>
-<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
-<DTS:LoggingOptions>
-<DTS:Property DTS:Name="LoggingMode">0</DTS:Property>
-<DTS:Property DTS:Name="FilterKind">1</DTS:Property>
-<DTS:Property DTS:Name="EventFilter" DTS:DataType="8"></DTS:Property></DTS:LoggingOptions>
-<DTS:Property DTS:Name="ObjectName">Carga Id Softguard a casos antiguamente creados</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{2abb9541-1616-4168-bba9-cd44ad288cb8}</DTS:Property>
-<DTS:Property DTS:Name="Description">Data Flow Task</DTS:Property>
-<DTS:Property DTS:Name="CreationName">SSIS.Pipeline.2</DTS:Property>
-<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><pipeline id="0" name="pipelineXml" description="pipelineXml" defaultBufferMaxRows="10000" engineThreads="10" defaultBufferSize="10485760" BLOBTempStoragePath="" bufferTempStoragePath="" runInOptimizedMode="true">
-<components>
-<component id="755" name="OLE DB Source" componentClassID="{BCEFE59B-6819-47F7-A125-63753B33ABB7}" description="OLE DB Source" localeId="-1" usesDispositions="true" validateExternalMetadata="True" version="7" pipelineVersion="0" contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SqlServer v10; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7">
-<properties>
-<property id="756" name="CommandTimeout" dataType="System.Int32" state="default" isArray="false" description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">0</property>
-<property id="757" name="OpenRowset" dataType="System.String" state="default" isArray="false" description="Specifies the name of the database object used to open a rowset." typeConverter="" UITypeEditor="" containsID="false" expressionType="None"></property>
-<property id="758" name="OpenRowsetVariable" dataType="System.String" state="default" isArray="false" description="Specifies the variable that contains the name of the database object used to open a rowset." typeConverter="" UITypeEditor="" containsID="false" expressionType="None"></property>
-<property id="759" name="SqlCommand" dataType="System.String" state="default" isArray="false" description="The SQL command to be executed." typeConverter="" UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" containsID="false" expressionType="None">select c.id,d.stc_iid, c.CaseNumber,b.*
-  
-  
-  from(
-  
-  select a.stc_yValor,(select COUNT( distinct stc_iid) from [Inteligencias].dbo.SG_SERV_TECNICO as serv where serv.stc_yValor=a.stc_yValor) as cant
-  
-  from
-  (
-  select distinct stc_yValor,tip_cdescripcion
-  from [Inteligencias].dbo.SG_SERV_TECNICO 
-  
-  where stc_yValor&gt;0)a
-  
-  where (select COUNT( distinct stc_iid) from [Inteligencias].dbo.SG_SERV_TECNICO as serv where serv.stc_yValor=a.stc_yValor)=1)b
-  
-  inner join Inteligencias.dbo.SF_CASOS as c on b.stc_yValor=CONVERT(int,c.CaseNumber)
-  
-  inner join (select distinct stc_iid,stc_yvalor from Inteligencias.dbo.SG_SERV_TECNICO)d on d.stc_yValor=b.stc_yValor</property>
-<property id="760" name="SqlCommandVariable" dataType="System.String" state="default" isArray="false" description="The variable that contains the SQL command to be executed." typeConverter="" UITypeEditor="" containsID="false" expressionType="None"></property>
-<property id="761" name="DefaultCodePage" dataType="System.Int32" state="default" isArray="false" description="Specifies the column code page to use when code page information is unavailable from the data source." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">1252</property>
-<property id="762" name="AlwaysUseDefaultCodePage" dataType="System.Boolean" state="default" isArray="false" description="Forces the use of the DefaultCodePage property value when describing character data." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property>
-<property id="763" name="AccessMode" dataType="System.Int32" state="default" isArray="false" description="Specifies the mode used to access the database." typeConverter="AccessMode" UITypeEditor="" containsID="false" expressionType="None">2</property>
-<property id="769" name="ParameterMapping" dataType="System.String" state="default" isArray="false" description="The mappings between the parameters in the SQL command and variables." typeConverter="" UITypeEditor="" containsID="false" expressionType="None"></property></properties>
-<connections>
-<connection id="764" name="OleDbConnection" description="The OLE DB runtime connection used to access the database." connectionManagerID="{03755A52-CF6E-427D-9546-D18EA2CB1667}"/></connections>
-<outputs>
-<output id="765" name="OLE DB Source Output" description="" exclusionGroup="0" synchronousInputId="0" deleteOutputOnPathDetached="false" hasSideEffects="false" dangling="false" isErrorOut="false" isSorted="false" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed"><outputColumns>
-<outputColumn id="906" name="id" description="" lineageId="906" precision="0" scale="0" length="18" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="905" mappedColumnId="0"/>
-<outputColumn id="909" name="stc_iid" description="" lineageId="909" precision="0" scale="0" length="0" dataType="i4" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="908" mappedColumnId="0"/>
-<outputColumn id="912" name="CaseNumber" description="" lineageId="912" precision="0" scale="0" length="30" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="911" mappedColumnId="0"/>
-<outputColumn id="915" name="stc_yValor" description="" lineageId="915" precision="0" scale="0" length="0" dataType="cy" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="914" mappedColumnId="0"/>
-<outputColumn id="918" name="cant" description="" lineageId="918" precision="0" scale="0" length="0" dataType="i4" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="917" mappedColumnId="0"/></outputColumns><externalMetadataColumns isUsed="True">
-<externalMetadataColumn id="905" name="id" description="" precision="0" scale="0" length="18" dataType="wstr" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="908" name="stc_iid" description="" precision="0" scale="0" length="0" dataType="i4" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="911" name="CaseNumber" description="" precision="0" scale="0" length="30" dataType="wstr" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="914" name="stc_yValor" description="" precision="0" scale="0" length="0" dataType="cy" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="917" name="cant" description="" precision="0" scale="0" length="0" dataType="i4" codePage="0" mappedColumnId="0"/></externalMetadataColumns></output>
-<output id="766" name="OLE DB Source Error Output" description="" exclusionGroup="0" synchronousInputId="0" deleteOutputOnPathDetached="false" hasSideEffects="false" dangling="false" isErrorOut="true" isSorted="false" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed"><outputColumns>
-<outputColumn id="907" name="id" description="" lineageId="907" precision="0" scale="0" length="18" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="0" mappedColumnId="0"/>
-<outputColumn id="910" name="stc_iid" description="" lineageId="910" precision="0" scale="0" length="0" dataType="i4" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="0" mappedColumnId="0"/>
-<outputColumn id="913" name="CaseNumber" description="" lineageId="913" precision="0" scale="0" length="30" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="0" mappedColumnId="0"/>
-<outputColumn id="916" name="stc_yValor" description="" lineageId="916" precision="0" scale="0" length="0" dataType="cy" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="0" mappedColumnId="0"/>
-<outputColumn id="919" name="cant" description="" lineageId="919" precision="0" scale="0" length="0" dataType="i4" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="0" mappedColumnId="0"/>
-<outputColumn id="767" name="ErrorCode" description="" lineageId="767" precision="0" scale="0" length="0" dataType="i4" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="1" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="0" mappedColumnId="0"/>
-<outputColumn id="768" name="ErrorColumn" description="" lineageId="768" precision="0" scale="0" length="0" dataType="i4" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="2" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="0" mappedColumnId="0"/></outputColumns><externalMetadataColumns isUsed="False"/></output>
-</outputs>
-</component>
-<component id="791" name="Salesforce Destination" componentClassID="{2E42D45B-F83C-400F-8D77-61DDE6A7DF29}" description="Populates Salesforce destination object." localeId="-1" usesDispositions="true" validateExternalMetadata="True" version="0" pipelineVersion="0" contactInfo="Populates Salesforce destination object.; COZYROC LLC; SSIS+; © 2006-2017 COZYROC LLC; All Rights Reserved; http://www.cozyroc.com/;0">
-<properties>
-<property id="796" name="ComponentObject" dataType="System.Null" state="default" isArray="false" description="Populates Salesforce destination object." typeConverter="NOTBROWSABLE" UITypeEditor="" containsID="false" expressionType="None"/>
-<property id="797" name="DtsComponentDesigner" dataType="System.String" state="default" isArray="false" description="" typeConverter="NOTBROWSABLE" UITypeEditor="" containsID="false" expressionType="None">CozyRoc.SqlServer.SSIS.SforceDestinationDesigner, CozyRoc.SSISPlus.UI.2008, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=16cf490bb80c34ea</property>
-<property id="798" name="DestinationObject" dataType="System.String" state="default" isArray="false" description="Destination object to load." typeConverter="CozyRoc.SqlServer.SSIS.TableEditor, CozyRoc.SSISPlus.UI.2008, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=16cf490bb80c34ea" UITypeEditor="" containsID="false" expressionType="Notify">Case</property>
-<property id="799" name="BatchSize" dataType="System.Int32" state="default" isArray="false" description="Specifies the number of rows to be sent as a batch to the service." typeConverter="" UITypeEditor="" containsID="false" expressionType="Notify">200</property>
-<property id="800" name="Action" dataType="System.Int32" state="default" isArray="false" description="Specifies destination action type." typeConverter="CozyRoc.SqlServer.SSIS.SforceDestination+ActionTypes, CozyRoc.SSISPlus.2008, Version=1.0.0.0, Culture=neutral, PublicKeyToken=16cf490bb80c34ea" UITypeEditor="" containsID="false" expressionType="None">1</property>
-<property id="801" name="ExternalId" dataType="System.String" state="default" isArray="false" description="Specifies external identifier field." typeConverter="CozyRoc.SqlServer.SSIS.ExternalIdEditor, CozyRoc.SSISPlus.UI.2008, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=16cf490bb80c34ea" UITypeEditor="" containsID="false" expressionType="Notify"></property>
-<property id="802" name="Mode" dataType="System.Int32" state="default" isArray="false" description="Specifies destination load type." typeConverter="CozyRoc.SqlServer.SSIS.SforceDestination+ModeTypes, CozyRoc.SSISPlus.2008, Version=1.0.0.0, Culture=neutral, PublicKeyToken=16cf490bb80c34ea" UITypeEditor="" containsID="false" expressionType="None">0</property>
-<property id="803" name="JobIdVariable" dataType="System.String" state="default" isArray="false" description="Select variable to store bulk job identifier." typeConverter="CozyRoc.SqlServer.SSIS.VariableEditor, CozyRoc.SSISPlus.UI.2008, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=16cf490bb80c34ea" UITypeEditor="" containsID="false" expressionType="None"></property>
-<property id="804" name="Concurrency" dataType="System.Int32" state="default" isArray="false" description="Specifies bulk load concurrency type." typeConverter="CozyRoc.SqlServer.SSIS.SforceDestination+ConcurrencyTypes, CozyRoc.SSISPlus.2008, Version=1.0.0.0, Culture=neutral, PublicKeyToken=16cf490bb80c34ea" UITypeEditor="" containsID="false" expressionType="None">0</property>
-<property id="805" name="IgnoreNullValue" dataType="System.Boolean" state="default" isArray="false" description="Specifies to ignore columns containing NULL value." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property>
-<property id="812" name="UserComponentTypeName" dataType="System.String" state="default" isArray="false" description="" typeConverter="" UITypeEditor="" containsID="false" expressionType="None">CozyRoc.SqlServer.SSIS.SforceDestination, CozyRoc.SSISPlus.2008, Version=1.0.0.0, Culture=neutral, PublicKeyToken=16cf490bb80c34ea</property></properties>
-<connections>
-<connection id="795" name="SFORCE" description="Salesforce Connection" connectionManagerID="{4B45C221-58E4-473E-9F11-742B9E90B87E}"/></connections>
-<inputs>
-<input id="806" name="Salesforce Destination Input" description="" hasSideEffects="true" dangling="false" errorOrTruncationOperation="Insert" errorRowDisposition="FailComponent" truncationRowDisposition="NotUsed"><inputColumns>
-<inputColumn id="920" name="" description="" lineageId="906" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="853" mappedColumnId="0"/>
-<inputColumn id="921" name="" description="" lineageId="909" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="861" mappedColumnId="0"/>
-</inputColumns><externalMetadataColumns isUsed="True">
-<externalMetadataColumn id="814" name="AccountId" description="" precision="0" scale="0" length="18" dataType="wstr" codePage="0" mappedColumnId="0"><properties>
-<property id="815" name="RelationshipName" dataType="System.String" state="default" isArray="false" description="Specifies relationship name." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">Account</property>
-<property id="816" name="ReferenceType" dataType="System.String" state="default" isArray="false" description="Specifies referenced object type." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">Account</property>
-<property id="817" name="ExternalId" dataType="System.String" state="default" isArray="false" description="Specifies external id field for update. Optional." typeConverter="" UITypeEditor="" containsID="false" expressionType="None"></property></properties></externalMetadataColumn>
-<externalMetadataColumn id="818" name="Ayudante_asignado__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="819" name="Ayudante_que_realizo_trabajos__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="820" name="Cantidad_de_tecnicos_asignados__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="821" name="cantidad_de_tecnicos_que_trabajaron__c" description="" precision="1" scale="0" length="0" dataType="numeric" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="822" name="Caso_Auditado__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="823" name="Caso_T_cnico_Resuelto__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="824" name="Central_del_Cliente__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="825" name="Certificacion_de_Horarios__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="826" name="cirrusadv__Created_by_Cirrus_Insight__c" description="" precision="0" scale="0" length="0" dataType="bool" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="827" name="Cobro__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="828" name="Comentarios_de_Cierre_de_Oportunidad__c" description="" precision="0" scale="0" length="0" dataType="nText" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="829" name="COMPLEJIDAD_TECNICA__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="830" name="ContactId" description="" precision="0" scale="0" length="18" dataType="wstr" codePage="0" mappedColumnId="0"><properties>
-<property id="831" name="RelationshipName" dataType="System.String" state="default" isArray="false" description="Specifies relationship name." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">Contact</property>
-<property id="832" name="ReferenceType" dataType="System.String" state="default" isArray="false" description="Specifies referenced object type." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">Contact</property>
-<property id="833" name="ExternalId" dataType="System.String" state="default" isArray="false" description="Specifies external id field for update. Optional." typeConverter="" UITypeEditor="" containsID="false" expressionType="None"></property></properties></externalMetadataColumn>
-<externalMetadataColumn id="834" name="Contrato_Guard_Service_Seguridad__c" description="" precision="0" scale="0" length="0" dataType="bool" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="835" name="CurrencyIsoCode" description="" precision="0" scale="0" length="3" dataType="wstr" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="836" name="Descripcion_de_Trabajos__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="837" name="Description" description="" precision="0" scale="0" length="0" dataType="nText" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="838" name="Diagnostico_del_Jefe_Tecnico__c" description="" precision="0" scale="0" length="0" dataType="nText" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="839" name="Equipo_Refabricado__c" description="" precision="0" scale="0" length="0" dataType="bool" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="840" name="Equipos_de_Inventario_Tecnico__c" description="" precision="0" scale="0" length="0" dataType="bool" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="841" name="Equipos_Refabricados_a_Entregar__c" description="" precision="0" scale="0" length="0" dataType="nText" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="842" name="Estado_de_Cotizaci_n__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="843" name="Estado_de_Facturacion__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="844" name="Estado_de_Gu_a_T_cnica__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="845" name="Evaluaci_n_Jefe_T_cnico_Efectuada__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="846" name="Evaluaci_n_Jefe_T_cnico_Requerida__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="847" name="Fecha_Apertura_Softguard__c" description="" precision="0" scale="0" length="0" dataType="dbTimeStamp" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="848" name="Fecha_de_inicio__c" description="" precision="0" scale="0" length="0" dataType="dbTimeStamp" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="849" name="Fecha_de_termino__c" description="" precision="0" scale="0" length="0" dataType="dbTimeStamp" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="850" name="Fecha_programada_de_inicio__c" description="" precision="0" scale="0" length="0" dataType="dbTimeStamp" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="851" name="Fecha_programada_de_termino__c" description="" precision="0" scale="0" length="0" dataType="dbTimeStamp" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="852" name="Gu_a_tecnica__c" description="" precision="18" scale="0" length="0" dataType="numeric" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="853" name="Id" description="" precision="0" scale="0" length="18" dataType="wstr" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="854" name="IsEscalated" description="" precision="0" scale="0" length="0" dataType="bool" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="855" name="Materiale_Equipos__c" description="" precision="0" scale="0" length="0" dataType="bool" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="856" name="Materiales_equipos_requeridos__c" description="" precision="0" scale="0" length="0" dataType="nText" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="857" name="Motivo_de_reprogramacion__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="858" name="Motivo_de_Requerimiento_de_Equipos__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="859" name="Motivo_del_caso__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="860" name="Motivo_Programacion_Pendiente__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="861" name="N_mero_caso_softguard__c" description="" precision="18" scale="0" length="0" dataType="numeric" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="862" name="Origin" description="" precision="0" scale="0" length="40" dataType="wstr" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="863" name="OwnerId" description="" precision="0" scale="0" length="18" dataType="wstr" codePage="0" mappedColumnId="0"><properties>
-<property id="864" name="RelationshipName" dataType="System.String" state="default" isArray="false" description="Specifies relationship name." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">Owner</property>
-<property id="865" name="ReferenceType" dataType="System.String" state="default" isArray="false" description="Specifies referenced object type." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">Group</property>
-<property id="866" name="ExternalId" dataType="System.String" state="default" isArray="false" description="Specifies external id field for update. Optional." typeConverter="" UITypeEditor="" containsID="false" expressionType="None"></property></properties></externalMetadataColumn>
-<externalMetadataColumn id="867" name="ParentId" description="" precision="0" scale="0" length="18" dataType="wstr" codePage="0" mappedColumnId="0"><properties>
-<property id="868" name="RelationshipName" dataType="System.String" state="default" isArray="false" description="Specifies relationship name." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">Parent</property>
-<property id="869" name="ReferenceType" dataType="System.String" state="default" isArray="false" description="Specifies referenced object type." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">Case</property>
-<property id="870" name="ExternalId" dataType="System.String" state="default" isArray="false" description="Specifies external id field for update. Optional." typeConverter="" UITypeEditor="" containsID="false" expressionType="None"></property></properties></externalMetadataColumn>
-<externalMetadataColumn id="871" name="Priority" description="" precision="0" scale="0" length="40" dataType="wstr" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="872" name="Puntualidad__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="873" name="Razon_de_Caso_Inconcluso__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="874" name="rea__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="875" name="Reason" description="" precision="0" scale="0" length="40" dataType="wstr" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="876" name="RecordTypeId" description="" precision="0" scale="0" length="18" dataType="wstr" codePage="0" mappedColumnId="0"><properties>
-<property id="877" name="RelationshipName" dataType="System.String" state="default" isArray="false" description="Specifies relationship name." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">RecordType</property>
-<property id="878" name="ReferenceType" dataType="System.String" state="default" isArray="false" description="Specifies referenced object type." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">RecordType</property>
-<property id="879" name="ExternalId" dataType="System.String" state="default" isArray="false" description="Specifies external id field for update. Optional." typeConverter="" UITypeEditor="" containsID="false" expressionType="None"></property></properties></externalMetadataColumn>
-<externalMetadataColumn id="880" name="Reprogramar__c" description="" precision="0" scale="0" length="0" dataType="bool" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="881" name="Requerir_equipos_y_materiales__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="882" name="Requiere_Evaluacion_del_Jefe_T_cnico__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="883" name="Resoluci_n_de_Caso__c" description="" precision="0" scale="0" length="0" dataType="nText" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="884" name="Retiro_de_equipos_aprobado__c" description="" precision="0" scale="0" length="0" dataType="bool" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="885" name="Se_requiere_abrir_otro_caso__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="886" name="Status" description="" precision="0" scale="0" length="40" dataType="wstr" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="887" name="Subject" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="888" name="SuppliedCompany" description="" precision="0" scale="0" length="80" dataType="wstr" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="889" name="SuppliedEmail" description="" precision="0" scale="0" length="80" dataType="wstr" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="890" name="SuppliedName" description="" precision="0" scale="0" length="80" dataType="wstr" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="891" name="SuppliedPhone" description="" precision="0" scale="0" length="40" dataType="wstr" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="892" name="Tecnico_asignado__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="893" name="Tecnico_que_realiz__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="894" name="Tecnico_que_realizo_trabajos__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="895" name="Tiempo_Esperado_de_Trabajo__c" description="" precision="0" scale="0" length="255" dataType="wstr" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="896" name="Tipo_de_caso__c" description="" precision="0" scale="0" length="0" dataType="nText" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="897" name="Type" description="" precision="0" scale="0" length="40" dataType="wstr" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="898" name="Valor__c" description="" precision="18" scale="0" length="0" dataType="numeric" codePage="0" mappedColumnId="0"/></externalMetadataColumns></input>
-</inputs>
-<outputs>
-<output id="807" name="Salesforce Destination Error Output" description="" exclusionGroup="1" synchronousInputId="806" deleteOutputOnPathDetached="false" hasSideEffects="false" dangling="false" isErrorOut="true" isSorted="false" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed"><outputColumns>
-<outputColumn id="808" name="ErrorCode" description="" lineageId="808" precision="0" scale="0" length="0" dataType="i4" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="1" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="0" mappedColumnId="0"/>
-<outputColumn id="809" name="ErrorColumn" description="" lineageId="809" precision="0" scale="0" length="0" dataType="i4" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="2" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="0" mappedColumnId="0"/>
-<outputColumn id="810" name="Id" description="" lineageId="810" precision="0" scale="0" length="18" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="0" mappedColumnId="0"/>
-<outputColumn id="811" name="ErrorDescription" description="" lineageId="811" precision="0" scale="0" length="1024" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="0" mappedColumnId="0"/></outputColumns><externalMetadataColumns isUsed="False"/></output>
-</outputs>
-</component>
-</components>
-<paths>
-<path id="813" name="OLE DB Source Output" description="" startId="765" endId="806"/>
-</paths></pipeline></DTS:ObjectData></DTS:Executable>
 <DTS:PrecedenceConstraint>
 <DTS:Property DTS:Name="Value">0</DTS:Property>
 <DTS:Property DTS:Name="EvalOp">2</DTS:Property>
@@ -2321,35 +2321,35 @@ select  Id
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PrecedenceConstraint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:EvalOp&gt;Constraint&lt;/dwd:EvalOp&gt;&lt;/PrecedenceConstraint&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{07034C0B-623B-49E8-8581-1A6347F9AF8F}</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{023B999F-0FA3-4C76-BDAC-85D256C1E1E6}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{4FE2BEB9-A7FF-4F45-A4AA-F8918DEF72E1}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PrecedenceConstraint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:EvalOp&gt;Constraint&lt;/dwd:EvalOp&gt;&lt;/PrecedenceConstraint&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{08784E61-D532-4F37-97D3-FF26F60D1F35}</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{6E3A7620-D421-43E0-981E-9317BA34214B}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{A99A68B3-7699-4DF7-84F4-0CE8196DF530}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PrecedenceConstraint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:EvalOp&gt;Constraint&lt;/dwd:EvalOp&gt;&lt;/PrecedenceConstraint&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{135D97BF-8719-4738-96B7-F9AC693429B0}</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{8FBB4E2A-22B8-4EA5-8FB3-6145F6D636D1}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{269DC96A-BFB2-4A82-822A-AE1562F76F49}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PrecedenceConstraint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:EvalOp&gt;Constraint&lt;/dwd:EvalOp&gt;&lt;/PrecedenceConstraint&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{17dda3b6-e572-4812-9a59-7d38d4961f94}</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{A5F42732-A350-4D69-BF6F-60A00743C06C}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{CDE2655D-5C0E-4753-A6B0-E932C1FED6E3}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PrecedenceConstraint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:EvalOp&gt;Constraint&lt;/dwd:EvalOp&gt;&lt;/PrecedenceConstraint&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{1ADC1C70-D5DE-4191-B628-F40122C671C2}</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{3F40C6F0-863D-49A1-B487-6C6011F6516C}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{A332B511-350D-4B4E-85A0-21840E86B183}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
@@ -2404,21 +2404,21 @@ select  Id
 &lt;/dds&gt;&lt;/dwd:Layout&gt;&lt;/dwd:DtsDataFlowDiagram&gt;&lt;dwd:DtsComponentDesignerPropertiesList&gt;&lt;dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:key xsi:type="xsd:string"&gt;464	DataSourceViewID&lt;/dwd:key&gt;&lt;/dwd:DtsComponentDesignTimeProperty&gt;&lt;/dwd:DtsComponentDesignerPropertiesList&gt;&lt;/TaskHost&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{1E23945D-4430-4652-ADB3-5908C9F82377}</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{4C3BEEC7-4C33-4946-B428-C1ADA4E17E82}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{81ED1009-F17E-4F69-81E6-122C4B835E0E}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PipelinePath xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:SourceName&gt;Salesforce Source Output&lt;/dwd:SourceName&gt;&lt;dwd:DestinationName&gt;Derived Column Input&lt;/dwd:DestinationName&gt;&lt;/PipelinePath&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{1E23945D-4430-4652-ADB3-5908C9F82377}-398</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{9A9081C7-D969-47FE-806F-81B70D28C196}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{2A066621-9F08-4211-85AC-EADE716FC313}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PrecedenceConstraint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:EvalOp&gt;Constraint&lt;/dwd:EvalOp&gt;&lt;/PrecedenceConstraint&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{2699A667-DA3B-4CD7-BB93-693B51F3DC1C}</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{213C565D-B310-46A0-84E6-0BF71552B446}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{402A1DDF-2401-4654-B083-2760682DAE24}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
@@ -2465,68 +2465,52 @@ select  Id
 &lt;/dds&gt;&lt;/dwd:Layout&gt;&lt;/dwd:DtsDataFlowDiagram&gt;&lt;dwd:DtsComponentDesignerPropertiesList&gt;&lt;dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:key xsi:type="xsd:string"&gt;755	DataSourceViewID&lt;/dwd:key&gt;&lt;/dwd:DtsComponentDesignTimeProperty&gt;&lt;/dwd:DtsComponentDesignerPropertiesList&gt;&lt;/TaskHost&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{2abb9541-1616-4168-bba9-cd44ad288cb8}</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{F171522D-1247-44C4-A707-DB138541DF82}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{B2BB8536-E2DA-4A1E-BD3C-A8B1BFD10C8C}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PipelinePath xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:SourceName&gt;OLE DB Source Output&lt;/dwd:SourceName&gt;&lt;dwd:DestinationName&gt;Salesforce Destination Input&lt;/dwd:DestinationName&gt;&lt;/PipelinePath&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{2abb9541-1616-4168-bba9-cd44ad288cb8}-813</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{C2FB1E49-C4F5-454B-974B-5D2515AD23EA}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{B49B3ACF-169A-4FAD-A07F-3D0C4A9619FC}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
-<DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;TaskHost xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:DtsDataFlowDiagram&gt;&lt;dwd:BoundingTop&gt;-3003&lt;/dwd:BoundingTop&gt;&lt;dwd:Layout&gt;&lt;dds&gt;
+<DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;TaskHost xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:DtsDataFlowDiagram&gt;&lt;dwd:Layout&gt;&lt;dds&gt;
   &lt;diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="Microsoft.DataWarehouse.Layout.GraphLayout100" defaultlineroute="Microsoft.DataWarehouse.Layout.GraphLayout100" version="7" nextobject="11" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="0" scrolltop="-4003" gridx="150" gridy="150" marginx="1000" marginy="1000" zoom="100" x="24342" y="11562" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="1" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="0" backpictureclsid="{00000000-0000-0000-0000-000000000000}"&gt;
     &lt;font&gt;
       &lt;ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" /&gt;
     &lt;/font&gt;
-    &lt;mouseicon&gt;
-      &lt;ddsxmlobjectstreamwrapper binary="6c74000000000000" /&gt;
+    &lt;mouseicon&gt;&lt;ddsxmlobjectstreamwrapper binary="6c74000000000000" /&gt;
     &lt;/mouseicon&gt;
   &lt;/diagram&gt;
-  &lt;layoutmanager&gt;
-    &lt;ddsxmlobj /&gt;
+  &lt;layoutmanager&gt;&lt;ddsxmlobj /&gt;
   &lt;/layoutmanager&gt;
-  &lt;ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Populates Salesforce destination object." left="2209" top="3003" logicalid="4" controlid="1" masterid="0" hint1="0" hint2="0" width="3598" height="1164" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
-    &lt;control&gt;
-      &lt;ddsxmlobjectstreaminitwrapper binary="000800000e0e00008c040000" /&gt;
+  &lt;ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Populates Salesforce destination object." left="2209" top="3003" logicalid="4" controlid="1" masterid="0" hint1="0" hint2="0" width="3598" height="1164" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;&lt;control&gt;&lt;ddsxmlobjectstreaminitwrapper binary="000800000e0e00008c040000" /&gt;
     &lt;/control&gt;
-    &lt;layoutobject&gt;
-      &lt;ddsxmlobj&gt;
-        &lt;property name="LogicalObject" value="{353BBC84-695E-4FD9-B0C0-DB99B3E3C755}/components/166" vartype="8" /&gt;
+    &lt;layoutobject&gt;&lt;ddsxmlobj&gt;&lt;property name="LogicalObject" value="{353BBC84-695E-4FD9-B0C0-DB99B3E3C755}/components/166" vartype="8" /&gt;
         &lt;property name="ShowConnectorSource" value="0" vartype="2" /&gt;
       &lt;/ddsxmlobj&gt;
     &lt;/layoutobject&gt;
     &lt;shape groupshapeid="0" groupnode="0" /&gt;
   &lt;/ddscontrol&gt;
-  &lt;ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="OLE DB Source" left="1708" top="-3003" logicalid="5" controlid="2" masterid="0" hint1="0" hint2="0" width="3598" height="1164" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
-    &lt;control&gt;
-      &lt;ddsxmlobjectstreaminitwrapper binary="000800000e0e00008c040000" /&gt;
+  &lt;ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="OLE DB Source" left="1708" top="-3003" logicalid="5" controlid="2" masterid="0" hint1="0" hint2="0" width="3598" height="1164" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;&lt;control&gt;&lt;ddsxmlobjectstreaminitwrapper binary="000800000e0e00008c040000" /&gt;
     &lt;/control&gt;
-    &lt;layoutobject&gt;
-      &lt;ddsxmlobj&gt;
-        &lt;property name="LogicalObject" value="{353BBC84-695E-4FD9-B0C0-DB99B3E3C755}/components/299" vartype="8" /&gt;
+    &lt;layoutobject&gt;&lt;ddsxmlobj&gt;&lt;property name="LogicalObject" value="{353BBC84-695E-4FD9-B0C0-DB99B3E3C755}/components/299" vartype="8" /&gt;
         &lt;property name="ShowConnectorSource" value="0" vartype="2" /&gt;
       &lt;/ddsxmlobj&gt;
     &lt;/layoutobject&gt;
     &lt;shape groupshapeid="0" groupnode="0" /&gt;
   &lt;/ddscontrol&gt;
-  &lt;ddscontrol controlprogid="MSDDS.Polyline" left="3108" top="-2238" logicalid="6" controlid="3" masterid="0" hint1="0" hint2="0" width="1300" height="5741" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
-    &lt;control&gt;
-      &lt;ddsxmlobj&gt;
-        &lt;polyline endtypedst="3" endtypesrc="1" usercolor="32768" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" /&gt;
+  &lt;ddscontrol controlprogid="MSDDS.Polyline" left="3108" top="-2238" logicalid="6" controlid="3" masterid="0" hint1="0" hint2="0" width="1300" height="5741" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;&lt;control&gt;&lt;ddsxmlobj&gt;&lt;polyline endtypedst="3" endtypesrc="1" usercolor="32768" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" /&gt;
       &lt;/ddsxmlobj&gt;
     &lt;/control&gt;
-    &lt;layoutobject&gt;
-      &lt;ddsxmlobj&gt;
-        &lt;property name="LogicalObject" value="{353BBC84-695E-4FD9-B0C0-DB99B3E3C755}/paths/344" vartype="8" /&gt;
+    &lt;layoutobject&gt;&lt;ddsxmlobj&gt;&lt;property name="LogicalObject" value="{353BBC84-695E-4FD9-B0C0-DB99B3E3C755}/paths/344" vartype="8" /&gt;
         &lt;property name="Virtual" value="0" vartype="11" /&gt;
         &lt;property name="VisibleAP" value="0" vartype="3" /&gt;
       &lt;/ddsxmlobj&gt;
     &lt;/layoutobject&gt;
-    &lt;connector lineroutestyle="Microsoft.DataWarehouse.Layout.GraphLayout100" sourceid="2" destid="1" sourceattachpoint="7" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="2" relatedid="0" virtual="0"&gt;
-      &lt;point x="3507" y="-1839" /&gt;
+    &lt;connector lineroutestyle="Microsoft.DataWarehouse.Layout.GraphLayout100" sourceid="2" destid="1" sourceattachpoint="7" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="2" relatedid="0" virtual="0"&gt;&lt;point x="3507" y="-1839" /&gt;
       &lt;point x="3507" y="582" /&gt;
       &lt;point x="4008" y="582" /&gt;
       &lt;point x="4008" y="3003" /&gt;
@@ -2535,14 +2519,14 @@ select  Id
 &lt;/dds&gt;&lt;/dwd:Layout&gt;&lt;dwd:PersistedViewPortTop&gt;-4003&lt;/dwd:PersistedViewPortTop&gt;&lt;/dwd:DtsDataFlowDiagram&gt;&lt;dwd:DtsComponentDesignerPropertiesList&gt;&lt;dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:key xsi:type="xsd:string"&gt;299	DataSourceViewID&lt;/dwd:key&gt;&lt;/dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:key xsi:type="xsd:string"&gt;23	DataSourceViewID&lt;/dwd:key&gt;&lt;/dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:key xsi:type="xsd:string"&gt;151	DataSourceViewID&lt;/dwd:key&gt;&lt;/dwd:DtsComponentDesignTimeProperty&gt;&lt;/dwd:DtsComponentDesignerPropertiesList&gt;&lt;/TaskHost&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{353BBC84-695E-4FD9-B0C0-DB99B3E3C755}</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{12736A3A-3D1C-4493-A50C-1436B6F6E148}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{A360C0F6-B920-47CA-9869-615C46DDFECD}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PipelinePath xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:SourceName&gt;OLE DB Source Output&lt;/dwd:SourceName&gt;&lt;dwd:DestinationName&gt;Salesforce Destination Input&lt;/dwd:DestinationName&gt;&lt;/PipelinePath&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{353BBC84-695E-4FD9-B0C0-DB99B3E3C755}-344</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{FD508144-0637-4E84-A143-36D6EBFD3260}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{6F28D25F-C0B7-4899-9FB5-D9E20092770C}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
@@ -2589,14 +2573,14 @@ select  Id
 &lt;/dds&gt;&lt;/dwd:Layout&gt;&lt;/dwd:DtsDataFlowDiagram&gt;&lt;/TaskHost&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{504cc983-9302-4487-9ebb-48a61c9d6b3f}</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{B4AA3DA1-3F75-42BF-B604-4AC1D53CECD0}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{CD83683E-C2EB-44F2-88AE-BAEB9FE7AEA7}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PipelinePath xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:SourceName&gt;Salesforce Source Output&lt;/dwd:SourceName&gt;&lt;dwd:DestinationName&gt;OLE DB Destination Input&lt;/dwd:DestinationName&gt;&lt;/PipelinePath&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{504cc983-9302-4487-9ebb-48a61c9d6b3f}-490</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{17EEE36F-50C0-4C60-8AD4-A339AB1BD55C}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{CE48B258-EF12-4B10-80AF-521D862D9D78}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
@@ -2643,14 +2627,14 @@ select  Id
 &lt;/dds&gt;&lt;/dwd:Layout&gt;&lt;dwd:PersistedViewPortTop&gt;1915&lt;/dwd:PersistedViewPortTop&gt;&lt;/dwd:DtsDataFlowDiagram&gt;&lt;dwd:DtsComponentDesignerPropertiesList&gt;&lt;dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:key xsi:type="xsd:string"&gt;1	DataSourceViewID&lt;/dwd:key&gt;&lt;/dwd:DtsComponentDesignTimeProperty&gt;&lt;/dwd:DtsComponentDesignerPropertiesList&gt;&lt;/TaskHost&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{68c8ad42-4b1f-45fc-a385-880efa829d67}</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{62865EC0-CF5A-41BF-872E-D69145ED723F}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{6ECA346C-909A-4716-9D45-20B6F559D148}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PipelinePath xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:SourceName&gt;OLE DB Source Output&lt;/dwd:SourceName&gt;&lt;dwd:DestinationName&gt;Salesforce Destination Input&lt;/dwd:DestinationName&gt;&lt;/PipelinePath&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{68c8ad42-4b1f-45fc-a385-880efa829d67}-179</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{CEF8EAED-7A54-4696-BB19-1358FBCB90F6}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{A74E0A05-D47C-4688-B3B7-5827E630352B}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
@@ -2697,26 +2681,26 @@ select  Id
 &lt;/dds&gt;&lt;/dwd:Layout&gt;&lt;dwd:PersistedViewPortTop&gt;2003&lt;/dwd:PersistedViewPortTop&gt;&lt;/dwd:DtsDataFlowDiagram&gt;&lt;dwd:DtsComponentDesignerPropertiesList&gt;&lt;dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:key xsi:type="xsd:string"&gt;17	TableInfoObjectType&lt;/dwd:key&gt;&lt;dwd:value xsi:type="xsd:string"&gt;Table&lt;/dwd:value&gt;&lt;/dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:key xsi:type="xsd:string"&gt;17	DataSourceViewID&lt;/dwd:key&gt;&lt;/dwd:DtsComponentDesignTimeProperty&gt;&lt;/dwd:DtsComponentDesignerPropertiesList&gt;&lt;/TaskHost&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{6c01255f-081a-4209-9a8b-d0aa9585343d}</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{80C08EAF-9878-491D-982C-EA6B3A082ED9}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{7178955A-FED8-4152-ABD1-6CB3A4B461F9}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PipelinePath xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:SourceName&gt;Salesforce Source Output&lt;/dwd:SourceName&gt;&lt;dwd:DestinationName&gt;OLE DB Destination Input&lt;/dwd:DestinationName&gt;&lt;/PipelinePath&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{6c01255f-081a-4209-9a8b-d0aa9585343d}-490</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{5B26034E-4BC6-4AE6-83B7-4E807AA1F001}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{6D229064-EC2A-4CB4-99A1-CA22C1704925}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PrecedenceConstraint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:EvalOp&gt;Constraint&lt;/dwd:EvalOp&gt;&lt;/PrecedenceConstraint&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{7656A66A-C905-46CB-9B05-66DFF243BD2F}</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{38DEF92B-7BF4-49E0-8EA5-91A4993D7871}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{F9FECCA5-DD8F-4FFA-9DB0-D6DED759CA7B}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;Package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:DtsControlFlowDiagram&gt;&lt;dwd:BoundingLeft&gt;-25638&lt;/dwd:BoundingLeft&gt;&lt;dwd:BoundingTop&gt;-3763&lt;/dwd:BoundingTop&gt;&lt;dwd:Layout&gt;&lt;dds&gt;
-  &lt;diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="Microsoft.DataWarehouse.Layout.GraphLayout100" defaultlineroute="Microsoft.DataWarehouse.Layout.GraphLayout100" version="7" nextobject="68" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-26638" scrolltop="-4763" gridx="150" gridy="150" marginx="1000" marginy="1000" zoom="100" x="25691" y="12726" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="1" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}"&gt;
+  &lt;diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="Microsoft.DataWarehouse.Layout.GraphLayout100" defaultlineroute="Microsoft.DataWarehouse.Layout.GraphLayout100" version="7" nextobject="68" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-26638" scrolltop="16656" gridx="150" gridy="150" marginx="1000" marginy="1000" zoom="100" x="25982" y="16113" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="1" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}"&gt;
     &lt;font&gt;
       &lt;ddsxmlobjectstreamwrapper binary="01010000900180380100065461686f6d61" /&gt;
     &lt;/font&gt;
@@ -3220,52 +3204,52 @@ select  Id
     &lt;/layoutobject&gt;
     &lt;shape groupshapeid="0" groupnode="0" /&gt;
   &lt;/ddscontrol&gt;
-&lt;/dds&gt;&lt;/dwd:Layout&gt;&lt;dwd:PersistedViewPortLeft&gt;-26638&lt;/dwd:PersistedViewPortLeft&gt;&lt;dwd:PersistedViewPortTop&gt;-4763&lt;/dwd:PersistedViewPortTop&gt;&lt;/dwd:DtsControlFlowDiagram&gt;&lt;/Package&gt;</DTS:Property>
+&lt;/dds&gt;&lt;/dwd:Layout&gt;&lt;dwd:PersistedViewPortLeft&gt;-26638&lt;/dwd:PersistedViewPortLeft&gt;&lt;dwd:PersistedViewPortTop&gt;16656&lt;/dwd:PersistedViewPortTop&gt;&lt;/dwd:DtsControlFlowDiagram&gt;&lt;/Package&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{7AB9F175-5DDC-484F-A515-02881AF7E1B9}</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{C0D24966-E79A-4381-A4C4-D7B87E44DF64}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{1BB38109-1354-4656-84AF-6414D3C22DB7}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PrecedenceConstraint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:EvalOp&gt;Constraint&lt;/dwd:EvalOp&gt;&lt;/PrecedenceConstraint&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{90C13870-C5A1-4259-9793-33CB3CFABDAE}</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{31D2AD85-9034-4E5A-BF49-32002CC0477E}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{FDE63F73-ADB4-4CED-9E1B-5459F4C6D691}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PrecedenceConstraint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:EvalOp&gt;Constraint&lt;/dwd:EvalOp&gt;&lt;/PrecedenceConstraint&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{9A02A63C-8FDF-4378-A4F4-2C670A365CF6}</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{765783A9-8EE6-489C-B81D-DCEB5312AB3C}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{30FF819D-C509-4B52-B19B-EDD18C52C06A}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PrecedenceConstraint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:EvalOp&gt;Constraint&lt;/dwd:EvalOp&gt;&lt;/PrecedenceConstraint&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{9B98AEE7-DD35-46AC-BC65-3E7A7CFD52CE}</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{EC57FFC8-29EC-43CA-9D52-2E2F98130C0A}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{A88A79F8-B1BB-46DB-813A-C8BB4C9E722D}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PrecedenceConstraint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:EvalOp&gt;Constraint&lt;/dwd:EvalOp&gt;&lt;/PrecedenceConstraint&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{A157AB26-5B11-4E75-B240-22F3904CC477}</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{4C12A622-5751-48C1-8097-E6728F61589E}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{96717DD4-3705-4524-B38F-78C00793CF5D}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PrecedenceConstraint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:EvalOp&gt;Constraint&lt;/dwd:EvalOp&gt;&lt;/PrecedenceConstraint&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{cd17be74-c34a-41ac-bb61-6a513ab5ffba}</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{FA94138C-DFB7-4259-90DB-40FCD9BE055F}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{57B6182E-6A4B-4AFC-B9A6-8E74404E1D90}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PrecedenceConstraint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:EvalOp&gt;Constraint&lt;/dwd:EvalOp&gt;&lt;/PrecedenceConstraint&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{D7108D14-0429-49BC-A789-4475C035F9EF}</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{E441D8F4-77A9-4B69-BEF9-716356809A35}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{C04A196D-E46B-4B47-9858-6C581B658555}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
@@ -3312,26 +3296,26 @@ select  Id
 &lt;/dds&gt;&lt;/dwd:Layout&gt;&lt;/dwd:DtsDataFlowDiagram&gt;&lt;/TaskHost&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{f2da1550-40ba-4b7f-b735-5198dc257af2}</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{ED699A32-ED00-4F8F-868B-1E38942C328C}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{548E5167-801C-474B-8F2D-D8FA1AF82EE3}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PipelinePath xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:SourceName&gt;OLE DB Source Output&lt;/dwd:SourceName&gt;&lt;dwd:DestinationName&gt;Salesforce Destination Input&lt;/dwd:DestinationName&gt;&lt;/PipelinePath&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{f2da1550-40ba-4b7f-b735-5198dc257af2}-179</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{699AB5CF-EC29-4041-BDF2-7ABB55860E46}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{226616CF-0015-4228-A2AA-98E82E190F7A}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PrecedenceConstraint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:EvalOp&gt;Constraint&lt;/dwd:EvalOp&gt;&lt;/PrecedenceConstraint&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{FC3F6350-EAD3-4E37-9402-A8F465753DCA}</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{D9F6BA48-48EF-4AF4-80FF-A68CE93A44B0}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{38E4C37B-07FC-4279-ACD3-560026B276E7}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;Package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:DtsControlFlowDiagram&gt;&lt;dwd:BoundingLeft&gt;-25638&lt;/dwd:BoundingLeft&gt;&lt;dwd:BoundingTop&gt;-3763&lt;/dwd:BoundingTop&gt;&lt;dwd:Layout&gt;&lt;dds&gt;
-  &lt;diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="Microsoft.DataWarehouse.Layout.GraphLayout100" defaultlineroute="Microsoft.DataWarehouse.Layout.GraphLayout100" version="7" nextobject="68" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-26638" scrolltop="-4763" gridx="150" gridy="150" marginx="1000" marginy="1000" zoom="100" x="25691" y="12726" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="1" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}"&gt;
+  &lt;diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="Microsoft.DataWarehouse.Layout.GraphLayout100" defaultlineroute="Microsoft.DataWarehouse.Layout.GraphLayout100" version="7" nextobject="68" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-26638" scrolltop="16656" gridx="150" gridy="150" marginx="1000" marginy="1000" zoom="100" x="25982" y="16113" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="1" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}"&gt;
     &lt;font&gt;
       &lt;ddsxmlobjectstreamwrapper binary="01010000900180380100065461686f6d61" /&gt;
     &lt;/font&gt;
@@ -3835,9 +3819,9 @@ select  Id
     &lt;/layoutobject&gt;
     &lt;shape groupshapeid="0" groupnode="0" /&gt;
   &lt;/ddscontrol&gt;
-&lt;/dds&gt;&lt;/dwd:Layout&gt;&lt;dwd:PersistedViewPortLeft&gt;-26638&lt;/dwd:PersistedViewPortLeft&gt;&lt;dwd:PersistedViewPortTop&gt;-4763&lt;/dwd:PersistedViewPortTop&gt;&lt;/dwd:DtsControlFlowDiagram&gt;&lt;/Package&gt;</DTS:Property>
+&lt;/dds&gt;&lt;/dwd:Layout&gt;&lt;dwd:PersistedViewPortLeft&gt;-26638&lt;/dwd:PersistedViewPortLeft&gt;&lt;dwd:PersistedViewPortTop&gt;16656&lt;/dwd:PersistedViewPortTop&gt;&lt;/dwd:DtsControlFlowDiagram&gt;&lt;/Package&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">package-diagram</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{90B4B499-E84C-4C1D-A981-353A27201FBB}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{518237D3-9589-4301-9FD4-EF81AF46230E}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable></DTS:Executable>

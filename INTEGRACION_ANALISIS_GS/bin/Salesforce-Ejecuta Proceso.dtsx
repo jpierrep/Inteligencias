@@ -10,8 +10,8 @@
 <DTS:Property DTS:Name="PackagePriorityClass">0</DTS:Property>
 <DTS:Property DTS:Name="VersionMajor">1</DTS:Property>
 <DTS:Property DTS:Name="VersionMinor">0</DTS:Property>
-<DTS:Property DTS:Name="VersionBuild">30</DTS:Property>
-<DTS:Property DTS:Name="VersionGUID">{68FFF5E9-A1FE-42D3-AC52-AE0D9F03C055}</DTS:Property>
+<DTS:Property DTS:Name="VersionBuild">31</DTS:Property>
+<DTS:Property DTS:Name="VersionGUID">{4482C458-FDCF-45B9-B038-9A13DE2A9EC9}</DTS:Property>
 <DTS:Property DTS:Name="EnableConfig">0</DTS:Property>
 <DTS:Property DTS:Name="CheckpointFileName"></DTS:Property>
 <DTS:Property DTS:Name="SaveCheckpoints">0</DTS:Property>
@@ -23,14 +23,14 @@
 <DTS:Property DTS:Name="DTSID">{B7DCA4B8-A7A7-40D9-B282-C341B81CA726}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName">OLEDB</DTS:Property><DTS:ObjectData><DTS:ConnectionManager>
-<DTS:Property DTS:Name="Retain">0</DTS:Property><EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element" Salt="XYu8Xts1fA==" IV="pNeDWgvo4pE=" xmlns="http://www.w3.org/2001/04/xmlenc#"><EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/><CipherData><CipherValue>pNeDWgvo4pG5zMxlc7w/7X27ufwIf565kIzBWy52W2m95rxlp48f/jglobWUtob/O8Z8XBxi6R2C1+XZhJVnUgLXKr1ueRCJSuj4bBzQB3xAMUw6/DJ1NQiW1LuHNOw2xHYDgbLe+WYKAAeo8EHuuphq+N1M7Gos03Eh+IAtxdM=</CipherValue></CipherData></EncryptedData>
+<DTS:Property DTS:Name="Retain">0</DTS:Property><EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element" Salt="ao74o/xwCw==" IV="r7BoPolcgzM=" xmlns="http://www.w3.org/2001/04/xmlenc#"><EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/><CipherData><CipherValue>r7BoPolcgzOBSSe5wjG+VFlgQ5xRGNpEHhIB86h5QPW/0l8larT2YvUWR59Z+ajEuLG1bOUf2ElvdnhyGgVtNYHywAJ80ojkh76+r1vD2UyHn/4xQ5YIwGnKypqGaQdT1kaFrIyjB9TIpuccT7KkcDzzfkIS++yTjVvgTlolrDc=</CipherValue></CipherData></EncryptedData>
 <DTS:Property DTS:Name="ConnectionString">Data Source=192.168.100.14;User ID=targit;Initial Catalog=Inteligencias;Provider=SQLNCLI10.1;Application Name=SSIS-Salesforce-Ejecuta Proceso-{B7DCA4B8-A7A7-40D9-B282-C341B81CA726}192.168.100.14.Inteligencias.targit;Auto Translate=False;</DTS:Property></DTS:ConnectionManager></DTS:ObjectData></DTS:ConnectionManager>
 <DTS:ConnectionManager>
 <DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">Salesforce Connection Manager 1</DTS:Property>
 <DTS:Property DTS:Name="DTSID">{AF6FC6F2-4B64-4B34-945C-63F51A9482F1}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
-<DTS:Property DTS:Name="CreationName">SFORCE</DTS:Property><DTS:ObjectData><ConnectionManager ConnectionString="ServerUser=cjohannesen@inversionesodin.cl;ServerTimeout=60;ServerUrl=https://login.salesforce.com/services/Soap/u/37.0;RetainSameConnection=True;OrganizationId=;PortalId=;AllowDuplicatesSave=False;AllowFieldTruncation=False;CommitAllOrNone=False;AssignmentRule=;ProxyHost=;ProxyPort=0;ProxyUser=;"><EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element" Salt="OihdNqmm6Q==" IV="+zKnlxMNX1k=" xmlns="http://www.w3.org/2001/04/xmlenc#"><EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/><CipherData><CipherValue>+zKnlxMNX1lwrGTgoUmkS2IzqofHKdoypUhGrhYkJoklaps3VkK3/MjZ+AvEKYMOHHOA9z/R5rCQUSFmbi724akUnlfXEwB9</CipherValue></CipherData></EncryptedData></ConnectionManager></DTS:ObjectData></DTS:ConnectionManager>
+<DTS:Property DTS:Name="CreationName">SFORCE</DTS:Property><DTS:ObjectData><ConnectionManager ConnectionString="ServerUser=cjohannesen@inversionesodin.cl;ServerTimeout=60;ServerUrl=https://login.salesforce.com/services/Soap/u/37.0;RetainSameConnection=True;OrganizationId=;PortalId=;AllowDuplicatesSave=False;AllowFieldTruncation=False;CommitAllOrNone=False;AssignmentRule=;ProxyHost=;ProxyPort=0;ProxyUser=;"><EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element" Salt="JGU7u2PlYA==" IV="Wx4Fz338YAc=" xmlns="http://www.w3.org/2001/04/xmlenc#"><EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/><CipherData><CipherValue>Wx4Fz338YAffAD+lecOoDwejy12bne0g/+2WwZVkKLL+QAEyjz4V39h6sHTERgKoFxoTM3BcvvygBry7wpi7Q2BlplR8m+Nk</CipherValue></CipherData></EncryptedData></ConnectionManager></DTS:ObjectData></DTS:ConnectionManager>
 <DTS:ConnectionManager>
 <DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">Salesforce-Actualiza Softguard.dtsx</DTS:Property>
@@ -94,7 +94,7 @@
 <DTS:Property DTS:Name="DTSID">{61F64BFD-D48D-4EFA-B76F-A47782E26F1A}</DTS:Property>
 <DTS:Property DTS:Name="Description">Execute Package Task</DTS:Property>
 <DTS:Property DTS:Name="CreationName">SSIS.ExecutePackageTask.2</DTS:Property>
-<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><ExecutePackageTask><ExecuteOutOfProcess>False</ExecuteOutOfProcess><PackageName></PackageName><EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element" Salt="C8ytUBluHA==" IV="luzHKc3GXf0=" xmlns="http://www.w3.org/2001/04/xmlenc#"><EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/><CipherData><CipherValue>luzHKc3GXf2bqaZMUzZoGcJ7xjlnE0R4X96Jm6aKIO0s18KQ39btDIE1ucM40YkTxluR5ybkpB+5x0bREX9NUA==</CipherValue></CipherData></EncryptedData><PackageID></PackageID><VersionID></VersionID><Connection>{DAE1C302-7E8C-46B6-BC2F-D9925DDA4F08}</Connection></ExecutePackageTask></DTS:ObjectData></DTS:Executable>
+<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><ExecutePackageTask><ExecuteOutOfProcess>False</ExecuteOutOfProcess><PackageName></PackageName><EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element" Salt="1IYXp6LUtw==" IV="RejVPEyG50g=" xmlns="http://www.w3.org/2001/04/xmlenc#"><EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/><CipherData><CipherValue>RejVPEyG50h3VPIfjUvHk6gaYOzI3qDLC5jwttQvSk0LSBiutDL8q/xVH6no7pPvd4WlLiu/JWPL7+/9COFW0w==</CipherValue></CipherData></EncryptedData><PackageID></PackageID><VersionID></VersionID><Connection>{DAE1C302-7E8C-46B6-BC2F-D9925DDA4F08}</Connection></ExecutePackageTask></DTS:ObjectData></DTS:Executable>
 <DTS:Executable DTS:ExecutableType="SSIS.ExecutePackageTask.2">
 <DTS:Property DTS:Name="ExecutionLocation">0</DTS:Property>
 <DTS:Property DTS:Name="ExecutionAddress"></DTS:Property>
@@ -118,7 +118,7 @@
 <DTS:Property DTS:Name="DTSID">{7B01B156-EC08-49EB-9D64-60B1D6B53D48}</DTS:Property>
 <DTS:Property DTS:Name="Description">Execute Package Task</DTS:Property>
 <DTS:Property DTS:Name="CreationName">SSIS.ExecutePackageTask.2</DTS:Property>
-<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><ExecutePackageTask><ExecuteOutOfProcess>False</ExecuteOutOfProcess><PackageName></PackageName><EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element" Salt="WWxF2ILXWg==" IV="2Ob7/jkJZh4=" xmlns="http://www.w3.org/2001/04/xmlenc#"><EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/><CipherData><CipherValue>2Ob7/jkJZh7juv35my+xMyEy4/+4LFXoQF0DKs+4yLtJY56HzEJHjIuLlprBBVWKl59Ege4LIalf1vFMXBCJ7A==</CipherValue></CipherData></EncryptedData><PackageID></PackageID><VersionID></VersionID><Connection>{2D248146-B6D2-437D-A630-3A0528246B32}</Connection></ExecutePackageTask></DTS:ObjectData></DTS:Executable>
+<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><ExecutePackageTask><ExecuteOutOfProcess>False</ExecuteOutOfProcess><PackageName></PackageName><EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element" Salt="nQj5AnOJ9Q==" IV="pjsNQNb23FQ=" xmlns="http://www.w3.org/2001/04/xmlenc#"><EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/><CipherData><CipherValue>pjsNQNb23FSMcuRnc2+PAYtB+1NdqPvjGUxSC/KVnk5vxilTwC4z3EKbXCO4nsAvFrzQ5wbuLUjYxFQo8Ykf6A==</CipherValue></CipherData></EncryptedData><PackageID></PackageID><VersionID></VersionID><Connection>{2D248146-B6D2-437D-A630-3A0528246B32}</Connection></ExecutePackageTask></DTS:ObjectData></DTS:Executable>
 <DTS:Executable DTS:ExecutableType="SSIS.Pipeline.2">
 <DTS:Property DTS:Name="ExecutionLocation">0</DTS:Property>
 <DTS:Property DTS:Name="ExecutionAddress"></DTS:Property>
@@ -305,7 +305,7 @@ Select id,DATEADD(second, DATEDIFF(second, GETDATE(), GETUTCDATE()),GETDATE()) a
 <DTS:Property DTS:Name="DTSID">{2A5F8E9D-F197-4FD3-B5A3-096CAD3A9A51}</DTS:Property>
 <DTS:Property DTS:Name="Description">Execute Package Task</DTS:Property>
 <DTS:Property DTS:Name="CreationName">SSIS.ExecutePackageTask.2</DTS:Property>
-<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><ExecutePackageTask><ExecuteOutOfProcess>False</ExecuteOutOfProcess><PackageName></PackageName><EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element" Salt="H/UdTXmxaQ==" IV="G2PrBvRD19E=" xmlns="http://www.w3.org/2001/04/xmlenc#"><EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/><CipherData><CipherValue>G2PrBvRD19F8xAeRfeNRZ06sRE8AZHINURWklRy7+9L8iJnmnuNbXt79+4qKOFyTQgMyjRf9D5SVjYKPdRuCEg==</CipherValue></CipherData></EncryptedData><PackageID></PackageID><VersionID></VersionID><Connection>{85D506EF-B84A-492F-8350-CBE149E06294}</Connection></ExecutePackageTask></DTS:ObjectData></DTS:Executable>
+<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><ExecutePackageTask><ExecuteOutOfProcess>False</ExecuteOutOfProcess><PackageName></PackageName><EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element" Salt="b9H0KGGBMA==" IV="At23x4552kM=" xmlns="http://www.w3.org/2001/04/xmlenc#"><EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/><CipherData><CipherValue>At23x4552kPv5DpY7WQ2pR4E1NqOS1+V06Uig9/rxUOVWnIhQIP5Jhs44SktxWaTNzHJ1mKp58rcYL+8/1g7Iw==</CipherValue></CipherData></EncryptedData><PackageID></PackageID><VersionID></VersionID><Connection>{85D506EF-B84A-492F-8350-CBE149E06294}</Connection></ExecutePackageTask></DTS:ObjectData></DTS:Executable>
 <DTS:PrecedenceConstraint>
 <DTS:Property DTS:Name="Value">2</DTS:Property>
 <DTS:Property DTS:Name="EvalOp">2</DTS:Property>
@@ -342,21 +342,21 @@ Select id,DATEADD(second, DATEDIFF(second, GETDATE(), GETUTCDATE()),GETDATE()) a
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PrecedenceConstraint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:EvalOp&gt;Constraint&lt;/dwd:EvalOp&gt;&lt;/PrecedenceConstraint&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{125E78A5-E7C4-43DF-9F68-83CD7D9F88B1}</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{44674094-BAAF-4A47-85BE-61B2C96AEBA7}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{5918AFD8-7E99-4EE5-ADB9-F8A92D655AEB}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PrecedenceConstraint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:EvalOp&gt;Constraint&lt;/dwd:EvalOp&gt;&lt;/PrecedenceConstraint&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{1713208B-06F1-4896-BC5D-F497B1F027EB}</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{E0DA34FA-6DC3-4B64-8AE9-AB1B0675E9A4}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{4A962B1B-EDE2-4331-BD05-A6C9631C54C7}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PrecedenceConstraint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:EvalOp&gt;Constraint&lt;/dwd:EvalOp&gt;&lt;/PrecedenceConstraint&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{89446A9F-C389-491E-8673-F4A5D239201E}</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{398A8428-D2F5-45BA-BD6E-A1A4D3C1C985}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{B052901E-ABE7-4855-917A-7526FBF68D22}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
@@ -403,19 +403,19 @@ Select id,DATEADD(second, DATEDIFF(second, GETDATE(), GETUTCDATE()),GETDATE()) a
 &lt;/dds&gt;&lt;/dwd:Layout&gt;&lt;dwd:PersistedViewPortTop&gt;-1938&lt;/dwd:PersistedViewPortTop&gt;&lt;/dwd:DtsDataFlowDiagram&gt;&lt;dwd:DtsComponentDesignerPropertiesList&gt;&lt;dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:key xsi:type="xsd:string"&gt;38	DataSourceViewID&lt;/dwd:key&gt;&lt;/dwd:DtsComponentDesignTimeProperty&gt;&lt;/dwd:DtsComponentDesignerPropertiesList&gt;&lt;/TaskHost&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{8B4F865B-0DCC-420F-835A-60A0B9189122}</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{4A96CE57-D9DE-4C0C-A702-1AE3F88EB46C}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{0F9928B4-31BB-4840-8750-45E4D71226A7}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PipelinePath xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:SourceName&gt;OLE DB Source Output&lt;/dwd:SourceName&gt;&lt;dwd:DestinationName&gt;Salesforce Destination Input&lt;/dwd:DestinationName&gt;&lt;/PipelinePath&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{8B4F865B-0DCC-420F-835A-60A0B9189122}-53</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{725F600B-7612-4B83-B5CD-672F7D07256B}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{744D713B-015E-46F3-8D2F-324FF439DFCB}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
-<DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;Package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:DtsControlFlowDiagram&gt;&lt;dwd:BoundingLeft&gt;1000&lt;/dwd:BoundingLeft&gt;&lt;dwd:BoundingTop&gt;766&lt;/dwd:BoundingTop&gt;&lt;dwd:Layout&gt;&lt;dds&gt;
-  &lt;diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="Microsoft.DataWarehouse.Layout.GraphLayout100" defaultlineroute="Microsoft.DataWarehouse.Layout.GraphLayout100" version="7" nextobject="18" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="0" scrolltop="-234" gridx="150" gridy="150" marginx="1000" marginy="1000" zoom="100" x="22410" y="12726" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="1" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}"&gt;
+<DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;Package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:DtsControlFlowDiagram&gt;&lt;dwd:Layout&gt;&lt;dds&gt;
+  &lt;diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="Microsoft.DataWarehouse.Layout.GraphLayout100" defaultlineroute="Microsoft.DataWarehouse.Layout.GraphLayout100" version="7" nextobject="18" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="0" scrolltop="736" gridx="150" gridy="150" marginx="1000" marginy="1000" zoom="100" x="22225" y="10292" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="1" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}"&gt;
     &lt;font&gt;
       &lt;ddsxmlobjectstreamwrapper binary="01010000900180380100065461686f6d61" /&gt;
     &lt;/font&gt;
@@ -482,7 +482,7 @@ Select id,DATEADD(second, DATEDIFF(second, GETDATE(), GETUTCDATE()),GETDATE()) a
     &lt;/layoutobject&gt;
     &lt;shape groupshapeid="0" groupnode="0" /&gt;
   &lt;/ddscontrol&gt;
-  &lt;ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Data Flow Task" left="2218" top="6352" logicalid="12" controlid="5" masterid="0" hint1="0" hint2="0" width="5000" height="1164" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
+  &lt;ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="An error occurred with the following error message: &amp;quot;INVALID_LOGIN: Nombre de usuario, contraseña, t..." left="2218" top="6352" logicalid="12" controlid="5" masterid="0" hint1="0" hint2="0" width="5000" height="1164" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
     &lt;control&gt;
       &lt;ddsxmlobjectstreaminitwrapper binary="00080000881300008c040000" /&gt;
     &lt;/control&gt;
@@ -534,15 +534,15 @@ Select id,DATEADD(second, DATEDIFF(second, GETDATE(), GETUTCDATE()),GETDATE()) a
       &lt;point x="4783" y="8758" /&gt;
     &lt;/connector&gt;
   &lt;/ddscontrol&gt;
-&lt;/dds&gt;&lt;/dwd:Layout&gt;&lt;dwd:PersistedViewPortTop&gt;-234&lt;/dwd:PersistedViewPortTop&gt;&lt;/dwd:DtsControlFlowDiagram&gt;&lt;/Package&gt;</DTS:Property>
+&lt;/dds&gt;&lt;/dwd:Layout&gt;&lt;dwd:PersistedViewPortTop&gt;736&lt;/dwd:PersistedViewPortTop&gt;&lt;/dwd:DtsControlFlowDiagram&gt;&lt;/Package&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{A558633C-1221-4721-84C5-933FF7DE0065}</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{76C93954-5926-41D3-A8AF-FA5BF73C6F5A}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{CF895BA2-797D-4B9B-AA18-9A15EBF61AE5}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
-<DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;Package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:DtsControlFlowDiagram&gt;&lt;dwd:BoundingLeft&gt;1000&lt;/dwd:BoundingLeft&gt;&lt;dwd:BoundingTop&gt;766&lt;/dwd:BoundingTop&gt;&lt;dwd:Layout&gt;&lt;dds&gt;
-  &lt;diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="Microsoft.DataWarehouse.Layout.GraphLayout100" defaultlineroute="Microsoft.DataWarehouse.Layout.GraphLayout100" version="7" nextobject="18" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="0" scrolltop="-234" gridx="150" gridy="150" marginx="1000" marginy="1000" zoom="100" x="22410" y="12726" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="1" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}"&gt;
+<DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;Package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:DtsControlFlowDiagram&gt;&lt;dwd:Layout&gt;&lt;dds&gt;
+  &lt;diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="Microsoft.DataWarehouse.Layout.GraphLayout100" defaultlineroute="Microsoft.DataWarehouse.Layout.GraphLayout100" version="7" nextobject="18" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="0" scrolltop="736" gridx="150" gridy="150" marginx="1000" marginy="1000" zoom="100" x="22225" y="10292" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="1" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}"&gt;
     &lt;font&gt;
       &lt;ddsxmlobjectstreamwrapper binary="01010000900180380100065461686f6d61" /&gt;
     &lt;/font&gt;
@@ -609,7 +609,7 @@ Select id,DATEADD(second, DATEDIFF(second, GETDATE(), GETUTCDATE()),GETDATE()) a
     &lt;/layoutobject&gt;
     &lt;shape groupshapeid="0" groupnode="0" /&gt;
   &lt;/ddscontrol&gt;
-  &lt;ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Data Flow Task" left="2218" top="6352" logicalid="12" controlid="5" masterid="0" hint1="0" hint2="0" width="5000" height="1164" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
+  &lt;ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="An error occurred with the following error message: &amp;quot;INVALID_LOGIN: Nombre de usuario, contraseña, t..." left="2218" top="6352" logicalid="12" controlid="5" masterid="0" hint1="0" hint2="0" width="5000" height="1164" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
     &lt;control&gt;
       &lt;ddsxmlobjectstreaminitwrapper binary="00080000881300008c040000" /&gt;
     &lt;/control&gt;
@@ -661,9 +661,9 @@ Select id,DATEADD(second, DATEDIFF(second, GETDATE(), GETUTCDATE()),GETDATE()) a
       &lt;point x="4783" y="8758" /&gt;
     &lt;/connector&gt;
   &lt;/ddscontrol&gt;
-&lt;/dds&gt;&lt;/dwd:Layout&gt;&lt;dwd:PersistedViewPortTop&gt;-234&lt;/dwd:PersistedViewPortTop&gt;&lt;/dwd:DtsControlFlowDiagram&gt;&lt;/Package&gt;</DTS:Property>
+&lt;/dds&gt;&lt;/dwd:Layout&gt;&lt;dwd:PersistedViewPortTop&gt;736&lt;/dwd:PersistedViewPortTop&gt;&lt;/dwd:DtsControlFlowDiagram&gt;&lt;/Package&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">package-diagram</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{4646660F-91D7-4135-9EE7-5A7FAF8266AF}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{C42DFB25-F0A3-40E9-9367-8C5F2A1266FC}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable></DTS:Executable>

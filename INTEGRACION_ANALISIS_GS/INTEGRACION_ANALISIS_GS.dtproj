@@ -292,5 +292,10 @@
       <FullPath>Salesforce-CargaCasosNSR 1.dtsx</FullPath>
       <References />
     </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Ejecuta-Acreditacion.dtsx</Name>
+      <FullPath>Ejecuta-Acreditacion.dtsx</FullPath>
+      <References />
+    </DtsPackage>
   </DTSPackages>
 </Project>
