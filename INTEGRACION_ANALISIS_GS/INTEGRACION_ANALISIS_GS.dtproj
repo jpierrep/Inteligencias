@@ -297,5 +297,10 @@
       <FullPath>Ejecuta-Acreditacion.dtsx</FullPath>
       <References />
     </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Ejecuta-Carga-Cartola.dtsx</Name>
+      <FullPath>Ejecuta-Carga-Cartola.dtsx</FullPath>
+      <References />
+    </DtsPackage>
   </DTSPackages>
 </Project>
