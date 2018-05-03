@@ -302,5 +302,10 @@
       <FullPath>Ejecuta-Carga-Cartola.dtsx</FullPath>
       <References />
     </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>NC_carga_check_in.dtsx</Name>
+      <FullPath>NC_carga_check_in.dtsx</FullPath>
+      <References />
+    </DtsPackage>
   </DTSPackages>
 </Project>
