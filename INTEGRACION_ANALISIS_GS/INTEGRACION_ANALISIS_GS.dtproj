@@ -303,8 +303,18 @@
       <References />
     </DtsPackage>
     <DtsPackage FormatVersion="3">
-      <Name>NC_carga_check_in.dtsx</Name>
-      <FullPath>NC_carga_check_in.dtsx</FullPath>
+      <Name>NC_carga_checkin_y_calcula_visitas.dtsx</Name>
+      <FullPath>NC_carga_checkin_y_calcula_visitas.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Softland-Movimientos-testing.dtsx</Name>
+      <FullPath>Softland-Movimientos-testing.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Carga-Logistica.dtsx</Name>
+      <FullPath>Carga-Logistica.dtsx</FullPath>
       <References />
     </DtsPackage>
   </DTSPackages>
