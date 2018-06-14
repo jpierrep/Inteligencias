@@ -10,8 +10,8 @@
 <DTS:Property DTS:Name="PackagePriorityClass">0</DTS:Property>
 <DTS:Property DTS:Name="VersionMajor">1</DTS:Property>
 <DTS:Property DTS:Name="VersionMinor">0</DTS:Property>
-<DTS:Property DTS:Name="VersionBuild">28</DTS:Property>
-<DTS:Property DTS:Name="VersionGUID">{A4FC83D3-A070-419C-AFEA-C74DAAE693EA}</DTS:Property>
+<DTS:Property DTS:Name="VersionBuild">31</DTS:Property>
+<DTS:Property DTS:Name="VersionGUID">{76EAEC68-D8DF-43B3-BFB1-31ACF1512BEC}</DTS:Property>
 <DTS:Property DTS:Name="EnableConfig">0</DTS:Property>
 <DTS:Property DTS:Name="CheckpointFileName"></DTS:Property>
 <DTS:Property DTS:Name="SaveCheckpoints">0</DTS:Property>
@@ -31,7 +31,7 @@
 <DTS:Property DTS:Name="DTSID">{B3CB2E31-B9DD-4CD3-927F-238340D77C66}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName">OLEDB</DTS:Property><DTS:ObjectData><DTS:ConnectionManager>
-<DTS:Property DTS:Name="Retain">0</DTS:Property><EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element" Salt="7SYdoUucbQ==" IV="7WuEUyOCE1w=" xmlns="http://www.w3.org/2001/04/xmlenc#"><EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/><CipherData><CipherValue>7WuEUyOCE1zLMaCQnCr9pj1JVADPgvLlcFWfGQ+cjZlDtd0+z+9uMRHX9xELcSStUlJEHgNoZGkbQBY2/+ao6KRZpu1vmiFSbGQAkpQ9c/KprP9j6/T6SeUhiyrI67l5M6nQVH7fAk8L7ZKyYvgkvgw4dhqYQUXlFom8eaZ6rhg=</CipherValue></CipherData></EncryptedData>
+<DTS:Property DTS:Name="Retain">0</DTS:Property><EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element" Salt="ovW/RRzZXA==" IV="S3AnPg+1CA8=" xmlns="http://www.w3.org/2001/04/xmlenc#"><EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/><CipherData><CipherValue>S3AnPg+1CA/LiAu38wwnypBKxvZ4M+UcbI/HET3+BElAw9Blb2rRLEycSqwwX2YM1D1Lit3kJyxmlnUSlhIe4We47yWPYRHeaG430LquxhbTPwXb/zt9GY9uWkp0ftjjsP2AcZ3EJ6E6xblYqcAdBV0jjzPplmEiAmqetcNdOrc=</CipherValue></CipherData></EncryptedData>
 <DTS:Property DTS:Name="ConnectionString">Data Source=192.168.100.14;User ID=targit;Initial Catalog=Inteligencias;Provider=SQLNCLI10.1;Application Name=SSIS-Ejecuta-Acreditacion-{B3CB2E31-B9DD-4CD3-927F-238340D77C66}192.168.100.14.Inteligencias.targit;Auto Translate=False;</DTS:Property></DTS:ConnectionManager></DTS:ObjectData></DTS:ConnectionManager>
 <DTS:ConnectionManager>
 <DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
@@ -104,7 +104,7 @@
 <DTS:Property DTS:Name="DTSID">{85ECFBCC-89E8-4062-B941-827A70C146A2}</DTS:Property>
 <DTS:Property DTS:Name="Description">Execute Package Task</DTS:Property>
 <DTS:Property DTS:Name="CreationName">SSIS.ExecutePackageTask.2</DTS:Property>
-<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><ExecutePackageTask><ExecuteOutOfProcess>False</ExecuteOutOfProcess><PackageName></PackageName><EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element" Salt="io2YwxvdsQ==" IV="/Q4aVfrUKvQ=" xmlns="http://www.w3.org/2001/04/xmlenc#"><EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/><CipherData><CipherValue>/Q4aVfrUKvRpfprh1mQqW41HTtEcREtO29oYkNAo8dUxzJf0EHgNELXNfx73V9TmblNpZ61ULXjFGwqPgfiaeg==</CipherValue></CipherData></EncryptedData><PackageID></PackageID><VersionID></VersionID><Connection>{64390CEB-04D4-416C-82A5-6BE9069E869E}</Connection></ExecutePackageTask></DTS:ObjectData></DTS:Executable>
+<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><ExecutePackageTask><ExecuteOutOfProcess>False</ExecuteOutOfProcess><PackageName></PackageName><EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element" Salt="cEzYdX/p7w==" IV="iF+ciwJMLHY=" xmlns="http://www.w3.org/2001/04/xmlenc#"><EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/><CipherData><CipherValue>iF+ciwJMLHbl9jTmkiDOcf/QkJnGc3HYfQxCGylsLoqpbMLOv9yPM20/gGmCFVIrz5S2R3ILou8Bemx+g09oSQ==</CipherValue></CipherData></EncryptedData><PackageID></PackageID><VersionID></VersionID><Connection>{64390CEB-04D4-416C-82A5-6BE9069E869E}</Connection></ExecutePackageTask></DTS:ObjectData></DTS:Executable>
 <DTS:Executable DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" DTS:ThreadHint="0">
 <DTS:Property DTS:Name="ExecutionLocation">0</DTS:Property>
 <DTS:Property DTS:Name="ExecutionAddress"></DTS:Property>
@@ -129,6 +129,30 @@
 <DTS:Property DTS:Name="Description">Execute SQL Task</DTS:Property>
 <DTS:Property DTS:Name="CreationName">Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91</DTS:Property>
 <DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><SQLTask:SqlTaskData SQLTask:Connection="{B3CB2E31-B9DD-4CD3-927F-238340D77C66}" SQLTask:TimeOut="0" SQLTask:IsStoredProc="False" SQLTask:BypassPrepare="True" SQLTask:SqlStmtSourceType="DirectInput" SQLTask:SqlStatementSource="&#xA;&#xA;--------------------------------------------------CARGA DIMENSION TIEMPO, Y CALCULA SEMANAS Y MESES CALENDARIO PARA CUMPLIMIENTO DE VISITAS------------------------------------------------------------------&#xA;&#xA;insert into Inteligencias.dbo.NC_TIEMPO&#xA;([FECHA]&#xA;      ,[ANIO]&#xA;      ,[MES]&#xA;      ,[DIA]&#xA;      ,[DIA_NOMBRE]&#xA;      ,[DIA_LETRA]&#xA;      ,[HORA]&#xA;      ,[MINUTO]&#xA;      ,[AM_PM]&#xA;      ,[FECHA_FORMAT]&#xA;      ,[SEMANA])&#xA;SELECT DISTINCT &#xA;                         DATEADD([minute], DATEDIFF([minute], 0, FECHA), 0) AS FECHA, YEAR(FECHA) AS ANIO, SUBSTRING(CAST(CAST(FECHA AS date) AS varchar), 6, 2) AS MES, &#xA;                         SUBSTRING(CAST(CAST(FECHA AS date) AS varchar), 9, 2) AS DIA, CASE WHEN DATEname(dw, FECHA) = 'Monday' THEN 'LUNES' WHEN DATEname(dw, FECHA) &#xA;                         = 'Tuesday' THEN 'MARTES' WHEN DATEname(dw, FECHA) = 'Wednesday' THEN 'MIERCOLES' WHEN DATEname(dw, FECHA) &#xA;                         = 'Thursday' THEN 'JUEVES' WHEN DATEname(dw, FECHA) = 'Friday' THEN 'VIERNES' WHEN DATEname(dw, FECHA) &#xA;                         = 'Saturday' THEN 'SABADO' WHEN DATEname(dw, FECHA) = 'Sunday' THEN 'DOMINGO' ELSE DATEname(dw, FECHA) END AS 'DIA_NOMBRE', &#xA;                         CASE WHEN DATEname(dw, FECHA) = 'Monday' THEN 'L' WHEN DATEname(dw, FECHA) = 'Tuesday' THEN 'M' WHEN DATEname(dw, FECHA) &#xA;                         = 'Wednesday' THEN 'Mi' WHEN DATEname(dw, FECHA) = 'Thursday' THEN 'J' WHEN DATEname(dw, FECHA) = 'Friday' THEN 'V' WHEN DATEname(dw, FECHA) &#xA;                         = 'Saturday' THEN 'S' WHEN DATEname(dw, FECHA) = 'Sunday' THEN 'D' ELSE DATEname(dw, FECHA) END AS 'DIA_LETRA', CASE WHEN DATEPART(HOUR, FECHA) &#xA;                         &gt;= 10 THEN CAST(DATEPART(HOUR, FECHA) AS varchar) ELSE '0' + CAST(DATEPART(HOUR, FECHA) AS varchar) END AS 'HORA', CASE WHEN DATEPART(MINUTE, &#xA;                         FECHA) &gt;= 10 THEN CAST(DATEPART(MINUTE, FECHA) AS varchar) ELSE '0' + CAST(DATEPART(MINUTE, FECHA) AS varchar) END AS 'MINUTO', &#xA;                         CASE WHEN DATEPART(HOUR, FECHA) BETWEEN 0 AND 11 THEN 'AM' ELSE 'PM' END AS 'AM_PM', CONVERT(varchar, CONVERT(date, FECHA)) &#xA;                         AS FECHA_FORMAT, CASE datediff(week, dateadd(week, datediff(week, 0, dateadd(month, datediff(month, 0, fecha), 0)), 0), fecha - 1) &#xA;                         + 1 WHEN 0 THEN '01' ELSE '0' + CONVERT(varchar, datediff(week, dateadd(week, datediff(week, 0, dateadd(month, datediff(month, 0, fecha), 0)), 0), fecha - 1) + 1) &#xA;                         END AS SEMANA&#xA;                         &#xA;FROM            (SELECT DISTINCT FECHA&#xA;                          FROM            Inteligencias.dbo.NC_DET_VISITAS&#xA;                          UNION&#xA;                          SELECT DISTINCT INICIO_VIS&#xA;                          FROM             Inteligencias.dbo.NC_DET_VISITAS AS NC_DET_VISITAS_2&#xA;                          UNION&#xA;                          SELECT DISTINCT TERMINO_VIS&#xA;                          FROM             Inteligencias.dbo.NC_DET_VISITAS AS NC_DET_VISITAS_1&#xA;                          UNION&#xA;                          SELECT DISTINCT FECHA_NC_HISTORIAL&#xA;                          FROM             Inteligencias.dbo.NC_NOCONFORMIDADES&#xA;                          UNION&#xA;                          SELECT DISTINCT FECHA_VISITA&#xA;                          FROM             Inteligencias.dbo.NC_VISITAS_TELEFONO&#xA;                          UNION&#xA;                          SELECT DISTINCT FECHA_VISITA&#xA;                          FROM             Inteligencias.dbo.NC_VISITAS_AUTO&#xA;                          UNION&#xA;                          SELECT DISTINCT CONVERT(datetime, fecha) AS Expr1&#xA;                          FROM             Inteligencias.dbo.NC_VISITAS_PLANIFICACION&#xA;                          UNION&#xA;                          SELECT DISTINCT FECHA&#xA;                          FROM            TARGIT_GESTION_GS.dbo.CENTRO_COSTOS&#xA;                          WHERE        (CONVERT(int, SUBSTRING(FECHA, 1, 4)) &gt;= 2016) AND (SUBSTRING(FECHA, 6, 2) &lt;&gt; '00')&#xA;                          UNION&#xA;                          SELECT        DATEADD([month], DATEDIFF([month], 0, GETDATE()), 0) AS fecha&#xA;                          UNION&#xA;                          SELECT DISTINCT CONVERT(date, FECHA_VISITA, 103) AS Expr1&#xA;                          FROM             Inteligencias.dbo.NC_VISITAS AS fecha&#xA;                          UNION&#xA;                          SELECT DISTINCT FECHA_VISITA AS Expr1&#xA;                          FROM             Inteligencias.dbo.NC_PRESENCIA_SUP_VISITAS AS fecha&#xA;                            UNION&#xA;                          SELECT DISTINCT FECHA AS Expr1&#xA;                          FROM             Inteligencias.dbo.TIEMPO as Fecha where year(fecha)&gt;=2018&#xA;                          ) AS a&#xA;                          &#xA;                 where    DATEADD([minute], DATEDIFF([minute], 0, FECHA), 0) not in (select FECHA from inteligencias.dbo.NC_TIEMPO)     &#xA;                          &#xA;&#xA;--Añade calculo  semana y mes corrido a dimension tiempo&#xA;&#xA;&#xA;&#xA;&#xA;--Modificamos dimension tiempo para calculo de semanas y meses caledarios&#xA;&#xA;--Obtenemos todos los lunes de cada mes, esos son los comienzos de semana,&#xA;-- luego sumamos 7 dias , ese rango de dias se llama semana&#xA;--obtenemos la semana , mes y año ya que los meses quedan desfazados, finalmente cargamos los datos&#xA;&#xA;&#xA;SELECT   FECHA_FORMAT,YEAR(fecha) as AÑO,MONTH(FECHA) as MES,row_number() over (PARTITION BY YEAR(fecha),MONTH(FECHA) order by YEAR(fecha),MONTH(FECHA) ) as SEMANA&#xA;,row_number() over (order by (select 0)) as 'ID'&#xA; into #temp&#xA;  FROM [Inteligencias].[dbo].[NC_TIEMPO] where DIA_LETRA='L'&#xA;--and YEAR(fecha)=2018 and (MONTH(fecha)=07) --or MONTH(fecha)=03 or MONTH(fecha)=04)&#xA;  group by FECHA_FORMAT,YEAR(fecha),MONTH(FECHA)&#xA;  --select  * from  #temp&#xA;  declare @count int&#xA;  declare @cantReg int &#xA;  declare @semana int&#xA;  declare @mes varchar(2)&#xA;  declare @año int&#xA;  declare @fecha_lunes date&#xA;  set @count=1&#xA;  select @cantReg=COUNT(*) from #temp&#xA;  &#xA; while @count&lt;=@cantReg&#xA; begin&#xA;  select @semana=SEMANA,@fecha_lunes=CONVERT(date,FECHA_FORMAT) from #temp where ID=@count&#xA; &#xA; &#xA; update   [Inteligencias].[dbo].[NC_TIEMPO] &#xA; set SEMANA_CALENDARIO=@semana&#xA; -- a todos los dias de esa semana le cargamos el mes y año del inicio de semana, pues ese es el mandatario, puede haber desfase&#xA; ,MES_CODI_CALENDARIO=case when month(@fecha_lunes)&gt;=10 then convert(varchar,month(@fecha_lunes)) else  '0'+ convert(varchar,month(@fecha_lunes)) end&#xA; ,AÑO_CODI_CALENDARIO=YEAR(@fecha_lunes)&#xA; from (&#xA;  select distinct FECHA_FORMAT&#xA;   from &#xA;   &#xA; [Inteligencias].[dbo].[NC_TIEMPO]  where CONVERT(date,fecha) between @fecha_lunes and DATEADD(DAY,6,@fecha_lunes)&#xA; )a&#xA; where a.FECHA_FORMAT=NC_TIEMPO.FECHA_FORMAT&#xA; &#xA; set @count=@count+1&#xA; end&#xA; &#xA; drop table #temp                          &#xA;&#xA;" SQLTask:CodePage="1252" SQLTask:ResultType="ResultSetType_None" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask"/></DTS:ObjectData></DTS:Executable>
+<DTS:Executable DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" DTS:ThreadHint="0">
+<DTS:Property DTS:Name="ExecutionLocation">0</DTS:Property>
+<DTS:Property DTS:Name="ExecutionAddress"></DTS:Property>
+<DTS:Property DTS:Name="TaskContact">Execute SQL Task; Microsoft Corporation; Microsoft SQL Server 2008 R2; © 2007 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1</DTS:Property>
+<DTS:Property DTS:Name="ForceExecValue">0</DTS:Property>
+<DTS:Property DTS:Name="ExecValue" DTS:DataType="3">0</DTS:Property>
+<DTS:Property DTS:Name="ForceExecutionResult">-1</DTS:Property>
+<DTS:Property DTS:Name="Disabled">0</DTS:Property>
+<DTS:Property DTS:Name="FailPackageOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="FailParentOnFailure">0</DTS:Property>
+<DTS:Property DTS:Name="MaxErrorCount">1</DTS:Property>
+<DTS:Property DTS:Name="ISOLevel">1048576</DTS:Property>
+<DTS:Property DTS:Name="LocaleID">-1</DTS:Property>
+<DTS:Property DTS:Name="TransactionOption">1</DTS:Property>
+<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
+<DTS:LoggingOptions>
+<DTS:Property DTS:Name="LoggingMode">0</DTS:Property>
+<DTS:Property DTS:Name="FilterKind">1</DTS:Property>
+<DTS:Property DTS:Name="EventFilter" DTS:DataType="8"></DTS:Property></DTS:LoggingOptions>
+<DTS:Property DTS:Name="ObjectName">ACTUALIZA IS_RESP  Y IS_VISIB</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{6d6c8f1d-5a02-4eeb-815e-036f63c029ff}</DTS:Property>
+<DTS:Property DTS:Name="Description">Execute SQL Task</DTS:Property>
+<DTS:Property DTS:Name="CreationName">Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91</DTS:Property>
+<DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property><DTS:ObjectData><SQLTask:SqlTaskData SQLTask:Connection="{B3CB2E31-B9DD-4CD3-927F-238340D77C66}" SQLTask:TimeOut="0" SQLTask:IsStoredProc="False" SQLTask:BypassPrepare="True" SQLTask:SqlStmtSourceType="DirectInput" SQLTask:SqlStatementSource=" &#xA;update Inteligencias.dbo.NC_PRESENCIA_SUP_VISITAS  &#xA;set IS_VISIB_PLANTA=0&#xA;&#xA;&#xA;update Inteligencias.dbo.NC_PRESENCIA_SUP_VISITAS  &#xA;set IS_RESP_PLANTA=0&#xA;&#xA;&#xA; &#xA;  -- RESPONSABILIDAD&#xA;  update Inteligencias.dbo.NC_PRESENCIA_SUP_VISITAS &#xA;  set IS_RESP_PLANTA=1&#xA;  where exists (&#xA;  select * from Inteligencias.dbo.SIST_CENTRAL_ESTR_ORGANIZACION as estr&#xA;  &#xA;  where NC_PRESENCIA_SUP_VISITAS.CENCO2_CODI collate Modern_Spanish_CI_AS =estr.cencos_codigo&#xA;and NC_PRESENCIA_SUP_VISITAS.EMP_CODI=estr.empresa_id and NC_PRESENCIA_SUP_VISITAS.ID_SUP=estr.administrativo_id&#xA;   --where administrativo_id=6504661 and cencos_codigo='105-145'&#xA;  ) &#xA;&#xA;&#xA;--VISIBILIDAD&#xA;&#xA;  update Inteligencias.dbo.NC_PRESENCIA_SUP_VISITAS &#xA;  set IS_VISIB_PLANTA=1&#xA;  where exists (&#xA;  select * from Inteligencias.dbo.SIST_CENTRAL_ESTR_ORGANIZACION_VISIB as estr&#xA;  &#xA;  where NC_PRESENCIA_SUP_VISITAS.CENCO2_CODI collate Modern_Spanish_CI_AS =estr.cencos_codigo&#xA;and NC_PRESENCIA_SUP_VISITAS.EMP_CODI=estr.empresa_id and NC_PRESENCIA_SUP_VISITAS.ID_SUP=estr.administrativo_id&#xA;   --where administrativo_id=6504661 and cencos_codigo='105-145'&#xA;  ) &#xA;&#xA;" SQLTask:CodePage="1252" SQLTask:ResultType="ResultSetType_None" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask"/></DTS:ObjectData></DTS:Executable>
 <DTS:PrecedenceConstraint>
 <DTS:Property DTS:Name="Value">0</DTS:Property>
 <DTS:Property DTS:Name="EvalOp">2</DTS:Property>
@@ -147,6 +171,15 @@
 <DTS:Property DTS:Name="DTSID">{C0A6B42D-972C-482A-BF63-6E7ABE6FB9A0}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PrecedenceConstraint>
+<DTS:PrecedenceConstraint>
+<DTS:Property DTS:Name="Value">0</DTS:Property>
+<DTS:Property DTS:Name="EvalOp">2</DTS:Property>
+<DTS:Property DTS:Name="LogicalAnd">-1</DTS:Property>
+<DTS:Property DTS:Name="Expression"></DTS:Property><DTS:Executable IDREF="{6452F034-187A-41E9-9712-6042014B8664}" DTS:IsFrom="-1"/><DTS:Executable IDREF="{6d6c8f1d-5a02-4eeb-815e-036f63c029ff}" DTS:IsFrom="0"/>
+<DTS:Property DTS:Name="ObjectName">Constraint 2</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{74CA4EF2-4AF2-4294-A95A-7FB653045D7A}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PrecedenceConstraint>
 <DTS:Property DTS:Name="ObjectName">Ejecuta-No-Conformidades</DTS:Property>
 <DTS:Property DTS:Name="DTSID">{AF8C0191-E346-49C2-A918-F7D142746F69}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
@@ -156,12 +189,19 @@
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PrecedenceConstraint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:EvalOp&gt;Constraint&lt;/dwd:EvalOp&gt;&lt;/PrecedenceConstraint&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{1CB159E9-2670-44B7-ADC4-37B96F9E4814}</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{42926FEE-5020-4A0D-A35E-63EB535E61B3}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{61723EB9-4034-49CC-B112-2C787F27B050}</DTS:Property>
+<DTS:Property DTS:Name="Description"></DTS:Property>
+<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
+<DTS:PackageVariable>
+<DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PrecedenceConstraint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:EvalOp&gt;Constraint&lt;/dwd:EvalOp&gt;&lt;/PrecedenceConstraint&gt;</DTS:Property>
+<DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
+<DTS:Property DTS:Name="ObjectName">{74CA4EF2-4AF2-4294-A95A-7FB653045D7A}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{10A7D091-B30E-4A26-B20B-E248D0FAA819}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;Package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:DtsControlFlowDiagram&gt;&lt;dwd:BoundingTop&gt;2928&lt;/dwd:BoundingTop&gt;&lt;dwd:Layout&gt;&lt;dds&gt;
-  &lt;diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="Microsoft.DataWarehouse.Layout.GraphLayout100" defaultlineroute="Microsoft.DataWarehouse.Layout.GraphLayout100" version="7" nextobject="14" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1000" scrolltop="2346" gridx="150" gridy="150" marginx="1000" marginy="1000" zoom="100" x="21749" y="13679" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="1" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}"&gt;
+  &lt;diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="Microsoft.DataWarehouse.Layout.GraphLayout100" defaultlineroute="Microsoft.DataWarehouse.Layout.GraphLayout100" version="7" nextobject="16" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-7808" scrolltop="3997" gridx="150" gridy="150" marginx="1000" marginy="1000" zoom="100" x="20214" y="10398" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="1" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}"&gt;
     &lt;font&gt;
       &lt;ddsxmlobjectstreamwrapper binary="01010000900180380100065461686f6d61" /&gt;
     &lt;/font&gt;
@@ -172,7 +212,7 @@
   &lt;layoutmanager&gt;
     &lt;ddsxmlobj /&gt;
   &lt;/layoutmanager&gt;
-  &lt;ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Execute SQL Task" left="1449" top="2928" logicalid="6" controlid="1" masterid="0" hint1="0" hint2="0" width="5106" height="1270" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
+  &lt;ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Execute SQL Task" left="0" top="2928" logicalid="6" controlid="1" masterid="0" hint1="0" hint2="0" width="5106" height="1270" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
     &lt;control&gt;
       &lt;ddsxmlobjectstreaminitwrapper binary="00080000f2130000f6040000" /&gt;
     &lt;/control&gt;
@@ -184,7 +224,7 @@
     &lt;/layoutobject&gt;
     &lt;shape groupshapeid="0" groupnode="0" /&gt;
   &lt;/ddscontrol&gt;
-  &lt;ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Execute Package Task" left="1745" top="5737" logicalid="7" controlid="2" masterid="0" hint1="0" hint2="0" width="3598" height="1164" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
+  &lt;ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Execute Package Task" left="1434" top="5790" logicalid="7" controlid="2" masterid="0" hint1="0" hint2="0" width="3598" height="1164" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
     &lt;control&gt;
       &lt;ddsxmlobjectstreaminitwrapper binary="000800000e0e00008c040000" /&gt;
     &lt;/control&gt;
@@ -196,7 +236,7 @@
     &lt;/layoutobject&gt;
     &lt;shape groupshapeid="0" groupnode="0" /&gt;
   &lt;/ddscontrol&gt;
-  &lt;ddscontrol controlprogid="MSDDS.Polyline" left="3145" top="3799" logicalid="8" controlid="3" masterid="0" hint1="0" hint2="0" width="1257" height="2438" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
+  &lt;ddscontrol controlprogid="MSDDS.Polyline" left="2154" top="3799" logicalid="8" controlid="3" masterid="0" hint1="0" hint2="0" width="1479" height="2491" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
     &lt;control&gt;
       &lt;ddsxmlobj&gt;
         &lt;polyline endtypedst="3" endtypesrc="1" usercolor="32768" linestyle="0" linerender="2" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" /&gt;
@@ -210,15 +250,15 @@
       &lt;/ddsxmlobj&gt;
     &lt;/layoutobject&gt;
     &lt;connector lineroutestyle="Microsoft.DataWarehouse.Layout.GraphLayout100" sourceid="1" destid="2" sourceattachpoint="9" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="2" relatedid="0" virtual="0"&gt;
-      &lt;point x="4002" y="4198" /&gt;
-      &lt;point x="4002" y="4967" /&gt;
-      &lt;point x="3544" y="4967" /&gt;
-      &lt;point x="3544" y="5737" /&gt;
+      &lt;point x="2553" y="4198" /&gt;
+      &lt;point x="2553" y="4994" /&gt;
+      &lt;point x="3233" y="4994" /&gt;
+      &lt;point x="3233" y="5790" /&gt;
     &lt;/connector&gt;
   &lt;/ddscontrol&gt;
-  &lt;ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Execute SQL Task" left="1667" top="8808" logicalid="9" controlid="4" masterid="0" hint1="0" hint2="0" width="3598" height="1164" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
+  &lt;ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Execute SQL Task" left="218" top="8808" logicalid="9" controlid="4" masterid="0" hint1="0" hint2="0" width="4524" height="1587" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
     &lt;control&gt;
-      &lt;ddsxmlobjectstreaminitwrapper binary="000800000e0e00008c040000" /&gt;
+      &lt;ddsxmlobjectstreaminitwrapper binary="00080000ac11000033060000" /&gt;
     &lt;/control&gt;
     &lt;layoutobject&gt;
       &lt;ddsxmlobj&gt;
@@ -228,7 +268,7 @@
     &lt;/layoutobject&gt;
     &lt;shape groupshapeid="0" groupnode="0" /&gt;
   &lt;/ddscontrol&gt;
-  &lt;ddscontrol controlprogid="MSDDS.Polyline" left="3067" top="6502" logicalid="10" controlid="5" masterid="0" hint1="0" hint2="0" width="877" height="2806" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
+  &lt;ddscontrol controlprogid="MSDDS.Polyline" left="2081" top="6555" logicalid="10" controlid="5" masterid="0" hint1="0" hint2="0" width="1552" height="2753" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
     &lt;control&gt;
       &lt;ddsxmlobj&gt;
         &lt;polyline endtypedst="3" endtypesrc="1" usercolor="32768" linestyle="0" linerender="2" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" /&gt;
@@ -242,28 +282,60 @@
       &lt;/ddsxmlobj&gt;
     &lt;/layoutobject&gt;
     &lt;connector lineroutestyle="Microsoft.DataWarehouse.Layout.GraphLayout100" sourceid="2" destid="4" sourceattachpoint="7" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="2" relatedid="0" virtual="0"&gt;
-      &lt;point x="3544" y="6901" /&gt;
-      &lt;point x="3544" y="7854" /&gt;
-      &lt;point x="3466" y="7854" /&gt;
-      &lt;point x="3466" y="8808" /&gt;
+      &lt;point x="3233" y="6954" /&gt;
+      &lt;point x="3233" y="7881" /&gt;
+      &lt;point x="2480" y="7881" /&gt;
+      &lt;point x="2480" y="8808" /&gt;
     &lt;/connector&gt;
   &lt;/ddscontrol&gt;
-&lt;/dds&gt;&lt;/dwd:Layout&gt;&lt;dwd:PersistedViewPortLeft&gt;-1000&lt;/dwd:PersistedViewPortLeft&gt;&lt;dwd:PersistedViewPortTop&gt;2346&lt;/dwd:PersistedViewPortTop&gt;&lt;/dwd:DtsControlFlowDiagram&gt;&lt;/Package&gt;</DTS:Property>
+  &lt;ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Execute SQL Task" left="500" top="12226" logicalid="14" controlid="9" masterid="0" hint1="0" hint2="0" width="3598" height="1164" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
+    &lt;control&gt;
+      &lt;ddsxmlobjectstreaminitwrapper binary="000800000e0e00008c040000" /&gt;
+    &lt;/control&gt;
+    &lt;layoutobject&gt;
+      &lt;ddsxmlobj&gt;
+        &lt;property name="LogicalObject" value="{6d6c8f1d-5a02-4eeb-815e-036f63c029ff}" vartype="8" /&gt;
+        &lt;property name="ShowConnectorSource" value="0" vartype="2" /&gt;
+      &lt;/ddsxmlobj&gt;
+    &lt;/layoutobject&gt;
+    &lt;shape groupshapeid="0" groupnode="0" /&gt;
+  &lt;/ddscontrol&gt;
+  &lt;ddscontrol controlprogid="MSDDS.Polyline" left="1900" top="9996" logicalid="15" controlid="10" masterid="0" hint1="0" hint2="0" width="980" height="2730" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
+    &lt;control&gt;
+      &lt;ddsxmlobj&gt;
+        &lt;polyline endtypedst="3" endtypesrc="1" usercolor="32768" linestyle="0" linerender="2" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" /&gt;
+      &lt;/ddsxmlobj&gt;
+    &lt;/control&gt;
+    &lt;layoutobject&gt;
+      &lt;ddsxmlobj&gt;
+        &lt;property name="LogicalObject" value="{74CA4EF2-4AF2-4294-A95A-7FB653045D7A}" vartype="8" /&gt;
+        &lt;property name="Virtual" value="0" vartype="11" /&gt;
+        &lt;property name="VisibleAP" value="0" vartype="3" /&gt;
+      &lt;/ddsxmlobj&gt;
+    &lt;/layoutobject&gt;
+    &lt;connector lineroutestyle="Microsoft.DataWarehouse.Layout.GraphLayout100" sourceid="4" destid="9" sourceattachpoint="7" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="2" relatedid="0" virtual="0"&gt;
+      &lt;point x="2480" y="10395" /&gt;
+      &lt;point x="2480" y="11310" /&gt;
+      &lt;point x="2299" y="11310" /&gt;
+      &lt;point x="2299" y="12226" /&gt;
+    &lt;/connector&gt;
+  &lt;/ddscontrol&gt;
+&lt;/dds&gt;&lt;/dwd:Layout&gt;&lt;dwd:PersistedViewPortLeft&gt;-7808&lt;/dwd:PersistedViewPortLeft&gt;&lt;dwd:PersistedViewPortTop&gt;3997&lt;/dwd:PersistedViewPortTop&gt;&lt;/dwd:DtsControlFlowDiagram&gt;&lt;/Package&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{AF8C0191-E346-49C2-A918-F7D142746F69}</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{C973D6D6-0448-420B-8F1D-7933725DCC0A}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{09923E64-8D2D-448A-B2C7-7163F72266F5}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PrecedenceConstraint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:EvalOp&gt;Constraint&lt;/dwd:EvalOp&gt;&lt;/PrecedenceConstraint&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{C0A6B42D-972C-482A-BF63-6E7ABE6FB9A0}</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{35DC3477-CE97-4627-BDB9-58789B6C51C6}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{C8F1E3F3-CB74-42F8-82EA-E39C010E0358}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;Package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:DtsControlFlowDiagram&gt;&lt;dwd:BoundingTop&gt;2928&lt;/dwd:BoundingTop&gt;&lt;dwd:Layout&gt;&lt;dds&gt;
-  &lt;diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="Microsoft.DataWarehouse.Layout.GraphLayout100" defaultlineroute="Microsoft.DataWarehouse.Layout.GraphLayout100" version="7" nextobject="14" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1000" scrolltop="2346" gridx="150" gridy="150" marginx="1000" marginy="1000" zoom="100" x="21749" y="13679" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="1" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}"&gt;
+  &lt;diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="Microsoft.DataWarehouse.Layout.GraphLayout100" defaultlineroute="Microsoft.DataWarehouse.Layout.GraphLayout100" version="7" nextobject="16" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-7808" scrolltop="3997" gridx="150" gridy="150" marginx="1000" marginy="1000" zoom="100" x="20214" y="10398" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="1" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}"&gt;
     &lt;font&gt;
       &lt;ddsxmlobjectstreamwrapper binary="01010000900180380100065461686f6d61" /&gt;
     &lt;/font&gt;
@@ -274,7 +346,7 @@
   &lt;layoutmanager&gt;
     &lt;ddsxmlobj /&gt;
   &lt;/layoutmanager&gt;
-  &lt;ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Execute SQL Task" left="1449" top="2928" logicalid="6" controlid="1" masterid="0" hint1="0" hint2="0" width="5106" height="1270" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
+  &lt;ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Execute SQL Task" left="0" top="2928" logicalid="6" controlid="1" masterid="0" hint1="0" hint2="0" width="5106" height="1270" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
     &lt;control&gt;
       &lt;ddsxmlobjectstreaminitwrapper binary="00080000f2130000f6040000" /&gt;
     &lt;/control&gt;
@@ -286,7 +358,7 @@
     &lt;/layoutobject&gt;
     &lt;shape groupshapeid="0" groupnode="0" /&gt;
   &lt;/ddscontrol&gt;
-  &lt;ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Execute Package Task" left="1745" top="5737" logicalid="7" controlid="2" masterid="0" hint1="0" hint2="0" width="3598" height="1164" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
+  &lt;ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Execute Package Task" left="1434" top="5790" logicalid="7" controlid="2" masterid="0" hint1="0" hint2="0" width="3598" height="1164" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
     &lt;control&gt;
       &lt;ddsxmlobjectstreaminitwrapper binary="000800000e0e00008c040000" /&gt;
     &lt;/control&gt;
@@ -298,7 +370,7 @@
     &lt;/layoutobject&gt;
     &lt;shape groupshapeid="0" groupnode="0" /&gt;
   &lt;/ddscontrol&gt;
-  &lt;ddscontrol controlprogid="MSDDS.Polyline" left="3145" top="3799" logicalid="8" controlid="3" masterid="0" hint1="0" hint2="0" width="1257" height="2438" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
+  &lt;ddscontrol controlprogid="MSDDS.Polyline" left="2154" top="3799" logicalid="8" controlid="3" masterid="0" hint1="0" hint2="0" width="1479" height="2491" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
     &lt;control&gt;
       &lt;ddsxmlobj&gt;
         &lt;polyline endtypedst="3" endtypesrc="1" usercolor="32768" linestyle="0" linerender="2" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" /&gt;
@@ -312,15 +384,15 @@
       &lt;/ddsxmlobj&gt;
     &lt;/layoutobject&gt;
     &lt;connector lineroutestyle="Microsoft.DataWarehouse.Layout.GraphLayout100" sourceid="1" destid="2" sourceattachpoint="9" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="2" relatedid="0" virtual="0"&gt;
-      &lt;point x="4002" y="4198" /&gt;
-      &lt;point x="4002" y="4967" /&gt;
-      &lt;point x="3544" y="4967" /&gt;
-      &lt;point x="3544" y="5737" /&gt;
+      &lt;point x="2553" y="4198" /&gt;
+      &lt;point x="2553" y="4994" /&gt;
+      &lt;point x="3233" y="4994" /&gt;
+      &lt;point x="3233" y="5790" /&gt;
     &lt;/connector&gt;
   &lt;/ddscontrol&gt;
-  &lt;ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Execute SQL Task" left="1667" top="8808" logicalid="9" controlid="4" masterid="0" hint1="0" hint2="0" width="3598" height="1164" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
+  &lt;ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Execute SQL Task" left="218" top="8808" logicalid="9" controlid="4" masterid="0" hint1="0" hint2="0" width="4524" height="1587" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
     &lt;control&gt;
-      &lt;ddsxmlobjectstreaminitwrapper binary="000800000e0e00008c040000" /&gt;
+      &lt;ddsxmlobjectstreaminitwrapper binary="00080000ac11000033060000" /&gt;
     &lt;/control&gt;
     &lt;layoutobject&gt;
       &lt;ddsxmlobj&gt;
@@ -330,7 +402,7 @@
     &lt;/layoutobject&gt;
     &lt;shape groupshapeid="0" groupnode="0" /&gt;
   &lt;/ddscontrol&gt;
-  &lt;ddscontrol controlprogid="MSDDS.Polyline" left="3067" top="6502" logicalid="10" controlid="5" masterid="0" hint1="0" hint2="0" width="877" height="2806" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
+  &lt;ddscontrol controlprogid="MSDDS.Polyline" left="2081" top="6555" logicalid="10" controlid="5" masterid="0" hint1="0" hint2="0" width="1552" height="2753" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
     &lt;control&gt;
       &lt;ddsxmlobj&gt;
         &lt;polyline endtypedst="3" endtypesrc="1" usercolor="32768" linestyle="0" linerender="2" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" /&gt;
@@ -344,15 +416,47 @@
       &lt;/ddsxmlobj&gt;
     &lt;/layoutobject&gt;
     &lt;connector lineroutestyle="Microsoft.DataWarehouse.Layout.GraphLayout100" sourceid="2" destid="4" sourceattachpoint="7" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="2" relatedid="0" virtual="0"&gt;
-      &lt;point x="3544" y="6901" /&gt;
-      &lt;point x="3544" y="7854" /&gt;
-      &lt;point x="3466" y="7854" /&gt;
-      &lt;point x="3466" y="8808" /&gt;
+      &lt;point x="3233" y="6954" /&gt;
+      &lt;point x="3233" y="7881" /&gt;
+      &lt;point x="2480" y="7881" /&gt;
+      &lt;point x="2480" y="8808" /&gt;
     &lt;/connector&gt;
   &lt;/ddscontrol&gt;
-&lt;/dds&gt;&lt;/dwd:Layout&gt;&lt;dwd:PersistedViewPortLeft&gt;-1000&lt;/dwd:PersistedViewPortLeft&gt;&lt;dwd:PersistedViewPortTop&gt;2346&lt;/dwd:PersistedViewPortTop&gt;&lt;/dwd:DtsControlFlowDiagram&gt;&lt;/Package&gt;</DTS:Property>
+  &lt;ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Execute SQL Task" left="500" top="12226" logicalid="14" controlid="9" masterid="0" hint1="0" hint2="0" width="3598" height="1164" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
+    &lt;control&gt;
+      &lt;ddsxmlobjectstreaminitwrapper binary="000800000e0e00008c040000" /&gt;
+    &lt;/control&gt;
+    &lt;layoutobject&gt;
+      &lt;ddsxmlobj&gt;
+        &lt;property name="LogicalObject" value="{6d6c8f1d-5a02-4eeb-815e-036f63c029ff}" vartype="8" /&gt;
+        &lt;property name="ShowConnectorSource" value="0" vartype="2" /&gt;
+      &lt;/ddsxmlobj&gt;
+    &lt;/layoutobject&gt;
+    &lt;shape groupshapeid="0" groupnode="0" /&gt;
+  &lt;/ddscontrol&gt;
+  &lt;ddscontrol controlprogid="MSDDS.Polyline" left="1900" top="9996" logicalid="15" controlid="10" masterid="0" hint1="0" hint2="0" width="980" height="2730" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0"&gt;
+    &lt;control&gt;
+      &lt;ddsxmlobj&gt;
+        &lt;polyline endtypedst="3" endtypesrc="1" usercolor="32768" linestyle="0" linerender="2" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" /&gt;
+      &lt;/ddsxmlobj&gt;
+    &lt;/control&gt;
+    &lt;layoutobject&gt;
+      &lt;ddsxmlobj&gt;
+        &lt;property name="LogicalObject" value="{74CA4EF2-4AF2-4294-A95A-7FB653045D7A}" vartype="8" /&gt;
+        &lt;property name="Virtual" value="0" vartype="11" /&gt;
+        &lt;property name="VisibleAP" value="0" vartype="3" /&gt;
+      &lt;/ddsxmlobj&gt;
+    &lt;/layoutobject&gt;
+    &lt;connector lineroutestyle="Microsoft.DataWarehouse.Layout.GraphLayout100" sourceid="4" destid="9" sourceattachpoint="7" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="2" relatedid="0" virtual="0"&gt;
+      &lt;point x="2480" y="10395" /&gt;
+      &lt;point x="2480" y="11310" /&gt;
+      &lt;point x="2299" y="11310" /&gt;
+      &lt;point x="2299" y="12226" /&gt;
+    &lt;/connector&gt;
+  &lt;/ddscontrol&gt;
+&lt;/dds&gt;&lt;/dwd:Layout&gt;&lt;dwd:PersistedViewPortLeft&gt;-7808&lt;/dwd:PersistedViewPortLeft&gt;&lt;dwd:PersistedViewPortTop&gt;3997&lt;/dwd:PersistedViewPortTop&gt;&lt;/dwd:DtsControlFlowDiagram&gt;&lt;/Package&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">package-diagram</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{8E93CB72-42B0-4CF0-93E7-7CCA49639719}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{02EEF62C-E44F-4601-9936-D939882CF706}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable></DTS:Executable>
