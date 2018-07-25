@@ -323,8 +323,8 @@
       <References />
     </DtsPackage>
     <DtsPackage FormatVersion="3">
-      <Name>NC_carga_checkin_y_calcula_visitas_test.dtsx</Name>
-      <FullPath>NC_carga_checkin_y_calcula_visitas_test.dtsx</FullPath>
+      <Name>Salesforce-ActualizaCuentas.dtsx</Name>
+      <FullPath>Salesforce-ActualizaCuentas.dtsx</FullPath>
       <References />
     </DtsPackage>
   </DTSPackages>
